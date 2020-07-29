@@ -195,12 +195,27 @@ footer p {
   background-image: url(/images/danza.jpg?dc81844d8dcb217b6a4c591071727ee2);
 }
 
+.contenitore .sezioni-home #img-dance:hover {
+  width: 65%;
+  background-image: url(/images/moderngif.gif?29f3129c96fbab57881680cdcf639734);
+}
+
 .contenitore .sezioni-home #img-poledance {
   background-image: url(/images/poledance.jpg?48124e542c77f6d2ef8698d92e3bc4ec);
 }
 
+.contenitore .sezioni-home #img-poledance:hover {
+  width: 65%;
+  background-image: url(/images/polegif.gif?b47d9c073e7e15f23fd243901600d597);
+}
+
 .contenitore .sezioni-home #img-fitness {
   background-image: url(/images/fitness.jpg?78b9343f32a2daa52ca1dddd74d0e65b);
+}
+
+.contenitore .sezioni-home #img-fitness:hover {
+  width: 65%;
+  background-image: url(/images/zumbagif.gif?dd8f5c02a379568f8888749b4ce9324e);
 }
 
 .contenitore .sezioni-home .paragrafi {
@@ -246,6 +261,7 @@ footer p {
   height: 130%;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: width 2s, height 4s;
 }
 
 .contenitore .sezioni-home #img-streetdance,

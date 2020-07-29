@@ -72,18 +72,33 @@
       @extend %immagini-background;
       @extend %immagini-shadow;
       background-image: url('../../public/img/danza.jpg');
+
+      &:hover {
+        width: 65%;
+        background-image: url('../../public/img/moderngif.gif');
+      }
     }
 
     #img-poledance {
       @extend %immagini-background;
       @extend %immagini-shadow;
       background-image: url('../../public/img/poledance.jpg');
+
+      &:hover {
+        width: 65%;
+        background-image: url('../../public/img/polegif.gif');
+      }
     }
 
     #img-fitness {
       @extend %immagini-background;
       @extend %immagini-shadow;
       background-image: url('../../public/img/fitness.jpg');
+
+      &:hover {
+        width: 65%;
+        background-image: url('../../public/img/zumbagif.gif');
+      }
     }
 
     .paragrafi {
@@ -114,6 +129,7 @@
   height: 130%;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: width 2s, height 4s;
 }
 
 %immagini-shadow {

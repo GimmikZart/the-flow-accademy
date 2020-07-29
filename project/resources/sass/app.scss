@@ -1,0 +1,27 @@
+//
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800;900&display=swap');
+
+
+// Variables
+@import 'variables';
+
+// SCSS Files
+@import 'header';
+@import 'footer';
+@import 'home';
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.contenitore {
+  width: 1230px;
+  height: 100%;
+  margin: 0 auto;
+}

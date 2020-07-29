@@ -1,0 +1,55 @@
+header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top:50px;
+  left: 0;
+  z-index: 100;
+  -webkit-animation: navComparsa 2s ease;
+
+  nav {
+    padding-top: 50px;
+    width: 50%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.65);
+    padding: 10px 30px;
+    box-shadow: inset 1px -25px 20px 1px #888888;
+    border-radius: 40px;
+    border: 2px solid rgb(212, 139, 106);
+    margin: 0 auto;
+    // margin-top: 50px;
+
+    .contenitore {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      #logo-nav {
+        height: 100%;
+      }
+
+      #nav-list {
+        margin-bottom: 0;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+
+        li {
+          color: white;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+
+// animazioni
+
+@keyframes navComparsa {
+  0% {opacity:0; top:0;}
+  100% {opacity:1; top:50px;}
+}

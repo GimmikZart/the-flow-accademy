@@ -10,15 +10,20 @@ $( document ).ready(function() {
   });
 
 
-  $(window).on("scroll", function() {
-      if($(window).scrollTop() > 50) {
-          $("#navbar").removeClass(".nav-start");
-          $("#navbar").addClass(".nav-scroll");
-      } else {
-          //remove the background property so it comes transparent again (defined in your css)
-         $("#navbar").toggleClass("active");
-      }
-  });
+  $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 10) {
+            $("#navbar").removeClass("nav-start");
+            $("#navbar").addClass("nav-scroll");
+            $("header").css("top", "0");
+        } else {
+            $("#navbar").addClass("nav-start");
+            $("#navbar").removeClass("nav-scroll");
+            $("header").css("top", "50px");
+
+        }
+    });
+});
 
 
 

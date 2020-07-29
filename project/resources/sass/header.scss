@@ -7,7 +7,7 @@ header {
   z-index: 100;
   -webkit-animation: navComparsa 2s ease;
 
-  nav {
+  .nav-start {
     padding-top: 50px;
     width: 50%;
     height: 100%;
@@ -21,6 +21,42 @@ header {
 
     .contenitore {
       width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      #logo-nav {
+        height: 100%;
+      }
+
+      #nav-list {
+        margin-bottom: 0;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+
+        li {
+          color: white;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .nav-scroll {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 30px;
+    box-shadow: inset 1px -25px 20px 1px #888888;
+    margin: 0 auto;
+    // margin-top: 50px;
+
+    .contenitore {
+      width: 1230px;
       display: flex;
       justify-content: space-between;
       align-items: center;

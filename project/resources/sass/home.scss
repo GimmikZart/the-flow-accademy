@@ -27,23 +27,71 @@
   cursor:pointer;
 }
 
-#primaSezione {
-  padding-top: 100px;
-}
-
-.sezioni-home {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 300px;
-
-  img {
-    height: 100%;
-    width: auto;
+.contenitore {
+  h1 {
+    text-align: center;
+    margin-bottom: 100px;
   }
 
-  .paragrafi {
-    width: 50%;
+  #primaSezione {
+    padding-top: 100px;
+  }
+
+  .separatore {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(173, 173, 173);
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .sezioni-home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    padding: 0 20px;
+
+    h2 {
+      font-size: 50px;
+    }
+
+    #img-streetdance {
+      @extend %immagini-background;
+      @extend %immagini-shadow;
+      background-image: url('../../public/img/streetdance.jpg');
+
+      &:hover {
+        width: 65%;
+        background-image: url('../../public/img/streetdancegif.gif');
+      }
+    }
+
+    #img-dance {
+      @extend %immagini-background;
+      @extend %immagini-shadow;
+      background-image: url('../../public/img/danza.jpg');
+    }
+
+    #img-poledance {
+      @extend %immagini-background;
+      @extend %immagini-shadow;
+      background-image: url('../../public/img/poledance.jpg');
+    }
+
+    #img-fitness {
+      @extend %immagini-background;
+      @extend %immagini-shadow;
+      background-image: url('../../public/img/fitness.jpg');
+    }
+
+    .paragrafi {
+      width: 50%;
+      border-left: 5px solid rgb(212, 139, 106);
+      border-right: 5px solid rgb(212, 139, 106);
+      padding: 0 20px;
+    }
   }
 }
 
@@ -57,4 +105,18 @@
   0%   {bottom: -20px;}
  50%  {bottom: -30px;}
  100% {bottom: -20px;}
+}
+
+// mixin
+
+%immagini-background {
+  width: 45%;
+  height: 130%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+%immagini-shadow {
+  box-shadow: 10px 10px 10px 10px rgb(142, 142, 142);
+  border-radius: 10px 10px 10px 10px;
 }

@@ -10,7 +10,7 @@
   -webkit-animation: navComparsa 2s ease;
 }
 
-header nav {
+header .nav-start {
   padding-top: 50px;
   width: 50%;
   height: 100%;
@@ -22,18 +22,18 @@ header nav {
   margin: 0 auto;
 }
 
-header nav .contenitore {
+header .nav-start .contenitore {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header nav .contenitore #logo-nav {
+header .nav-start .contenitore #logo-nav {
   height: 100%;
 }
 
-header nav .contenitore #nav-list {
+header .nav-start .contenitore #nav-list {
   margin-bottom: 0;
   width: 80%;
   display: flex;
@@ -42,7 +42,42 @@ header nav .contenitore #nav-list {
   list-style: none;
 }
 
-header nav .contenitore #nav-list li {
+header .nav-start .contenitore #nav-list li {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header .nav-scroll {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding: 10px 30px;
+  box-shadow: inset 1px -25px 20px 1px #888888;
+  margin: 0 auto;
+}
+
+header .nav-scroll .contenitore {
+  width: 1230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .nav-scroll .contenitore #logo-nav {
+  height: 100%;
+}
+
+header .nav-scroll .contenitore #nav-list {
+  margin-bottom: 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header .nav-scroll .contenitore #nav-list li {
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -117,24 +152,62 @@ footer p {
   cursor: pointer;
 }
 
-#primaSezione {
+.contenitore h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.contenitore #primaSezione {
   padding-top: 100px;
 }
 
-.sezioni-home {
+.contenitore .separatore {
+  width: 100%;
+  height: 1px;
+  background-color: #adadad;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contenitore .sezioni-home {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 300px;
+  padding: 0 20px;
 }
 
-.sezioni-home img {
-  height: 100%;
-  width: auto;
+.contenitore .sezioni-home h2 {
+  font-size: 50px;
 }
 
-.sezioni-home .paragrafi {
+.contenitore .sezioni-home #img-streetdance {
+  background-image: url(/images/streetdance.jpg?ee24d19d737afbca556179c4792c8d0b);
+}
+
+.contenitore .sezioni-home #img-streetdance:hover {
+  width: 65%;
+  background-image: url(/images/streetdancegif.gif?1395e092707af76f9acabeaa7cfffa71);
+}
+
+.contenitore .sezioni-home #img-dance {
+  background-image: url(/images/danza.jpg?dc81844d8dcb217b6a4c591071727ee2);
+}
+
+.contenitore .sezioni-home #img-poledance {
+  background-image: url(/images/poledance.jpg?48124e542c77f6d2ef8698d92e3bc4ec);
+}
+
+.contenitore .sezioni-home #img-fitness {
+  background-image: url(/images/fitness.jpg?78b9343f32a2daa52ca1dddd74d0e65b);
+}
+
+.contenitore .sezioni-home .paragrafi {
   width: 50%;
+  border-left: 5px solid #d48b6a;
+  border-right: 5px solid #d48b6a;
+  padding: 0 20px;
 }
 
 @-webkit-keyframes moveit {
@@ -163,6 +236,24 @@ footer p {
   100% {
     bottom: -20px;
   }
+}
+
+.contenitore .sezioni-home #img-streetdance,
+.contenitore .sezioni-home #img-dance,
+.contenitore .sezioni-home #img-poledance,
+.contenitore .sezioni-home #img-fitness {
+  width: 45%;
+  height: 130%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contenitore .sezioni-home #img-streetdance,
+.contenitore .sezioni-home #img-dance,
+.contenitore .sezioni-home #img-poledance,
+.contenitore .sezioni-home #img-fitness {
+  box-shadow: 10px 10px 10px 10px #8e8e8e;
+  border-radius: 10px 10px 10px 10px;
 }
 
 * {

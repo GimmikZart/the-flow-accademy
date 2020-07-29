@@ -1,6 +1,6 @@
 <header>
 
-  <nav id="navbar">
+  <nav id="navbar" class="nav-start">
     <div class="contenitore">
       <img id="logo-nav" src="{{ asset('img/logo1.jpg')}}" alt="">
 

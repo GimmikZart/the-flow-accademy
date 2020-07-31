@@ -5,12 +5,12 @@
       <img id="logo-nav" src="{{ asset('img/logo1.jpg')}}" alt="">
 
       <ul id="nav-list">
-        <li> HOME</li>
-        <li> CORSI</li>
-        <li>STAFF</li>
-        <li> CHI SIAMO</li>
-        <li> ORARI</li>
-        <li> CONTATTI</li>
+        <li id="home-button"> HOME</li>
+        <li id="corsi-button"> CORSI</li>
+        <li id="staff-button">STAFF</li>
+        <li id="chisiamo-button"> CHI SIAMO</li>
+        <li id="orari-button"> ORARI</li>
+        <li id="contatti-button"> CONTATTI</li>
       </ul>
 
     </div>

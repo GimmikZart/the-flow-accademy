@@ -100,6 +100,11 @@
 
 
   <!-- SEZIONE STAFF ------------------------------------------------------------------------------------------------------------------->
+  <div id="scroll-to-staff">
+
+  </div>
+  <h1 id="titolo-staff" > IL NOSTRO STAFF</h1>
+
 
   <div class="contenitore staff-section">
 
@@ -123,7 +128,7 @@
       <div class="title-branca">
         <h2>STREETDANCE</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Dexio</h3>
       <div class="img-teacher">
 
       </div>
@@ -138,7 +143,7 @@
       <div class="title-branca">
         <h2>STREETDANCE</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Manu Ange</h3>
       <div class="img-teacher">
 
       </div>
@@ -153,7 +158,7 @@
       <div class="title-branca">
         <h2>STREETDANCE</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Mad Mike</h3>
       <div class="img-teacher">
 
       </div>
@@ -164,11 +169,11 @@
     </div>
 
     <!-- SUSANNA SALVINI -->
-    <div class="card-staff streetdance-color">
+    <div class="card-staff dance-color">
       <div class="title-branca">
         <h2>DANCE</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Susanna Salvini</h3>
       <div class="img-teacher">
 
       </div>
@@ -179,11 +184,11 @@
     </div>
 
     <!-- SIMONA PORFILIO -->
-    <div class="card-staff streetdance-color">
+    <div class="card-staff dance-color">
       <div class="title-branca">
         <h2>DANCE</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Simona Porfilio</h3>
       <div class="img-teacher">
 
       </div>
@@ -194,11 +199,11 @@
     </div>
 
     <!-- CHIARA ALINOVI -->
-    <div class="card-staff streetdance-color">
+    <div class="card-staff dance-color">
       <div class="title-branca">
         <h2>DANCE</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Chiara Alinovi</h3>
       <div class="img-teacher">
 
       </div>
@@ -209,140 +214,145 @@
     </div>
 
     <!-- COSIMO E LORENA -->
-    <div class="card-staff streetdance-color">
+    <div class="card-staff dance-color">
       <div class="title-branca">
-        <h2>STREETDANCE</h2>
+        <h2>DANCE</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Cosimo e Lorena</h3>
       <div class="img-teacher">
 
       </div>
       <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="title-style">
-        <h2>HIP-HOP</h2>
+        <h2>SALSA & PACHANGA</h2>
       </div>
     </div>
 
-    <!-- ALEX -->
-    <div class="card-staff streetdance-color">
+    <!-- JAVI FERNAN -->
+    <div class="card-staff fitness-color">
       <div class="title-branca">
-        <h2>STREETDANCE</h2>
+        <h2>FITNESS</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Javi Fernan</h3>
       <div class="img-teacher">
 
       </div>
       <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="title-style">
-        <h2>HIP-HOP</h2>
+        <h2>ZUMBA</h2>
       </div>
     </div>
 
-    <!-- ALEX -->
-    <div class="card-staff streetdance-color">
+    <!-- MAX ARCIDIACO -->
+    <div class="card-staff fitness-color">
       <div class="title-branca">
-        <h2>STREETDANCE</h2>
+        <h2>FITNESS</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Max Arcidiaco</h3>
       <div class="img-teacher">
 
       </div>
       <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="title-style">
-        <h2>HIP-HOP</h2>
+        <h2>THAI FIT</h2>
       </div>
     </div>
 
-    <!-- ALEX -->
-    <div class="card-staff streetdance-color">
+    <!-- DONATELLA NICCOLAI -->
+    <div class="card-staff fitness-color">
       <div class="title-branca">
-        <h2>STREETDANCE</h2>
+        <h2>FITNESS</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Donatella Niccolai</h3>
       <div class="img-teacher">
 
       </div>
       <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="title-style">
-        <h2>HIP-HOP</h2>
+        <h2>PILATES</h2>
       </div>
     </div>
 
-    <!-- ALEX -->
-    <div class="card-staff streetdance-color">
+    <!--RAFFAELLA BRUNELLI -->
+    <div class="card-staff fitness-color">
       <div class="title-branca">
-        <h2>STREETDANCE</h2>
+        <h2>FITNESS</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Raffaella Brunelli</h3>
       <div class="img-teacher">
 
       </div>
       <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="title-style">
-        <h2>HIP-HOP</h2>
+        <h2>YOGA</h2>
       </div>
     </div>
 
-    <!-- ALEX -->
-    <div class="card-staff streetdance-color">
+    <!-- FULVIA FRAMBATI -->
+    <div class="card-staff mamme-color">
       <div class="title-branca">
-        <h2>STREETDANCE</h2>
+        <h2>MAMME</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Fulvia Frambati</h3>
       <div class="img-teacher">
 
       </div>
       <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="title-style">
-        <h2>HIP-HOP</h2>
+        <h2>MAMMA E BEBE'</h2>
       </div>
     </div>
 
-    <!-- ALEX -->
-    <div class="card-staff streetdance-color">
+    <!-- SHANTI MACCHIAVELLI -->
+    <div class="card-staff mamme-color">
       <div class="title-branca">
-        <h2>STREETDANCE</h2>
+        <h2>MAMME</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Shanti Macchiavelli</h3>
       <div class="img-teacher">
 
       </div>
       <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="title-style">
-        <h2>HIP-HOP</h2>
+        <h2>MASSAGGIO NEONATALE</h2>
       </div>
     </div>
 
-    <!-- ALEX -->
-    <div class="card-staff streetdance-color">
+    <!-- ALICE MONTAGNA -->
+    <div class="card-staff mamme-color">
       <div class="title-branca">
-        <h2>STREETDANCE</h2>
+        <h2>MAMME</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Alice Montagna</h3>
       <div class="img-teacher">
 
       </div>
       <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="title-style">
-        <h2>HIP-HOP</h2>
+        <h2>BABY WEARING</h2>
       </div>
     </div>
 
-    <!-- ALEX -->
-    <div class="card-staff streetdance-color">
+    <!-- FABRIZIO RICCI -->
+    <div class="card-staff service-color">
       <div class="title-branca">
-        <h2>STREETDANCE</h2>
+        <h2>SERVIZI</h2>
       </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
+      <h3 class="teacher-name">Fabrizio Ricci</h3>
       <div class="img-teacher">
 
       </div>
       <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="title-style">
-        <h2>HIP-HOP</h2>
+        <h2>MASSAGGI SHATSU</h2>
       </div>
     </div>
 
+  </div>
+
+
+  <div id="button-scroll-up">
+    <i class="fas fa-angle-double-up"></i>
   </div>
 
 

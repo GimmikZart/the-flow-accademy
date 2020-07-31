@@ -26,7 +26,7 @@
   bottom: -25px;
   font-size: 150px;
   color: rgb(212, 139, 106);
-  animation-name: moveit;
+  animation-name: move-down-arrow;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -48,11 +48,7 @@
   }
 
   #titolo-home {
-    border-left: 10px solid rgb(212, 139, 106);
-    border-right: 10px solid rgb(212, 139, 106);
-    box-shadow: 0px -25px 20px 0px #4d4b4c;
-    border-radius: 20px;
-    font-weight: bold;
+    @extend %stile-titoli;
   }
 
   .separatore {
@@ -130,7 +126,7 @@
 
 //animazioni ----------------------
 
-@keyframes moveit {
+@keyframes move-down-arrow {
   0%   {bottom: -20px;}
  50%  {bottom: -30px;}
  100% {bottom: -20px;}
@@ -151,6 +147,14 @@
   border-radius: 10px 10px 10px 10px;
 }
 
+%stile-titoli {
+  border-left: 10px solid rgb(212, 139, 106);
+  border-right: 10px solid rgb(212, 139, 106);
+  box-shadow: 0px -25px 20px 0px #4d4b4c;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
 
 // SEZIONE CORSI ---------------------------------------------------------------------------------------------
 
@@ -165,8 +169,73 @@
 
 // SEZIONE STAFF ------------------------------------------------------------------------------------------------
 
+#scroll-to-staff {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+#titolo-staff {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 200px;
+  @extend %stile-titoli;
+  text-align: center;
+  padding: 10px;
+}
+
 .streetdance-color {
   background-color: rgba(10, 168, 31, 0.62);
+  .title-branca {
+    background-color: rgba(10, 168, 31, 0.9);
+  }
+
+  .title-style {
+    background-color: rgba(10, 168, 31, 0.9);
+  }
+}
+
+.dance-color {
+  background-color: rgba(136, 20, 150, 0.62);
+  .title-branca {
+    background-color: rgba(136, 20, 150, 0.9);
+  }
+
+  .title-style {
+    background-color: rgba(136, 20, 150, 0.9);
+  }
+}
+
+.fitness-color {
+  background-color: rgba(232, 141, 35, 0.62);
+  .title-branca {
+    background-color: rgba(232, 141, 35, 0.9);
+  }
+
+  .title-style {
+    background-color: rgba(232, 141, 35, 0.9);
+  }
+}
+
+.mamme-color {
+  background-color: rgba(13, 68, 212, 0.62);
+  .title-branca {
+    background-color: rgba(13, 68, 212, 0.9);
+  }
+
+  .title-style {
+    background-color: rgba(13, 68, 212, 0.9);
+  }
+}
+
+.service-color {
+  background-color: rgba(82, 82, 82, 0.62);
+  .title-branca {
+    background-color: rgba(82, 82, 82, 0.9);
+  }
+
+  .title-style {
+    background-color: rgba(82, 82, 82, 0.9);
+  }
 }
 
 .staff-section {
@@ -186,7 +255,8 @@
     text-align: center;
     &:hover {
       width: 30%;
-      transition: ease 3s;
+      transition: ease 1.5s;
+      transform: scale(1.1);
 
       .img-teacher {
         padding-top: 20px;
@@ -199,6 +269,7 @@
 
       .teacher-description {
         display: block;
+        padding: 0 20px;
         animation-name: comparsa;
         animation-duration: 1s;
         animation-timing-function: linear;
@@ -219,7 +290,6 @@
 
     .title-branca {
       @extend %title-teacher-card;
-      background-color: rgba(10, 168, 31, 0.91);
       text-align: center;
       h2 {
         font-size: 30px;
@@ -238,10 +308,9 @@
 
     .title-style {
       @extend %title-teacher-card;
-      background-color: rgba(10, 168, 31, 0.91);
       text-align: center;
       h2 {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         margin: 0;
       }
@@ -263,4 +332,38 @@
   0%   {display: none; opacity:0; margin-top: -80%;}
  50%  {display: block; opacity:0.3; margin: 0;}
  100% {display: block; opacity:1}
+}
+
+
+
+
+
+
+// BUTTON SCROLL-UP
+
+#button-scroll-up {
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  display: none;
+  animation-name: move-up-arrow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  &:hover {
+    cursor: pointer;
+  }
+  .fa-angle-double-up {
+    color: rgb(158, 103, 78);
+    font-size: 100px;
+
+  }
+
+@keyframes move-up-arrow {
+  0%   {bottom: 50px;}
+ 50%  {bottom: 30px;}
+ 100% {bottom: 50px;}
+}
+
+
 }

@@ -99,16 +99,13 @@ header {
           padding: 0 5px;
           font-size: 20px;
           font-weight: bold;
-          a {
-            text-decoration: none;
-            color: white;
-            &:hover {
-              border-left: 3px solid rgb(212, 139, 106);
-              border-right: 3px solid rgb(212, 139, 106);
-              color: rgb(212, 139, 106);
-              font-size: 30px;
-              transition: ease 0.3s;
-            }
+          &:hover {
+            border-left: 3px solid rgb(212, 139, 106);
+            border-right: 3px solid rgb(212, 139, 106);
+            color: rgb(212, 139, 106);
+            font-size: 30px;
+            transition: ease 0.3s;
+            cursor: pointer;
           }
         }
       }

@@ -19384,8 +19384,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\MAMP\htdocs\THE_FLOW_ACCADEMY\the-flow-accademy\project\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\MAMP\htdocs\THE_FLOW_ACCADEMY\the-flow-accademy\project\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\MAMP\htdocs\PROGETTO_THE_FLOW\the-flow-accademy\project\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\MAMP\htdocs\PROGETTO_THE_FLOW\the-flow-accademy\project\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

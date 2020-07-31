@@ -96,7 +96,7 @@
 $(document).ready(function () {
   console.log('culoooo'); // FRECCIA SCROLL
 
-  $(".fa-arrow-circle-down").click(function () {
+  $(".fa-angle-double-down").click(function () {
     $('html,body').animate({
       scrollTop: $('#primaSezione').offset().top
     }, 'slow');
@@ -125,7 +125,7 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\MAMP\htdocs\THE_FLOW_ACCADEMY\the-flow-accademy\project\resources\js\home.js */"./resources/js/home.js");
+module.exports = __webpack_require__(/*! C:\MAMP\htdocs\PROGETTO_THE_FLOW\the-flow-accademy\project\resources\js\home.js */"./resources/js/home.js");
 
 
 /***/ })

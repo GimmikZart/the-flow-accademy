@@ -1,4 +1,10 @@
+.main-content {
+  background-color: rgb(230, 227, 227);
+  padding-bottom: 100px;
+}
 
+
+// JUMBOTRON -----------------------------------------------------------------------------------------
 .jumbotron {
   width: 100%;
   padding: 0;
@@ -14,18 +20,20 @@
   }
 }
 
-.fa-arrow-circle-down {
+.fa-angle-double-down {
   position: absolute;
   left: 50%;
   bottom: -25px;
-  font-size: 100px;
-  color: rgb(180, 33, 33);
+  font-size: 150px;
+  color: rgb(212, 139, 106);
   animation-name: moveit;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   cursor:pointer;
 }
+
+// SEZIONE ATTIVITA' GENERICHE ---------------------------------------------------------------------------------------
 
 .contenitore {
   h1 {
@@ -34,7 +42,17 @@
   }
 
   #primaSezione {
-    padding-top: 100px;
+    width: 100%;
+    height: 150px;
+    opacity: 0;
+  }
+
+  #titolo-home {
+    border-left: 10px solid rgb(212, 139, 106);
+    border-right: 10px solid rgb(212, 139, 106);
+    box-shadow: 0px -25px 20px 0px #4d4b4c;
+    border-radius: 20px;
+    font-weight: bold;
   }
 
   .separatore {
@@ -110,11 +128,7 @@
   }
 }
 
-
-
-
-
-//animazioni
+//animazioni ----------------------
 
 @keyframes moveit {
   0%   {bottom: -20px;}
@@ -122,7 +136,7 @@
  100% {bottom: -20px;}
 }
 
-// mixin
+// mixin -------------------------
 
 %immagini-background {
   width: 45%;
@@ -135,4 +149,118 @@
 %immagini-shadow {
   box-shadow: 10px 10px 10px 10px rgb(142, 142, 142);
   border-radius: 10px 10px 10px 10px;
+}
+
+
+// SEZIONE CORSI ---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+// SEZIONE STAFF ------------------------------------------------------------------------------------------------
+
+.streetdance-color {
+  background-color: rgba(10, 168, 31, 0.62);
+}
+
+.staff-section {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  .card-staff {
+    width: 23%;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px 10px #454545;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    &:hover {
+      width: 30%;
+      transition: ease 3s;
+
+      .img-teacher {
+        padding-top: 20px;
+        transition: ease 1s;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 0 auto;
+      }
+
+      .teacher-description {
+        display: block;
+        animation-name: comparsa;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+      }
+
+      .teacher-name {
+        display: block;
+      }
+    } //fine hover
+
+    .teacher-name {
+      display: none;
+    }
+
+    .teacher-description {
+      display: none;
+    }
+
+    .title-branca {
+      @extend %title-teacher-card;
+      background-color: rgba(10, 168, 31, 0.91);
+      text-align: center;
+      h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+      }
+    }
+
+    .img-teacher {
+      width: 100%;
+      height: 200px;
+      background-image: url('../../public/img/alex-foto.jpg');
+      background-size: cover;
+
+    }
+
+    .title-style {
+      @extend %title-teacher-card;
+      background-color: rgba(10, 168, 31, 0.91);
+      text-align: center;
+      h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+      }
+    }
+  }
+}
+
+
+// mixin
+
+%title-teacher-card {
+  width: 100%;
+  text-align: center;
+}
+
+// animation
+
+@keyframes comparsa {
+  0%   {display: none; opacity:0; margin-top: -80%;}
+ 50%  {display: block; opacity:0.3; margin: 0;}
+ 100% {display: block; opacity:1}
 }

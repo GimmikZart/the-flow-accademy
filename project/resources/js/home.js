@@ -3,7 +3,7 @@ $( document ).ready(function() {
 
 
   // FRECCIA SCROLL
-  $( ".fa-arrow-circle-down" ).click(function() {
+  $( ".fa-angle-double-down" ).click(function() {
     $('html,body').animate({
         scrollTop: $('#primaSezione').offset().top
       },'slow');

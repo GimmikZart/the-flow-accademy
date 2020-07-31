@@ -18,8 +18,17 @@ header .nav-start {
   padding: 10px 30px;
   box-shadow: inset 1px -25px 20px 1px #888888;
   border-radius: 40px;
-  border: 2px solid #d48b6a;
+  border-left: 5px solid #d48b6a;
+  border-right: 5px solid #d48b6a;
   margin: 0 auto;
+  -webkit-animation-name: waveNav;
+          animation-name: waveNav;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
 }
 
 header .nav-start .contenitore {
@@ -40,12 +49,26 @@ header .nav-start .contenitore #nav-list {
   align-items: center;
   justify-content: space-around;
   list-style: none;
+  height: 100%;
 }
 
 header .nav-start .contenitore #nav-list li {
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  height: 100%;
   color: white;
   font-size: 20px;
   font-weight: bold;
+}
+
+header .nav-start .contenitore #nav-list li:hover {
+  border-left: 3px solid #d48b6a;
+  border-right: 3px solid #d48b6a;
+  color: #d48b6a;
+  font-size: 30px;
+  transition: ease 0.3s;
+  cursor: pointer;
 }
 
 header .nav-scroll {
@@ -55,6 +78,14 @@ header .nav-scroll {
   padding: 10px 30px;
   box-shadow: inset 1px -25px 20px 1px #888888;
   margin: 0 auto;
+  -webkit-animation-name: waveNav;
+          animation-name: waveNav;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
 }
 
 header .nav-scroll .contenitore {
@@ -79,8 +110,22 @@ header .nav-scroll .contenitore #nav-list {
 
 header .nav-scroll .contenitore #nav-list li {
   color: white;
+  padding: 0 5px;
   font-size: 20px;
   font-weight: bold;
+}
+
+header .nav-scroll .contenitore #nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .nav-scroll .contenitore #nav-list li a:hover {
+  border-left: 3px solid #d48b6a;
+  border-right: 3px solid #d48b6a;
+  color: #d48b6a;
+  font-size: 30px;
+  transition: ease 0.3s;
 }
 
 @-webkit-keyframes navComparsa {
@@ -107,11 +152,38 @@ header .nav-scroll .contenitore #nav-list li {
   }
 }
 
+@-webkit-keyframes waveNav {
+  0% {
+    box-shadow: inset 1px -25px 20px 1px #888888;
+  }
+
+  50% {
+    box-shadow: inset 1px -15px 20px 1px #888888;
+  }
+
+  100% {
+    box-shadow: inset 1px -25px 20px 1px #888888;
+  }
+}
+
+@keyframes waveNav {
+  0% {
+    box-shadow: inset 1px -25px 20px 1px #888888;
+  }
+
+  50% {
+    box-shadow: inset 1px -15px 20px 1px #888888;
+  }
+
+  100% {
+    box-shadow: inset 1px -25px 20px 1px #888888;
+  }
+}
+
 footer {
   width: 100%;
   height: 100px;
   background-color: #d48b6a;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,6 +192,11 @@ footer {
 
 footer p {
   margin: 0 auto;
+}
+
+.main-content {
+  background-color: #e6e3e3;
+  padding-bottom: 100px;
 }
 
 .jumbotron {
@@ -135,12 +212,12 @@ footer p {
           filter: blur(2px);
 }
 
-.fa-arrow-circle-down {
+.fa-angle-double-down {
   position: absolute;
   left: 50%;
   bottom: -25px;
-  font-size: 100px;
-  color: #b42121;
+  font-size: 150px;
+  color: #d48b6a;
   -webkit-animation-name: moveit;
           animation-name: moveit;
   -webkit-animation-duration: 2s;
@@ -158,7 +235,17 @@ footer p {
 }
 
 .contenitore #primaSezione {
-  padding-top: 100px;
+  width: 100%;
+  height: 150px;
+  opacity: 0;
+}
+
+.contenitore #titolo-home {
+  border-left: 10px solid #d48b6a;
+  border-right: 10px solid #d48b6a;
+  box-shadow: 0px -25px 20px 0px #4d4b4c;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
 .contenitore .separatore {
@@ -272,6 +359,137 @@ footer p {
   border-radius: 10px 10px 10px 10px;
 }
 
+.streetdance-color {
+  background-color: rgba(10, 168, 31, 0.62);
+}
+
+.staff-section {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.staff-section .card-staff {
+  width: 23%;
+  padding: 5px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 20px 10px #454545;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.staff-section .card-staff:hover {
+  width: 30%;
+  transition: ease 3s;
+}
+
+.staff-section .card-staff:hover .img-teacher {
+  padding-top: 20px;
+  transition: ease 1s;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.staff-section .card-staff:hover .teacher-description {
+  display: block;
+  -webkit-animation-name: comparsa;
+          animation-name: comparsa;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.staff-section .card-staff:hover .teacher-name {
+  display: block;
+}
+
+.staff-section .card-staff .teacher-name {
+  display: none;
+}
+
+.staff-section .card-staff .teacher-description {
+  display: none;
+}
+
+.staff-section .card-staff .title-branca {
+  background-color: rgba(10, 168, 31, 0.91);
+  text-align: center;
+}
+
+.staff-section .card-staff .title-branca h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.staff-section .card-staff .img-teacher {
+  width: 100%;
+  height: 200px;
+  background-image: url(/images/alex-foto.jpg?c97a88736d8b4cddab95a99b2ef8483f);
+  background-size: cover;
+}
+
+.staff-section .card-staff .title-style {
+  background-color: rgba(10, 168, 31, 0.91);
+  text-align: center;
+}
+
+.staff-section .card-staff .title-style h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.staff-section .card-staff .title-branca,
+.staff-section .card-staff .title-style {
+  width: 100%;
+  text-align: center;
+}
+
+@-webkit-keyframes comparsa {
+  0% {
+    display: none;
+    opacity: 0;
+    margin-top: -80%;
+  }
+
+  50% {
+    display: block;
+    opacity: 0.3;
+    margin: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@keyframes comparsa {
+  0% {
+    display: none;
+    opacity: 0;
+    margin-top: -80%;
+  }
+
+  50% {
+    display: block;
+    opacity: 0.3;
+    margin: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
 * {
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
@@ -283,5 +501,6 @@ footer p {
   width: 1230px;
   height: 100%;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 

@@ -158,6 +158,105 @@
 
 // SEZIONE CORSI ---------------------------------------------------------------------------------------------
 
+#scroll-to-corsi {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+#titolo-corsi {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 200px;
+  @extend %stile-titoli;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.corsi-section {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  // height: 100vh;
+  .planning {
+    width: 100%;
+    width: auto;
+    height: 100%;
+    #planning-img{
+      width: auto;
+      height: 100%;
+      box-shadow: 10px 10px 10px 10px rgb(56, 56, 56);
+    }
+  }
+
+  .guide-stili {
+    width: 30%;
+    height: 100%;
+    ul {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: wrap;
+      li {
+        border-radius: 10px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style: none;
+        border: 4px solid black;
+        &:hover {
+          transform: scaleX(1.1);
+        }
+
+        .guide-left-side {
+          width: 60%;
+          padding: 5px 15px;
+          display: flex;
+          align-items: center;
+
+          h3 {
+            font-weight: bold;
+            font-size: 13px;
+            margin: 0;
+          }
+        }
+
+        .guide-right-side{
+          border-left: 2px solid black;
+          padding: 10px;
+          height: 100%;
+          width: 40%;
+          cursor: pointer;
+          .more {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+          }
+        }
+
+        .guide-more-detail {
+          background-color: lightgrey;
+          width: 100%;
+          display: none;
+          // transition: ease 2s;
+        }
+      }
+    }
+  }
+}
+
+//mixin
+
+.display-block {
+  display: block !important;
+}
 
 
 
@@ -333,6 +432,16 @@
  50%  {display: block; opacity:0.3; margin: 0;}
  100% {display: block; opacity:1}
 }
+
+
+// CONTATTI -----------------------------------------------------
+
+  #map {
+    border: 2px solid black;
+    height: 700px;
+    width: 1000px;
+  }
+
 
 
 

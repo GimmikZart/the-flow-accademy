@@ -79,7 +79,304 @@
 
   <!-- SEZIONE CORSI ---------------------------------------------------------------------------------------------------------------->
 
+  <div id="scroll-to-corsi">
 
+  </div>
+  <h1 id="titolo-corsi"> IL NOSTRO PLANNING </h1>
+
+  <div class="corsi-section">
+    <div class="planning">
+      <img id="planning-img" src="{{ asset('img/planner.jpg')}}" alt="planning.jpg">
+    </div>
+
+    <div class="guide-stili">
+      <ul>
+        <li>
+          <div class="guide-left-side streetdance-color">
+            <h3>HIP HOP</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <!-- <li>
+          <div class="guide-left-side streetdance-color">
+            <h3>POPPIN</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side streetdance-color">
+            <h3>LOCKIN</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side streetdance-color">
+            <h3>HOUSE-DANCE</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li> -->
+
+        <li>
+          <div class="guide-left-side streetdance-color">
+            <h3>BREAKING</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side streetdance-color">
+            <h3>AFROBEAT</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side streetdance-color">
+            <h3>DANCEHALL</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side dance-color">
+            <h3>CLASSICO</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side dance-color">
+            <h3>MODERNO</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side dance-color">
+            <h3>POLE DANCE</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side dance-color">
+            <h3>POLE FLUIDITY</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side dance-color">
+            <h3>SALSA & PACHANGA</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side fitness-color">
+            <h3>ZUMBA</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side fitness-color">
+            <h3>THAI FIT</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side fitness-color">
+            <h3>PILATES</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side fitness-color">
+            <h3>YOGA</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side mamme-color">
+            <h3>MAMME E BEBE'</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side mamme-color">
+            <h3>MASSAGGIO NEONATALE</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="guide-left-side mamme-color">
+            <h3>BABY WEARING</h3>
+          </div>
+          <div class="guide-right-side">
+            <div class="more">
+              <small>Scopri di più</small>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="guide-more-detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </li>
+      </div>
+  </div>
 
 
 
@@ -119,7 +416,7 @@
       </div>
       <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="title-style">
-        <h2>HIP-HOP</h2>
+        <h2>HIP HOP</h2>
       </div>
     </div>
 
@@ -323,7 +620,7 @@
       <div class="title-branca">
         <h2>MAMME</h2>
       </div>
-      <h3 class="teacher-name">Alice Montagna</h3>
+      <h3 class="teacher-name">Ali ce Montagna</h3>
       <div class="img-teacher">
 
       </div>
@@ -347,8 +644,22 @@
         <h2>MASSAGGI SHATSU</h2>
       </div>
     </div>
+  </div>
+
+  <!-- CONTATTI ----------------------------------------------------->
+
+  <div id="scroll-to-contatti">
 
   </div>
+
+  <div class="contenitore contatti-section">
+    <div id="zona-mappa">
+      <div id='map'></div>
+    </div>
+
+  </div>
+
+
 
 
   <div id="button-scroll-up">

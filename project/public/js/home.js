@@ -107,6 +107,12 @@ $(document).ready(function () {
     $('html,body').animate({
       scrollTop: $('.jumbotron').offset().top
     }, 'slow');
+  }); // CORSI SCROLL
+
+  $("#corsi-button").click(function () {
+    $('html,body').animate({
+      scrollTop: $('#scroll-to-corsi').offset().top
+    }, 'slow');
   }); // STAFF SCROLL
 
   $("#staff-button").click(function () {
@@ -134,8 +140,25 @@ $(document).ready(function () {
         $("#button-scroll-up").css("display", "none");
       }
     });
+  }); // EVENTI CLICK ------------------------------------------------------------
+  // CORSI GUIDE
+
+  $(".guide-right-side").click(function () {
+    var bool = false;
+    $(this).next().toggleClass('display-block');
+    $(this).parent().css('width', '150%');
+  }); // TOM TOM
+
+  var theFlowCoordinates = [10.328510, 44.825600];
+  var map = tt.map({
+    container: 'map',
+    key: 'GA5MivJiK0ZxoB9tGaVHIhVkwckf4jOc',
+    style: 'tomtom://vector/1/basic-main',
+    center: theFlowCoordinates,
+    zoom: 15
   });
-});
+  var marker = new tt.Marker().setLngLat(theFlowCoordinates).addTo(map);
+}); //fine document ready
 
 /***/ }),
 

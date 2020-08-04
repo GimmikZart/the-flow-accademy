@@ -447,191 +447,98 @@ footer p {
   padding: 10px;
 }
 
-.streetdance-color {
-  background-color: rgba(10, 168, 31, 0.62);
-}
-
-.streetdance-color .title-branca {
-  background-color: rgba(10, 168, 31, 0.9);
-}
-
-.streetdance-color .title-style {
-  background-color: rgba(10, 168, 31, 0.9);
-}
-
-.dance-color {
-  background-color: rgba(136, 20, 150, 0.62);
-}
-
-.dance-color .title-branca {
-  background-color: rgba(136, 20, 150, 0.9);
-}
-
-.dance-color .title-style {
-  background-color: rgba(136, 20, 150, 0.9);
-}
-
-.fitness-color {
-  background-color: rgba(232, 141, 35, 0.62);
-}
-
-.fitness-color .title-branca {
-  background-color: rgba(232, 141, 35, 0.9);
-}
-
-.fitness-color .title-style {
-  background-color: rgba(232, 141, 35, 0.9);
-}
-
-.mamme-color {
-  background-color: rgba(13, 68, 212, 0.62);
-}
-
-.mamme-color .title-branca {
-  background-color: rgba(13, 68, 212, 0.9);
-}
-
-.mamme-color .title-style {
-  background-color: rgba(13, 68, 212, 0.9);
-}
-
-.service-color {
-  background-color: rgba(82, 82, 82, 0.62);
-}
-
-.service-color .title-branca {
-  background-color: rgba(82, 82, 82, 0.9);
-}
-
-.service-color .title-style {
-  background-color: rgba(82, 82, 82, 0.9);
-}
-
 .staff-section {
-  padding-top: 100px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .staff-section .card-staff {
-  width: 23%;
-  padding: 5px;
-  border: 2px solid black;
-  box-shadow: 0px 0px 20px 10px #454545;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  text-align: center;
+  width: 18%;
+  height: 300px;
+  position: relative;
+  cursor: pointer;
 }
 
-.staff-section .card-staff:hover {
-  width: 30%;
-  transition: ease 1.5s;
-  transform: scale(1.1);
+.staff-section .card-staff:hover .foto-insegnante {
+  right: 12%;
 }
 
-.staff-section .card-staff:hover .img-teacher {
-  padding-top: 20px;
+.staff-section .card-staff:hover .retro-stile {
+  right: 10px;
+}
+
+.staff-section .card-staff:hover .foto-insegnante .foto-staff {
+  transform: skewX(10deg) scale(1.1) rotate(-3deg);
+}
+
+.staff-section .card-staff .foto-insegnante {
+  max-width: 230px;
+  width: 80%;
+  height: 75%;
+  position: absolute;
+  right: 10%;
+  top: 0;
+  transform: skewX(-10deg);
+  overflow: hidden;
+  z-index: 3;
   transition: ease 1s;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: 0 auto;
 }
 
-.staff-section .card-staff:hover .teacher-description {
-  display: block;
-  padding: 0 20px;
-  -webkit-animation-name: comparsa;
-          animation-name: comparsa;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+.staff-section .card-staff .foto-insegnante .foto-staff {
+  width: 130%;
+  height: auto;
+  transform: skewX(10deg);
+  height: 100%;
+  position: absolute;
+  left: -30px;
+  transition: ease 1s;
 }
 
-.staff-section .card-staff:hover .teacher-name {
-  display: block;
-}
-
-.staff-section .card-staff .teacher-name {
-  display: none;
-}
-
-.staff-section .card-staff .teacher-description {
-  display: none;
-}
-
-.staff-section .card-staff .title-branca {
-  text-align: center;
-}
-
-.staff-section .card-staff .title-branca h2 {
-  font-size: 30px;
-  font-weight: bold;
+.staff-section .card-staff .foto-insegnante .nome-insegnante {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   margin: 0;
-}
-
-.staff-section .card-staff .img-teacher {
+  padding-right: 10px;
+  height: 50px;
+  z-index: 2;
   width: 100%;
-  height: 200px;
-  background-image: url(/images/alex-foto.jpg?c97a88736d8b4cddab95a99b2ef8483f);
-  background-size: cover;
+  color: #00ffe9;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.64);
 }
 
-.staff-section .card-staff .title-style {
-  text-align: center;
+.staff-section .card-staff .retro-stile {
+  width: 80%;
+  height: 85%;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  background: #00ffe9;
+  transform: skewX(-10deg);
+  overflow: hidden;
+  z-index: 2;
+  transition: ease 1s;
 }
 
-.staff-section .card-staff .title-style h2 {
+.staff-section .card-staff .retro-stile .stile-insegnante {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding-right: 10px;
+  height: 50px;
+  z-index: 2;
+  width: 100%;
+  color: black;
+  font-weight: bold;
   font-size: 20px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.staff-section .card-staff .title-branca,
-.staff-section .card-staff .title-style {
-  width: 100%;
-  text-align: center;
-}
-
-@-webkit-keyframes comparsa {
-  0% {
-    display: none;
-    opacity: 0;
-    margin-top: -80%;
-  }
-
-  50% {
-    display: block;
-    opacity: 0.3;
-    margin: 0;
-  }
-
-  100% {
-    display: block;
-    opacity: 1;
-  }
-}
-
-@keyframes comparsa {
-  0% {
-    display: none;
-    opacity: 0;
-    margin-top: -80%;
-  }
-
-  50% {
-    display: block;
-    opacity: 0.3;
-    margin: 0;
-  }
-
-  100% {
-    display: block;
-    opacity: 1;
-  }
 }
 
 #scroll-to-corsi {

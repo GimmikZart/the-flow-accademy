@@ -179,246 +179,75 @@
 
   <div class="contenitore staff-section">
 
-    <!-- ALEX -->
-    <div class="card-staff streetdance-color">
-      <div class="title-branca">
-        <h2>STREETDANCE</h2>
-      </div>
-      <h3 class="teacher-name">Alex Castagnetti</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>HIP HOP</h2>
-      </div>
-    </div>
-
     <!-- DEXIO -->
-    <div class="card-staff streetdance-color">
-      <div class="title-branca">
-        <h2>STREETDANCE</h2>
+    <div class="card-staff">
+      <div class="foto-insegnante">
+        <img src="{{ asset('img/dexio_staff.jpg')}}" alt="" class="foto-staff">
+        <h2 class="nome-insegnante" style="color:rgb(1, 177, 76)">DEXIO</h2>
       </div>
-      <h3 class="teacher-name">Dexio</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>BREAKING</h2>
+      <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+        <h2 class="stile-insegnante">BREAKING</h2>
       </div>
     </div>
 
-    <!-- MANU ANGE -->
-    <div class="card-staff streetdance-color">
-      <div class="title-branca">
-        <h2>STREETDANCE</h2>
+    <!--FABIO BOSS -->
+    <div class="card-staff">
+      <div class="foto-insegnante">
+        <img src="{{ asset('img/fabio_staff.jpg')}}" alt="" class="foto-staff">
+        <h2 class="nome-insegnante" style="color: rgb(0, 255, 233)">FABIO BOSS</h2>
       </div>
-      <h3 class="teacher-name">Manu Ange</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>AFROBEAT</h2>
-      </div>
-    </div>
-
-    <!-- MAD MIKE -->
-    <div class="card-staff streetdance-color">
-      <div class="title-branca">
-        <h2>STREETDANCE</h2>
-      </div>
-      <h3 class="teacher-name">Mad Mike</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>DANCEHALL</h2>
+      <div class="retro-stile">
+        <h2 class="stile-insegnante" style="background-color: rgb(0, 255, 233);">HOUSE DANCE</h2>
       </div>
     </div>
 
     <!-- SUSANNA SALVINI -->
-    <div class="card-staff dance-color">
-      <div class="title-branca">
-        <h2>DANCE</h2>
+    <div class="card-staff">
+      <div class="foto-insegnante">
+        <img src="{{ asset('img/susanna_staff.jpg')}}" alt="" class="foto-staff">
+        <h2 class="nome-insegnante" style="color: rgb(249, 189, 180);font-size: 18px;">SUSANNA SALVINI</h2>
       </div>
-      <h3 class="teacher-name">Susanna Salvini</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>CLASSICA/MODERN</h2>
+      <div class="retro-stile" style="background-color: rgb(249, 189, 180);">
+        <h2 class="stile-insegnante" style="font-size: 17px;bottom: 0px;height: 25%;padding:5px">
+          DANZA CLASSICA MODERN/CONTEMP
+         </h2>
       </div>
     </div>
 
-    <!-- SIMONA PORFILIO -->
-    <div class="card-staff dance-color">
-      <div class="title-branca">
-        <h2>DANCE</h2>
+    <!-- ALEX -->
+    <div class="card-staff">
+      <div class="foto-insegnante">
+        <img src="{{ asset('img/fabio_staff.jpg')}}" alt="" class="foto-staff">
+        <h2 class="nome-insegnante">FABIO BOSS</h2>
       </div>
-      <h3 class="teacher-name">Simona Porfilio</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>POLE DANCE</h2>
+      <div class="retro-stile">
+        <h2 class="stile-insegnante">HOUSE DANCE</h2>
       </div>
     </div>
 
-    <!-- CHIARA ALINOVI -->
-    <div class="card-staff dance-color">
-      <div class="title-branca">
-        <h2>DANCE</h2>
+    <!-- ALEX -->
+    <div class="card-staff">
+      <div class="foto-insegnante">
+        <img src="{{ asset('img/fabio_staff.jpg')}}" alt="" class="foto-staff">
+        <h2 class="nome-insegnante">FABIO BOSS</h2>
       </div>
-      <h3 class="teacher-name">Chiara Alinovi</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>POLE FLUIDITY</h2>
+      <div class="retro-stile">
+        <h2 class="stile-insegnante">HOUSE DANCE</h2>
       </div>
     </div>
 
-    <!-- COSIMO E LORENA -->
-    <div class="card-staff dance-color">
-      <div class="title-branca">
-        <h2>DANCE</h2>
+    <!-- ALEX -->
+    <div class="card-staff">
+      <div class="foto-insegnante">
+        <img src="{{ asset('img/fabio_staff.jpg')}}" alt="" class="foto-staff">
+        <h2 class="nome-insegnante">FABIO BOSS</h2>
       </div>
-      <h3 class="teacher-name">Cosimo e Lorena</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>SALSA & PACHANGA</h2>
-      </div>
-    </div>
-
-    <!-- JAVI FERNAN -->
-    <div class="card-staff fitness-color">
-      <div class="title-branca">
-        <h2>FITNESS</h2>
-      </div>
-      <h3 class="teacher-name">Javi Fernan</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>ZUMBA</h2>
-      </div>
-    </div>
-
-    <!-- MAX ARCIDIACO -->
-    <div class="card-staff fitness-color">
-      <div class="title-branca">
-        <h2>FITNESS</h2>
-      </div>
-      <h3 class="teacher-name">Max Arcidiaco</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>THAI FIT</h2>
-      </div>
-    </div>
-
-    <!-- DONATELLA NICCOLAI -->
-    <div class="card-staff fitness-color">
-      <div class="title-branca">
-        <h2>FITNESS</h2>
-      </div>
-      <h3 class="teacher-name">Donatella Niccolai</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>PILATES</h2>
-      </div>
-    </div>
-
-    <!--RAFFAELLA BRUNELLI -->
-    <div class="card-staff fitness-color">
-      <div class="title-branca">
-        <h2>FITNESS</h2>
-      </div>
-      <h3 class="teacher-name">Raffaella Brunelli</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>YOGA</h2>
-      </div>
-    </div>
-
-    <!-- FULVIA FRAMBATI -->
-    <div class="card-staff mamme-color">
-      <div class="title-branca">
-        <h2>MAMME</h2>
-      </div>
-      <h3 class="teacher-name">Fulvia Frambati</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>MAMMA E BEBE'</h2>
-      </div>
-    </div>
-
-    <!-- SHANTI MACCHIAVELLI -->
-    <div class="card-staff mamme-color">
-      <div class="title-branca">
-        <h2>MAMME</h2>
-      </div>
-      <h3 class="teacher-name">Shanti Macchiavelli</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>MASSAGGIO NEONATALE</h2>
-      </div>
-    </div>
-
-    <!-- ALICE MONTAGNA -->
-    <div class="card-staff mamme-color">
-      <div class="title-branca">
-        <h2>MAMME</h2>
-      </div>
-      <h3 class="teacher-name">Ali ce Montagna</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>BABY WEARING</h2>
-      </div>
-    </div>
-
-    <!-- FABRIZIO RICCI -->
-    <div class="card-staff service-color">
-      <div class="title-branca">
-        <h2>SERVIZI</h2>
-      </div>
-      <h3 class="teacher-name">Fabrizio Ricci</h3>
-      <div class="img-teacher">
-
-      </div>
-      <p class="teacher-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="title-style">
-        <h2>MASSAGGI SHATSU</h2>
+      <div class="retro-stile">
+        <h2 class="stile-insegnante">HOUSE DANCE</h2>
       </div>
     </div>
   </div>
+
 
   <!-- ORARI ---------------------------------------------------------------------------------------------------------------->
 

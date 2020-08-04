@@ -75,20 +75,24 @@ header {
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    position: relative;
     // margin-top: 50px;
 
     .contenitore {
       width: 1230px;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
+
       #logo-nav {
         height: 100%;
+        position: absolute;
+        left: 100px;
       }
 
       #nav-list {
         margin-bottom: 0;
-        width: 80%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-around;

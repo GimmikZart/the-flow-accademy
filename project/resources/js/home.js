@@ -60,11 +60,28 @@ $( document ).ready(function() {
 
 // CORSI GUIDE
 
-  $( ".guide-right-side" ).click(function() {
-    var bool = false;
-    $(this).next().toggleClass('display-block');
-    $(this).parent().css('width','150%');
-  });
+
+$( ".guide-right-side" ).click(function() {
+  $( ".guide-right-side" ).next().hide();
+  $(this).next().toggle();
+  $(this).children('.more').hide();
+  $(this).children('.less').show();
+
+});
+
+$('.less').click(function(){
+  $( this ).hide();
+  $(this).siblings('.more').show();
+})
+
+// $( "document" ).click(function() {
+//   if ($( ".guide-right-side" ).next().hasClass('display-block')) {
+//       console.log('lo ha');
+//       $( ".guide-right-side" ).next().removeClass('display-block');
+//   }
+// });
+
+
 
 
   // TOM TOM

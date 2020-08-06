@@ -17,7 +17,7 @@ header {
     border-radius: 40px;
     border-left: 5px solid rgb(212, 139, 106);
     border-right: 5px solid rgb(212, 139, 106);
-    // border: 2px solid rgb(212, 139, 106);
+    transition: ease 0.5s;
     margin: 0 auto;
     animation-name: waveNav;
     animation-duration: 3s;
@@ -31,7 +31,13 @@ header {
       align-items: center;
 
       #logo-nav {
-        height: 100%;
+        height: 200%;
+        transition: ease 1s;
+        cursor: pointer;
+        &:hover{
+          height: 250%;
+          transform:rotate(-10deg);
+        }
       }
 
       #nav-list {
@@ -44,19 +50,20 @@ header {
         height: 100%;
 
         li {
-          padding: 0 5px;
+          padding: 0 10px;
+          border-radius: 30px;
           display: flex;
           align-items: center;
           height: 100%;
           color: white;
           font-size: 20px;
           font-weight: bold;
+          transition: ease 0.3s;
             &:hover {
               border-left: 3px solid rgb(212, 139, 106);
               border-right: 3px solid rgb(212, 139, 106);
               color: rgb(212, 139, 106);
               font-size: 30px;
-              transition: ease 0.3s;
               cursor: pointer;
             }
         }
@@ -76,7 +83,7 @@ header {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     position: relative;
-    // margin-top: 50px;
+    transition: ease 0.5s;
 
     .contenitore {
       width: 1230px;
@@ -85,9 +92,16 @@ header {
       align-items: center;
 
       #logo-nav {
-        height: 100%;
         position: absolute;
+        height: 220%;
+        transform: rotate(-10deg);
         left: 100px;
+        top: -10px;
+        transition: ease 0.5s;
+        cursor: pointer;
+        &:hover {
+          height: 250%;
+        }
       }
 
       #nav-list {
@@ -100,9 +114,10 @@ header {
 
         li {
           color: white;
-          padding: 0 5px;
+          padding: 0 10px;
           font-size: 20px;
           font-weight: bold;
+          border-radius: 20px;
           &:hover {
             border-left: 3px solid rgb(212, 139, 106);
             border-right: 3px solid rgb(212, 139, 106);

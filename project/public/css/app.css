@@ -20,6 +20,7 @@ header .nav-start {
   border-radius: 40px;
   border-left: 5px solid #d48b6a;
   border-right: 5px solid #d48b6a;
+  transition: ease 0.5s;
   margin: 0 auto;
   -webkit-animation-name: waveNav;
           animation-name: waveNav;
@@ -39,7 +40,14 @@ header .nav-start .contenitore {
 }
 
 header .nav-start .contenitore #logo-nav {
-  height: 100%;
+  height: 200%;
+  transition: ease 1s;
+  cursor: pointer;
+}
+
+header .nav-start .contenitore #logo-nav:hover {
+  height: 250%;
+  transform: rotate(-10deg);
 }
 
 header .nav-start .contenitore #nav-list {
@@ -53,13 +61,15 @@ header .nav-start .contenitore #nav-list {
 }
 
 header .nav-start .contenitore #nav-list li {
-  padding: 0 5px;
+  padding: 0 10px;
+  border-radius: 30px;
   display: flex;
   align-items: center;
   height: 100%;
   color: white;
   font-size: 20px;
   font-weight: bold;
+  transition: ease 0.3s;
 }
 
 header .nav-start .contenitore #nav-list li:hover {
@@ -67,7 +77,6 @@ header .nav-start .contenitore #nav-list li:hover {
   border-right: 3px solid #d48b6a;
   color: #d48b6a;
   font-size: 30px;
-  transition: ease 0.3s;
   cursor: pointer;
 }
 
@@ -87,6 +96,7 @@ header .nav-scroll {
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   position: relative;
+  transition: ease 0.5s;
 }
 
 header .nav-scroll .contenitore {
@@ -97,9 +107,17 @@ header .nav-scroll .contenitore {
 }
 
 header .nav-scroll .contenitore #logo-nav {
-  height: 100%;
   position: absolute;
+  height: 220%;
+  transform: rotate(-10deg);
   left: 100px;
+  top: -10px;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+header .nav-scroll .contenitore #logo-nav:hover {
+  height: 250%;
 }
 
 header .nav-scroll .contenitore #nav-list {
@@ -113,9 +131,10 @@ header .nav-scroll .contenitore #nav-list {
 
 header .nav-scroll .contenitore #nav-list li {
   color: white;
-  padding: 0 5px;
+  padding: 0 10px;
   font-size: 20px;
   font-weight: bold;
+  border-radius: 20px;
 }
 
 header .nav-scroll .contenitore #nav-list li:hover {

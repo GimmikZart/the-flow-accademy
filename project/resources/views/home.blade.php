@@ -107,7 +107,7 @@
         <i class="fas fa-info-circle"></i>
         <img src="{{ asset('img/hiphop_corso.jpg')}}" alt="" class="corso-hip-hop">
         <h2 class="corso-title hip-hop">Hip-Hop</h2>
-      </div>y
+      </div>
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
         <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
@@ -256,12 +256,12 @@
       </div>
     </div>
     <!-- CONTENITORE LATERALE -->
-    <!-- <div class="staff-side-content">
-      <i class="fas fa-chevron-circle-left"></i>
+    <div class="staff-side-content">
+      <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
       <img class="side-content-image" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
-      <h2 class="side-content-title">Breaking</h2>
+      <h2 class="side-content-title">DEXIO</h2>
       <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div> -->
+    </div>
 
     <!--FABIO BOSS -->
     <div class="card-staff">
@@ -272,6 +272,13 @@
       <div class="retro-stile">
         <h2 class="stile-insegnante" style="background-color: rgb(0, 255, 233);">HOUSE DANCE</h2>
       </div>
+    </div>
+    <!-- CONTENITORE LATERALE -->
+    <div class="staff-side-content">
+      <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+      <img class="side-content-image" src="{{ asset('img/fabio_staff.jpg')}}" alt="">
+      <h2 class="side-content-title">FABIO BOSS</h2>
+      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <!-- SUSANNA SALVINI -->
@@ -286,16 +293,12 @@
          </h2>
       </div>
     </div>
-
-    <!-- ALEX -->
-    <div class="card-staff">
-      <div class="foto-insegnante">
-        <img src="{{ asset('img/fabio_staff.jpg')}}" alt="" class="foto-staff">
-        <h2 class="nome-insegnante">FABIO BOSS</h2>
-      </div>
-      <div class="retro-stile">
-        <h2 class="stile-insegnante">HOUSE DANCE</h2>
-      </div>
+    <!-- CONTENITORE LATERALE -->
+    <div class="staff-side-content">
+      <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+      <img class="side-content-image" src="{{ asset('img/susanna_staff.jpg')}}" alt="">
+      <h2 class="side-content-title">SUSANNA SALVINI</h2>
+      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <!-- ALEX -->
@@ -308,6 +311,13 @@
         <h2 class="stile-insegnante">HOUSE DANCE</h2>
       </div>
     </div>
+    <!-- CONTENITORE LATERALE -->
+    <div class="staff-side-content">
+      <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+      <img class="side-content-image" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      <h2 class="side-content-title">DEXIO</h2>
+      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
 
     <!-- ALEX -->
     <div class="card-staff">
@@ -318,6 +328,31 @@
       <div class="retro-stile">
         <h2 class="stile-insegnante">HOUSE DANCE</h2>
       </div>
+    </div>
+    <!-- CONTENITORE LATERALE -->
+    <div class="staff-side-content">
+      <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+      <img class="side-content-image" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      <h2 class="side-content-title">DEXIO</h2>
+      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <!-- ALEX -->
+    <div class="card-staff">
+      <div class="foto-insegnante">
+        <img src="{{ asset('img/fabio_staff.jpg')}}" alt="" class="foto-staff">
+        <h2 class="nome-insegnante">FABIO BOSS</h2>
+      </div>
+      <div class="retro-stile">
+        <h2 class="stile-insegnante">HOUSE DANCE</h2>
+      </div>
+    </div>
+    <!-- CONTENITORE LATERALE -->
+    <div class="staff-side-content">
+      <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+      <img class="side-content-image" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      <h2 class="side-content-title">DEXIO</h2>
+      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
 

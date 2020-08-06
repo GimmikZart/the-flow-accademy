@@ -172,8 +172,6 @@
   align-items: center;
   flex-wrap: wrap;
   .card-corsi {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     width: 19%;
     height: 300px;
     transform: skewX(-10deg);
@@ -244,8 +242,9 @@
   .corsi-side-content{
     display: none;
     position: fixed;
-    height: calc(100vh - 100px);
-    width: 25%;
+    height: 100%;
+    padding-top: 100px;
+    width: 24%;
     right: 0;
     bottom: 0;
     z-index: 5;
@@ -286,8 +285,8 @@
   display: block;
 }
 
-.corsi-section .slideOut{
-  animation: slideOut linear 1s;
+.corsi-section .slideOutRight{
+  animation: slideOutRight linear 1s;
 
 }
 //ANIMATION ----------------------
@@ -298,7 +297,7 @@
   100%{right: 0}
 }
 
-@keyframes slideOut{
+@keyframes slideOutRight{
   0% {right: 0;}
 
   100%{right: -100%}
@@ -424,6 +423,69 @@
       }
     }
   }
+  .staff-side-content{
+    display: none;
+    position: fixed;
+    height: 100%;
+    padding-top: 100px;
+    width: 24%;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    background-color: #4e4e4e;
+    border-right: 5px solid black;
+    animation: slideLeft linear 1s;
+
+    .fa-chevron-circle-left{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      transform: rotate(180deg);
+      top: 300px;
+      right: -50px;
+      z-index: 10;
+      color: #d48b6a;
+      cursor: pointer;
+    }
+
+    .side-content-image {
+      width: 100%;
+      height: auto;
+    }
+
+    .side-content-title{
+      color: white;
+      margin: 20px;
+      font-size: 40px;
+    }
+
+    .side-content-description{
+      color: white;
+      margin: 20px;
+    }
+  }
+}
+
+.staff-section .active{
+  display: block;
+}
+
+.staff-section .slideOutLeft{
+  animation: slideOutLeft linear 1s;
+
+}
+//ANIMATION ----------------------
+
+@keyframes slideLeft {
+  0% {left: -50%;}
+
+  100%{left: 0}
+}
+
+@keyframes slideOutLeft{
+  0% {left: 0;}
+
+  100%{left: -100%}
 }
 
 

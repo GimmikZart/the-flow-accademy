@@ -67,16 +67,36 @@ $( document ).ready(function() {
   //scomparsa box laterale CORSI------------
 
   $('.fa-chevron-circle-right').click(function(){
-    $(this).parent().addClass('slideOut');
+    $(this).parent().addClass('slideOutRight');
 
-    setTimeout(exitTab,500);
+    setTimeout(exitRight,500);
 
-    function exitTab(){
+    function exitRight(){
       $('.fa-chevron-circle-right').parent().removeClass('active');
-      $('.fa-chevron-circle-right').parent().removeClass('slideOut');
+      $('.fa-chevron-circle-right').parent().removeClass('slideOutRight');
       console.log($(this).parent());
     }
-  })
+  });
+
+  // comparsa box laterale STAFF --------------------------------
+    $('.card-staff').click(function(){
+      $('.staff-side-content').removeClass('active');
+      $(this).next().addClass('active');
+    });
+
+    //scomparsa box laterale STAFF------------
+
+    $('.fa-chevron-circle-left').click(function(){
+      $(this).parent().addClass('slideOutLeft');
+
+      setTimeout(exitLeft,500);
+
+      function exitLeft(){
+        $('.fa-chevron-circle-left').parent().removeClass('active');
+        $('.fa-chevron-circle-left').parent().removeClass('slideOutLeft');
+        console.log($(this).parent());
+      }
+    });
 
 
 

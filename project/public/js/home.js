@@ -141,24 +141,23 @@ $(document).ready(function () {
       }
     });
   }); // EVENTI CLICK ------------------------------------------------------------
-  // CORSI GUIDE
+  // comparsa box laterale CORSI ------------------
 
-  $(".guide-right-side").click(function () {
-    $(".guide-right-side").next().hide();
-    $(this).next().toggle();
-    $(this).children('.more').hide();
-    $(this).children('.less').show();
-  });
-  $('.less').click(function () {
-    $(this).hide();
-    $(this).siblings('.more').show();
-  }); // $( "document" ).click(function() {
-  //   if ($( ".guide-right-side" ).next().hasClass('display-block')) {
-  //       console.log('lo ha');
-  //       $( ".guide-right-side" ).next().removeClass('display-block');
-  //   }
-  // });
-  // TOM TOM
+  $('.card-corsi').click(function () {
+    $('.corsi-side-content').removeClass('active');
+    $(this).next().addClass('active');
+  }); //scomparsa box laterale CORSI------------
+
+  $('.fa-chevron-circle-right').click(function () {
+    $(this).parent().addClass('slideOut');
+    setTimeout(exitTab, 500);
+
+    function exitTab() {
+      $('.fa-chevron-circle-right').parent().removeClass('active');
+      $('.fa-chevron-circle-right').parent().removeClass('slideOut');
+      console.log($(this).parent());
+    }
+  }); // TOM TOM
 
   var theFlowCoordinates = [10.328510, 44.825600];
   var map = tt.map({

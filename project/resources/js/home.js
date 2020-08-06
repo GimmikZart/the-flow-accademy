@@ -58,28 +58,25 @@ $( document ).ready(function() {
 
 // EVENTI CLICK ------------------------------------------------------------
 
-// CORSI GUIDE
+// comparsa box laterale CORSI ------------------
+  $('.card-corsi').click(function(){
+    $('.corsi-side-content').removeClass('active');
+    $(this).next().addClass('active');
+  });
 
+  //scomparsa box laterale CORSI------------
 
-$( ".guide-right-side" ).click(function() {
-  $( ".guide-right-side" ).next().hide();
-  $(this).next().toggle();
-  $(this).children('.more').hide();
-  $(this).children('.less').show();
+  $('.fa-chevron-circle-right').click(function(){
+    $(this).parent().addClass('slideOut');
 
-});
+    setTimeout(exitTab,500);
 
-$('.less').click(function(){
-  $( this ).hide();
-  $(this).siblings('.more').show();
-})
-
-// $( "document" ).click(function() {
-//   if ($( ".guide-right-side" ).next().hasClass('display-block')) {
-//       console.log('lo ha');
-//       $( ".guide-right-side" ).next().removeClass('display-block');
-//   }
-// });
+    function exitTab(){
+      $('.fa-chevron-circle-right').parent().removeClass('active');
+      $('.fa-chevron-circle-right').parent().removeClass('slideOut');
+      console.log($(this).parent());
+    }
+  })
 
 
 

@@ -350,14 +350,23 @@ footer p {
   border-radius: 10px 10px 10px 10px;
 }
 
-#titolo-corsi,
+#titolo-orari,
 #titolo-staff,
+#titolo-corsi,
 .contenitore #titolo-home {
   border-left: 10px solid #d48b6a;
   border-right: 10px solid #d48b6a;
   box-shadow: 0px -25px 20px 0px #4d4b4c;
   border-radius: 20px;
   font-weight: bold;
+}
+
+#titolo-corsi {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 200px;
+  text-align: center;
+  padding: 10px;
 }
 
 .corsi-section {
@@ -377,9 +386,10 @@ footer p {
   overflow: hidden;
   transition: ease 1s;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
-.corsi-section .card-corsi:hover #corso-hip-hop {
+.corsi-section .card-corsi:hover .corso-hip-hop {
   transform: scale(1.1) skewX(10deg) rotate(7deg);
   -webkit-filter: blur(0.6px);
           filter: blur(0.6px);
@@ -401,7 +411,7 @@ footer p {
   transform: skewX(10deg);
 }
 
-.corsi-section .card-corsi #corso-hip-hop {
+.corsi-section .card-corsi .corso-hip-hop {
   width: 130%;
   height: auto;
   transform: skewX(10deg);
@@ -431,6 +441,99 @@ footer p {
   width: 100%;
   height: 100%;
   transition: ease 1s;
+}
+
+.corsi-section .card-corsi .corsi-side-content {
+  display: none;
+}
+
+.corsi-section .corsi-side-content {
+  display: none;
+  position: fixed;
+  height: calc(100vh - 100px);
+  width: 25%;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  background-color: #4e4e4e;
+  border-left: 5px solid black;
+  -webkit-animation: slideRight linear 1s;
+          animation: slideRight linear 1s;
+}
+
+.corsi-section .corsi-side-content .fa-chevron-circle-right {
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: -34px;
+  z-index: 10;
+  color: #d48b6a;
+  cursor: pointer;
+}
+
+.corsi-section .corsi-side-content .side-content-image {
+  width: 100%;
+  height: auto;
+}
+
+.corsi-section .corsi-side-content .side-content-title {
+  color: white;
+  margin: 20px;
+  font-size: 40px;
+}
+
+.corsi-section .corsi-side-content .side-content-description {
+  color: white;
+  margin: 20px;
+}
+
+.corsi-section .active {
+  display: block;
+}
+
+.corsi-section .slideOut {
+  -webkit-animation: slideOut linear 1s;
+          animation: slideOut linear 1s;
+}
+
+@-webkit-keyframes slideRight {
+  0% {
+    right: -50%;
+  }
+
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    right: -50%;
+  }
+
+  100% {
+    right: 0;
+  }
+}
+
+@-webkit-keyframes slideOut {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: -100%;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: -100%;
+  }
 }
 
 #scroll-to-staff {
@@ -541,13 +644,13 @@ footer p {
   font-size: 20px;
 }
 
-#scroll-to-corsi {
+#scroll-to-orari {
   height: 0px;
   width: 100%;
   opacity: 0;
 }
 
-#titolo-corsi {
+#titolo-orari {
   width: 60%;
   margin: 0 auto;
   margin-top: 200px;
@@ -556,7 +659,7 @@ footer p {
   margin-bottom: 50px;
 }
 
-.corsi-section {
+.orari-section {
   height: 100%;
   width: 60%;
   margin: 0 auto;
@@ -566,12 +669,12 @@ footer p {
   align-items: center;
 }
 
-.corsi-section .planning {
+.orari-section .planning {
   width: 65%;
   height: 100%;
 }
 
-.corsi-section .planning #planning-img {
+.orari-section .planning #planning-img {
   width: 100%;
   height: auto;
   box-shadow: 10px 10px 10px 10px #383838;

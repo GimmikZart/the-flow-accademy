@@ -12,7 +12,7 @@
 
 header .nav-start {
   padding-top: 50px;
-  width: 50%;
+  width: 60%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.65);
   padding: 10px 30px;
@@ -67,7 +67,7 @@ header .nav-start .contenitore #nav-list li {
   align-items: center;
   height: 100%;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   transition: ease 0.3s;
 }
@@ -76,7 +76,7 @@ header .nav-start .contenitore #nav-list li:hover {
   border-left: 3px solid #d48b6a;
   border-right: 3px solid #d48b6a;
   color: #d48b6a;
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
 }
 

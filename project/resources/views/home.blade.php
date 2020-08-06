@@ -94,7 +94,7 @@
       </div>
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
-        <i class="fas fa-chevron-circle-right"></i>
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
         <img class="side-content-image" src="{{ asset('img/breaking_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Breaking</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -107,10 +107,10 @@
         <i class="fas fa-info-circle"></i>
         <img src="{{ asset('img/hiphop_corso.jpg')}}" alt="" class="corso-hip-hop">
         <h2 class="corso-title hip-hop">Hip-Hop</h2>
-      </div>
+      </div>y
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
-        <i class="fas fa-chevron-circle-right"></i>
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
         <img class="side-content-image" src="{{ asset('img/hiphop_corso.jpg')}}" alt="">
         <h2 class="side-content-title">HipHop</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -124,7 +124,7 @@
       </div>
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
-        <i class="fas fa-chevron-circle-right"></i>
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
         <img class="side-content-image" src="{{ asset('img/housedance_corso.jpg')}}" alt="">
         <h2 class="side-content-title">House Dance</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -138,7 +138,7 @@
       </div>
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
-        <i class="fas fa-chevron-circle-right"></i>
+        <<img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
         <img class="side-content-image" src="{{ asset('img/locking_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Locking</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -152,7 +152,7 @@
       </div>
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
-        <i class="fas fa-chevron-circle-right"></i>
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
         <img class="side-content-image" src="{{ asset('img/popping_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Popping</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -166,7 +166,7 @@
       </div>
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
-        <i class="fas fa-chevron-circle-right"></i>
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
         <img class="side-content-image" src="{{ asset('img/afrobeat_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Afrobeat</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -181,7 +181,7 @@
       </div>
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
-        <i class="fas fa-chevron-circle-right"></i>
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
         <img class="side-content-image" src="{{ asset('img/dancehall_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Dancehall</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -196,7 +196,7 @@
       </div>
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
-        <i class="fas fa-chevron-circle-right"></i>
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
         <img class="side-content-image" src="{{ asset('img/classica_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Classica</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -211,7 +211,7 @@
       </div>
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
-        <i class="fas fa-chevron-circle-right"></i>
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
         <img class="side-content-image" src="{{ asset('img/modern_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Modern</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -226,7 +226,7 @@
       </div>
       <!-- CONTENITORE LATERALE -->
       <div class="corsi-side-content">
-        <i class="fas fa-chevron-circle-right"></i>
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
         <img class="side-content-image" src="{{ asset('img/poledance_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Pole Dance</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -255,6 +255,13 @@
         <h2 class="stile-insegnante">BREAKING</h2>
       </div>
     </div>
+    <!-- CONTENITORE LATERALE -->
+    <!-- <div class="staff-side-content">
+      <i class="fas fa-chevron-circle-left"></i>
+      <img class="side-content-image" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      <h2 class="side-content-title">Breaking</h2>
+      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div> -->
 
     <!--FABIO BOSS -->
     <div class="card-staff">

@@ -254,10 +254,11 @@
     animation: slideRight linear 1s;
 
     .fa-chevron-circle-right{
-      font-size: 100px;
+      width: 100px;
+      height: 100px;
       position: absolute;
-      top: 50%;
-      left: -34px;
+      top: 300px;
+      left: -50px;
       z-index: 10;
       color: #d48b6a;
       cursor: pointer;

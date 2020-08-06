@@ -98,6 +98,8 @@
         <img class="side-content-image" src="{{ asset('img/breaking_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Breaking</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
       </div>
 
 
@@ -114,6 +116,8 @@
         <img class="side-content-image" src="{{ asset('img/hiphop_corso.jpg')}}" alt="">
         <h2 class="side-content-title">HipHop</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
       </div>
 
       <!-- HOUSE -->
@@ -128,6 +132,8 @@
         <img class="side-content-image" src="{{ asset('img/housedance_corso.jpg')}}" alt="">
         <h2 class="side-content-title">House Dance</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
       </div>
 
       <!-- LOCKING -->
@@ -142,6 +148,8 @@
         <img class="side-content-image" src="{{ asset('img/locking_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Locking</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
       </div>
 
       <!-- POPPING -->
@@ -156,7 +164,11 @@
         <img class="side-content-image" src="{{ asset('img/popping_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Popping</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
       </div>
+
+      <div class="" style="width:100%;height:2px;background-color:black;margin: 25px 0;"></div>
 
       <!-- AFROBEAT -->
       <div class="card-corsi">
@@ -170,7 +182,11 @@
         <img class="side-content-image" src="{{ asset('img/afrobeat_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Afrobeat</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
       </div>
+
+
 
       <!-- DANCEHALL -->
       <div class="card-corsi">
@@ -185,6 +201,8 @@
         <img class="side-content-image" src="{{ asset('img/dancehall_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Dancehall</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
       </div>
 
       <!-- CLASSICA -->
@@ -200,6 +218,8 @@
         <img class="side-content-image" src="{{ asset('img/classica_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Classica</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
       </div>
 
       <!-- MODERN -->
@@ -215,6 +235,8 @@
         <img class="side-content-image" src="{{ asset('img/modern_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Modern</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
       </div>
 
       <!-- POLEDANCE -->
@@ -230,7 +252,241 @@
         <img class="side-content-image" src="{{ asset('img/poledance_corso.jpg')}}" alt="">
         <h2 class="side-content-title">Pole Dance</h2>
         <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
       </div>
+
+      <div class="" style="width:100%;height:2px;background-color:black;margin: 25px 0;"></div>
+
+
+      <!-- LINDY HOP -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/lindyhop_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Lindy hop</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/lindyhop_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Lindy hop</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <!-- SALSA -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/salsa_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Salsa</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/salsa_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Salsa</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+
+      <!-- BACHATA -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/bachata_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Bachata</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/bachata_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Bachata</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <!-- PACHANGA -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/pachanga_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Pachanga</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/pachanga_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Pachanga</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <!-- DANZA AEREA -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/danza_aerea_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Danza Aerea</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/danza_aerea_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Danza Aerea</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <div class="" style="width:100%;height:2px;background-color:black;margin: 25px 0;"></div>
+
+      <!-- ZUMBA -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/zumba_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Zumba</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/zumba_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Zumba</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <!-- KANGOO JUMPS -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/kangoo_jumps_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Kangoo Jumps</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/kangoo_jumps_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Kangoo Jumps</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <!-- THAI FIT -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/thai_fit_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Thai Fit</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/thai_fit_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Thai Fit</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <!-- PILATES -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/pilates_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Pilates</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/pilates_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Pilates</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <!-- PICCOLIZIE -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/piccolizie_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Piccolizie</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/piccolizie_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Piccolizie</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <div class="" style="width:100%;height:2px;background-color:black;margin: 25px 0;"></div>
+
+      <!-- BABY WEARING -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/baby_wearing_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Baby Wearing</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/baby_wearing_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Baby Wearing</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <!-- YOGA INTEGRALE -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/yoga_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Yoga Integrale</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/yoga_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Yoga Integrale</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+      <!-- TRATTAMENTI SHIATSU -->
+      <div class="card-corsi">
+        <i class="fas fa-info-circle"></i>
+        <!-- <div class="corso-hip-hop"> </div> -->
+        <img src="{{ asset('img/shiatsu_corso.jpg')}}" alt="" class="corso-hip-hop">
+        <h2 class="corso-title">Trattamenti Shiatsu</h2>
+      </div>
+      <!-- CONTENITORE LATERALE -->
+      <div class="corsi-side-content">
+        <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
+        <img class="side-content-image" src="{{ asset('img/shiatsu_corso.jpg')}}" alt="">
+        <h2 class="side-content-title">Trattamenti Shiatsu</h2>
+        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="side-content-title">Insegnanti:</h2>
+        <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      </div>
+
+
+
 
   </div>
 

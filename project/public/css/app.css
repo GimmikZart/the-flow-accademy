@@ -226,8 +226,6 @@ footer p {
 
 .jumbotron .immagini img {
   width: 100%;
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
 }
 
 .fa-angle-double-down {
@@ -384,6 +382,7 @@ footer p {
   width: 60%;
   margin: 0 auto;
   margin-top: 200px;
+  margin-bottom: 50px;
   text-align: center;
   padding: 10px;
 }
@@ -402,7 +401,6 @@ footer p {
   position: relative;
   overflow: hidden;
   transition: ease 1s;
-  margin-bottom: 30px;
   cursor: pointer;
 }
 
@@ -504,6 +502,19 @@ footer p {
 .corsi-section .corsi-side-content .side-content-description {
   color: white;
   margin: 20px;
+}
+
+.corsi-section .corsi-side-content .mini-insegnante {
+  width: 25%;
+  border: 5px solid black;
+  border-radius: 50%;
+  margin-left: 20px;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+.corsi-section .corsi-side-content .mini-insegnante:hover {
+  transform: scale(1.1);
 }
 
 .corsi-section .active {

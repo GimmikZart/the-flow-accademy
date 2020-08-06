@@ -38,6 +38,13 @@ $( document ).ready(function() {
       },'slow');
   });
 
+  // HOME SCROLL-with logo
+  $( "#logo-nav" ).click(function() {
+    $('html,body').animate({
+        scrollTop: $('.jumbotron').offset().top
+      },'slow');
+  });
+
 
   $(function() {
     $(window).on("scroll", function() {
@@ -60,15 +67,22 @@ $( document ).ready(function() {
 
 // comparsa box laterale CORSI ------------------
   $('.card-corsi').click(function(){
+    $('.card-corsi').css('transition','ease 0.3s');
+    $('.card-corsi').css('border','none');
+    $(this).css('transition','ease 0.3s');
+    $(this).css('border','5px solid yellow');
+    $('.corso-hip-hop').css('filter','none');
     $('.corsi-side-content').removeClass('active');
     $(this).next().addClass('active');
+    $(this).children('.corso-hip-hop').css('filter','grayscale(100%)');
   });
 
   //scomparsa box laterale CORSI------------
 
   $('.fa-chevron-circle-right').click(function(){
+    $('.card-corsi').css('border', 'none');
     $(this).parent().addClass('slideOutRight');
-
+    $('.corso-hip-hop').css('filter','none');
     setTimeout(exitRight,500);
 
     function exitRight(){

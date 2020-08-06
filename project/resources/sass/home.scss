@@ -15,7 +15,6 @@
 
     img {
       width: 100%;
-      filter: blur(2px);
     }
   }
 }
@@ -162,6 +161,7 @@
   width: 60%;
   margin: 0 auto;
   margin-top: 200px;
+  margin-bottom: 50px;
   @extend %stile-titoli;
   text-align: center;
   padding: 10px;
@@ -178,7 +178,6 @@
     position: relative;
     overflow: hidden;
     transition: ease 1s;
-    margin-bottom: 30px;
     cursor: pointer;
     &:hover {
       .corso-hip-hop {
@@ -277,6 +276,18 @@
     .side-content-description{
       color: white;
       margin: 20px;
+    }
+
+    .mini-insegnante {
+      width: 25%;
+      border: 5px solid black;
+      border-radius: 50%;
+      margin-left: 20px;
+      transition: ease 0.5s;
+      cursor: pointer;
+      &:hover{
+        transform: scale(1.1);
+      }
     }
   }
 }

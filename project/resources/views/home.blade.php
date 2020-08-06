@@ -6,8 +6,7 @@
     <div class="immagini">
       <img src="{{ asset('img/entrata.jpg')}}" alt="">
     </div>
-    <i class="fas fa-angle-double-down"></i>
-
+    <img class="fas fa-angle-double-down" src="{{ asset('img/arrow-right.png')}}" alt="">
   </div>
 
   {{-- inizio sezioni home --}}
@@ -643,7 +642,7 @@
 
 
   <div id="button-scroll-up">
-    <i class="fas fa-angle-double-up"></i>
+    <img class="fas fa-angle-double-up" src="{{ asset('img/arrow-right.png')}}" alt="">
   </div>
 
 

@@ -231,9 +231,10 @@ footer p {
 .fa-angle-double-down {
   position: absolute;
   left: 50%;
-  bottom: -25px;
-  font-size: 150px;
-  color: #d48b6a;
+  bottom: -50px;
+  width: 150px;
+  height: 150px;
+  transform: rotate(90deg);
   -webkit-animation-name: move-down-arrow;
           animation-name: move-down-arrow;
   -webkit-animation-duration: 2s;
@@ -322,29 +323,29 @@ footer p {
 
 @-webkit-keyframes move-down-arrow {
   0% {
-    bottom: -20px;
+    bottom: -50px;
   }
 
   50% {
-    bottom: -30px;
+    bottom: -65px;
   }
 
   100% {
-    bottom: -20px;
+    bottom: -50px;
   }
 }
 
 @keyframes move-down-arrow {
   0% {
-    bottom: -20px;
+    bottom: -50px;
   }
 
   50% {
-    bottom: -30px;
+    bottom: -65px;
   }
 
   100% {
-    bottom: -20px;
+    bottom: -50px;
   }
 }
 
@@ -828,8 +829,9 @@ footer p {
 }
 
 #button-scroll-up .fa-angle-double-up {
-  color: #9e674e;
-  font-size: 100px;
+  transform: rotate(-90deg);
+  width: 100px;
+  height: 100px;
 }
 
 @-webkit-keyframes move-up-arrow {

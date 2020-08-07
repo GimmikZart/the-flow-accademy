@@ -63,9 +63,11 @@ $( document ).ready(function() {
     });
 });
 
-// EVENTI CLICK ------------------------------------------------------------
+// EVENTI CLICK ------------------------------------------------------------------------------------------
 
-// comparsa box laterale CORSI ------------------
+// CONTAINER LATERALI ------------------------------------------------------------
+
+// comparsa box laterale CORSI
   $('.card-corsi').click(function(){
     $('.card-corsi').css('transition','ease 0.3s');
     $('.card-corsi').css('border','none');
@@ -77,7 +79,7 @@ $( document ).ready(function() {
     $(this).children('.corso-hip-hop').css('filter','grayscale(100%)');
   });
 
-  //scomparsa box laterale CORSI------------
+  //scomparsa box laterale CORSI
 
   $('.fa-chevron-circle-right').click(function(){
     $('.card-corsi').css('border', 'none');
@@ -96,12 +98,14 @@ $( document ).ready(function() {
     $('.card-staff').click(function(){
       $('.staff-side-content').removeClass('active');
       $(this).next().addClass('active');
+      $('.nav-scroll .contenitore #logo-nav').css({"transform": "rotate(0deg)", "height": "120%"})
     });
 
     //scomparsa box laterale STAFF------------
 
     $('.fa-chevron-circle-left').click(function(){
       $(this).parent().addClass('slideOutLeft');
+      $('.nav-scroll .contenitore #logo-nav').css({"transform": "rotate(-10deg)", "height": "220%"})
 
       setTimeout(exitLeft,500);
 
@@ -111,6 +115,20 @@ $( document ).ready(function() {
         console.log($(this).parent());
       }
     });
+
+    // LINK A CONTAINER STAFF
+
+    $('.mini-insegnante').click(function(){
+
+      $('.staff-side-content').removeClass('active');
+      var staffLink = "'" + $(this).data('staff') + "'";
+      console.log(staffLink);
+
+      // console.log($('.staff-side-content[data-staff*=' + staffLink));
+      $('.staff-side-content[data-staff*=' + staffLink).addClass('active');
+      $('.nav-scroll .contenitore #logo-nav').css({"transform": "rotate(0deg)", "height": "120%"})
+
+    })
 
 
 

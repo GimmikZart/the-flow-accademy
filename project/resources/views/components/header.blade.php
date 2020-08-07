@@ -2,7 +2,7 @@
 
   <nav id="navbar" class="nav-start">
     <div class="contenitore">
-      <img id="logo-nav" src="{{ asset('img/logotheflow.png')}}" alt="">
+      <img id="logo-nav" src="{{ asset('img/logotheflow2.png')}}" alt="">
 
       <ul id="nav-list">
         <li id="home-button"> HOME</li>

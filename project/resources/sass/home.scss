@@ -1,3 +1,5 @@
+
+
 .main-content {
   background-color: rgb(181, 188, 195);
   padding-bottom: 100px;
@@ -181,6 +183,28 @@
       }
     }
 
+    #img-summercamp {
+      @extend %immagini-background;
+      @extend %immagini-shadow;
+      background-image: url('../../public/img/summer_camp.jpg');
+
+      &:hover {
+        width: 65%;
+        background-image: url('../../public/img/polegif.gif');
+      }
+    }
+
+    #img-piccolizie {
+      @extend %immagini-background;
+      @extend %immagini-shadow;
+      background-image: url('../../public/img/piccolizie.jpg');
+
+      &:hover {
+        width: 65%;
+        background-image: url('../../public/img/polegif.gif');
+      }
+    }
+
     .paragrafi {
       width: 50%;
       border-left: 5px solid rgb(212, 139, 106);
@@ -216,7 +240,7 @@
 %stile-titoli {
   border-left: 10px solid rgb(212, 139, 106);
   border-right: 10px solid rgb(212, 139, 106);
-  box-shadow: 0px -25px 20px 0px #4d4b4c;
+  // box-shadow: 0px -25px 20px 0px #4d4b4c;
   border-radius: 20px;
   font-weight: bold;
 }
@@ -225,7 +249,7 @@
 // SEZIONE CORSI ------------------------------------------
 
 #titolo-corsi {
-  width: 60%;
+  width:25%;
   margin: 0 auto;
   margin-top: 200px;
   margin-bottom: 50px;
@@ -343,8 +367,24 @@
     .side-content-description{
       color: white;
       margin: 20px;
-      max-height: 50%;
+      height: 25%;
+      overflow-y: auto;
       overflow:auto;
+    }
+
+    .side-content-description::-webkit-scrollbar {
+      width: 1em;
+    }
+
+    .side-content-description::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      border-radius: 10px 10px 10px 10px;
+    }
+
+    .side-content-description::-webkit-scrollbar-thumb {
+      background-color: darkgrey;
+      outline: 1px solid slategrey;
+      border-radius: 10px 10px 10px 10px;
     }
 
     .mini-insegnante {
@@ -400,9 +440,10 @@
   opacity: 0;
 }
 #titolo-staff {
-  width: 60%;
+  width: 25%;
   margin: 0 auto;
   margin-top: 200px;
+  margin-bottom: 50px;
   @extend %stile-titoli;
   text-align: center;
   padding: 10px;
@@ -541,9 +582,27 @@
     }
 
     .side-content-description{
+      height: 35%;
+      overflow-y: auto;
       color: white;
       margin: 20px;
       font-size: 15px;
+      padding-bottom: 30px;
+    }
+
+    .side-content-description::-webkit-scrollbar {
+      width: 1em;
+    }
+
+    .side-content-description::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      border-radius: 10px 10px 10px 10px;
+    }
+
+    .side-content-description::-webkit-scrollbar-thumb {
+      background-color: darkgrey;
+      outline: 1px solid slategrey;
+      border-radius: 10px 10px 10px 10px;
     }
   }
 }
@@ -580,7 +639,7 @@
   opacity: 0;
 }
 #titolo-orari {
-  width: 60%;
+  width: 30%;
   margin: 0 auto;
   margin-top: 200px;
   @extend %stile-titoli;
@@ -599,11 +658,11 @@
   align-items: center;
   // height: 100vh;
   .planning {
-    width: 65%;
-    height: 100%;
+    width: 100%;
+    height: 90vh;
     #planning-img{
       width: 100%;
-      height: auto;
+      height: 90vh;
       box-shadow: 10px 10px 10px 10px rgb(56, 56, 56);
     }
   }
@@ -611,11 +670,64 @@
 
 // CONTATTI -----------------------------------------------------
 
-  #map {
-    border: 2px solid black;
-    height: 700px;
-    width: 1000px;
-  }
+#scroll-to-contatti {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+#titolo-contatti {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 100px;
+  @extend %stile-titoli;
+  box-shadow: none;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#contatti {
+  background-color: black;
+  padding: 30px;
+  .contatti-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    #zona-mappa{
+      width: 50%;
+
+      #map {
+        border: 2px solid black;
+        height: 500px;
+        width: 100%;
+      }
+    }
+
+    #zona-info {
+      background-image: linear-gradient(to left, rgba(181, 188, 195, 0) 10%, #090909 90%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 2%;
+      text-align: left;
+      width: 50%;
+      height: 500px;
+      color: rgb(212, 139, 106);
+
+      h2{
+        font-size: 30px;
+        color: white;
+      }
+      h3 {
+        font-size: 20px;
+
+      }
+    }
+}
+
+
+}
 
 
 
@@ -634,7 +746,7 @@
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  z-index: 100;
+  z-index: 4;
   &:hover {
     cursor: pointer;
   }

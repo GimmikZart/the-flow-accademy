@@ -384,6 +384,24 @@ footer p {
   background-image: url(/images/zumbagif.gif?dd8f5c02a379568f8888749b4ce9324e);
 }
 
+.contenitore .sezioni-home #img-summercamp {
+  background-image: url(/images/summer_camp.jpg?5cc476e1a04050dc478b07d7260ac678);
+}
+
+.contenitore .sezioni-home #img-summercamp:hover {
+  width: 65%;
+  background-image: url(/images/polegif.gif?b47d9c073e7e15f23fd243901600d597);
+}
+
+.contenitore .sezioni-home #img-piccolizie {
+  background-image: url(/images/piccolizie.jpg?b40ab33d0ad13afb63112f02621a904d);
+}
+
+.contenitore .sezioni-home #img-piccolizie:hover {
+  width: 65%;
+  background-image: url(/images/polegif.gif?b47d9c073e7e15f23fd243901600d597);
+}
+
 .contenitore .sezioni-home .paragrafi {
   width: 50%;
   border-left: 5px solid #d48b6a;
@@ -422,7 +440,9 @@ footer p {
 .contenitore .sezioni-home #img-streetdance,
 .contenitore .sezioni-home #img-dance,
 .contenitore .sezioni-home #img-poledance,
-.contenitore .sezioni-home #img-fitness {
+.contenitore .sezioni-home #img-fitness,
+.contenitore .sezioni-home #img-summercamp,
+.contenitore .sezioni-home #img-piccolizie {
   width: 45%;
   height: 130%;
   background-size: cover;
@@ -433,24 +453,26 @@ footer p {
 .contenitore .sezioni-home #img-streetdance,
 .contenitore .sezioni-home #img-dance,
 .contenitore .sezioni-home #img-poledance,
-.contenitore .sezioni-home #img-fitness {
+.contenitore .sezioni-home #img-fitness,
+.contenitore .sezioni-home #img-summercamp,
+.contenitore .sezioni-home #img-piccolizie {
   box-shadow: 10px 10px 10px 10px #8e8e8e;
   border-radius: 10px 10px 10px 10px;
 }
 
+#titolo-contatti,
 #titolo-orari,
 #titolo-staff,
 #titolo-corsi,
 .contenitore #titolo-home {
   border-left: 10px solid #d48b6a;
   border-right: 10px solid #d48b6a;
-  box-shadow: 0px -25px 20px 0px #4d4b4c;
   border-radius: 20px;
   font-weight: bold;
 }
 
 #titolo-corsi {
-  width: 60%;
+  width: 25%;
   margin: 0 auto;
   margin-top: 200px;
   margin-bottom: 50px;
@@ -573,8 +595,24 @@ footer p {
 .corsi-section .corsi-side-content .side-content-description {
   color: white;
   margin: 20px;
-  max-height: 50%;
+  height: 25%;
+  overflow-y: auto;
   overflow: auto;
+}
+
+.corsi-section .corsi-side-content .side-content-description::-webkit-scrollbar {
+  width: 1em;
+}
+
+.corsi-section .corsi-side-content .side-content-description::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.corsi-section .corsi-side-content .side-content-description::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .corsi-section .corsi-side-content .mini-insegnante {
@@ -647,9 +685,10 @@ footer p {
 }
 
 #titolo-staff {
-  width: 60%;
+  width: 25%;
   margin: 0 auto;
   margin-top: 200px;
+  margin-bottom: 50px;
   text-align: center;
   padding: 10px;
 }
@@ -787,9 +826,27 @@ footer p {
 }
 
 .staff-section .staff-side-content .side-content-description {
+  height: 35%;
+  overflow-y: auto;
   color: white;
   margin: 20px;
   font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.staff-section .staff-side-content .side-content-description::-webkit-scrollbar {
+  width: 1em;
+}
+
+.staff-section .staff-side-content .side-content-description::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.staff-section .staff-side-content .side-content-description::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .staff-section .active {
@@ -848,7 +905,7 @@ footer p {
 }
 
 #titolo-orari {
-  width: 60%;
+  width: 30%;
   margin: 0 auto;
   margin-top: 200px;
   text-align: center;
@@ -867,20 +924,73 @@ footer p {
 }
 
 .orari-section .planning {
-  width: 65%;
-  height: 100%;
+  width: 100%;
+  height: 90vh;
 }
 
 .orari-section .planning #planning-img {
   width: 100%;
-  height: auto;
+  height: 90vh;
   box-shadow: 10px 10px 10px 10px #383838;
 }
 
-#map {
+#scroll-to-contatti {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+
+#titolo-contatti {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: none;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#contatti {
+  background-color: black;
+  padding: 30px;
+}
+
+#contatti .contatti-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#contatti .contatti-section #zona-mappa {
+  width: 50%;
+}
+
+#contatti .contatti-section #zona-mappa #map {
   border: 2px solid black;
-  height: 700px;
-  width: 1000px;
+  height: 500px;
+  width: 100%;
+}
+
+#contatti .contatti-section #zona-info {
+  background-image: linear-gradient(to left, rgba(181, 188, 195, 0) 10%, #090909 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2%;
+  text-align: left;
+  width: 50%;
+  height: 500px;
+  color: #d48b6a;
+}
+
+#contatti .contatti-section #zona-info h2 {
+  font-size: 30px;
+  color: white;
+}
+
+#contatti .contatti-section #zona-info h3 {
+  font-size: 20px;
 }
 
 #button-scroll-up {
@@ -896,7 +1006,7 @@ footer p {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  z-index: 100;
+  z-index: 4;
 }
 
 #button-scroll-up:hover {

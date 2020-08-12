@@ -79,7 +79,7 @@
     <div class="separatore"></div>
 
     <section class="sezioni-home">
-      <div id="img-poledance"></div>
+      <div id="img-summercamp"></div>
       <div class="paragrafi">
         <h2>Sport & Dance Summer Camp</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -93,7 +93,7 @@
         <h2>Piccolizie #unareteperlemamme</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-      <div id="img-fitness"></div>
+      <div id="img-piccolizie"></div>
     </section>
   </div>
 
@@ -489,7 +489,7 @@
         <div class="" style="width:100%; height:40%;background-image: url({{ asset('img/baby_wearing_corso.jpg')}});background-size:cover;background-repeat: no-repeat">
         </div>
         <h2 class="side-content-title">Baby Wearing</h2>
-        <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="side-content-description" ></p>
         <h2 class="side-content-title">Insegnanti:</h2>
         <img class="mini-insegnante" src="{{ asset('img/alice_staff.jpg')}}" data-staff= 'alice' alt="">
       </div>
@@ -633,9 +633,15 @@
     <!-- CONTENITORE LATERALE -->
     <div class="staff-side-content" data-staff = 'fabio'>
       <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
-      <img class="side-content-image" src="{{ asset('img/dexio_staff.jpg')}}" alt="">
+      <img class="side-content-image" src="{{ asset('img/fabio_staff.jpg')}}" alt="">
       <h2 class="side-content-title">FABIO BOSS</h2>
-      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="side-content-description" >Ho iniziato a ballare molto giovane all’età di 7 anni partendo dalle danze caraibiche. Ho sempre cercato di integrare questa disciplina con altre danze (classica, modern, flamenco, hip hop).
+        <br><br>
+      A 17 anni ho conosciuto la cultura House di cui mi sono subito appassionato formandomi con i migliori esponenti in Italia e dall’estero (Marjory Smarth, Link, Caleaf, Serial Steppers, Mamson, Gianni Wers, Vins e altri).
+      <br><br>
+      Attualmente studio a livello professionale alla Modulo Academy di Laccio tutti gli stili della cultura Hip hop a cui mi dedico esclusivamente integrando le varie esperienze professionali (tra cui la partecipazione come ballerino alla finale di X Factor 2019) alla mia indipendente attività creativa da ballerino in cui cerco di fondere la mia passione per la storia dell’arte e delle arti con la danza.
+
+</p>
     </div>
 
     <!-- SUSANNA SALVINI-->
@@ -653,7 +659,13 @@
       <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
       <img class="side-content-image" src="{{ asset('img/susanna_staff.jpg')}}" alt="">
       <h2 class="side-content-title">SUSANNA SALVINI</h2>
-      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="side-content-description" >Susanna Salvini, nata a Parma il 15/11/95.
+      Danzatrice presso la compagnia Milano Contemporary Ballet di Roberto Altamura e Agora Coaching Project di Michele Merola ed Enrico Morelli, con le quali ha portato in scena spettacoli di coreografi internazionali in tutta Italia; attualmente collabora con Rodan Project di Camilla Negri.
+      Ha partecipato a numerosi stage di danza con l'Accademia Teatro alla Scala, Scuola del Balletto di Roma, Aterballetto, Royal Ballet School, Studio Wayne McGregor, Peridance Capezio Center, Nunzio Impellizzeri Dance Company.
+      Nel 2018 si diploma come Insegnante di Danza, presso l'A.S.C. di Roma.
+      Nel 2019 si laurea presso la facoltà universitaria di Scienze Motorie, con voto 110/110 e lode.
+      Nel 2020 si diploma come Istruttrice di Ginnastica Posturale (AICS).
+      Attualmente è insegnante di danza classica e contemporanea e personal trainer. </p>
     </div>
 
     <!-- SIMONA PIC -->
@@ -674,7 +686,7 @@
       <p class="side-content-description" >Simona Si avvicina alla Danza classica all’età di 10 anni per poi appassionarsi alla danza Moderna seguendo un corso professionale con Camilla Negri e partecipando a collaborazioni con Aterballetto e Artemis danza.
       Nello stesso periodo prosegue i suoi studi Universitari conseguendo la Laurea in Psicologia Clinica  e il diploma di Tecnico di Meditazione Sportiva.
       Successivamente sperimenta altre discipline come Cerchio Aereo e Tessuto Aereo.
-      Nel 2016 conosce la Pole Dance e inizia a seguire corsi amatoriali fino ad appassionarsi a tal punto da conseguire nel 2020 il diploma di Insegnante di Ginnastica Acrobatica specialità Pole Dance ACSI con Elisa Boni.
+      Nel 2016 conosce la Pole Dance e inizia a seguire corsi amatoriali con Chiara Alinovi fino ad appassionarsi a tal punto da conseguire nel 2020 il diploma di Insegnante di Ginnastica Acrobatica specialità Pole Dance ACSI con Elisa Boni.
       A ottobre 2019 vince la gara “Coppa Italia Pole Dance” categoria amatori. </p>
     </div>
 
@@ -729,7 +741,9 @@
       <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
       <img class="side-content-image" src="{{ asset('img/formenti_staff.jpg')}}" alt="">
       <h2 class="side-content-title">ALESSANDRA FORMENTI</h2>
-      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="side-content-description" >Nata a Milano, a 4 anni inizia il suo percorso artistico-sportivo dedicandosi al Twirling. Due anni dopo, entra a far parte della squadra agonistica, vincendo negli anni diversi titoli regionali e nazionali. Si avvicina all’insegnamento nel 2002 e, una volta maggiorenne, ottiene le certificazioni di Giudice Federale e Tecnico di base della Federazione Italiana di Twirling (FITw). Qui trova la sua dimensione: insegnare è la sua vocazione! Allena bambini della pre-agonistica, allieve della serie A, diventa istruttrice di acquaticità per bambini normodotati e disabili ed Educatore Sportivo di II livello CONI, convita che lo sport debba essere forma di inclusione più che di competizione. Dopo la laurea triennale, diventa Counselor ed insegnante di Bioenergetica, presso l’istituto di Psicologia Somatorelazionale di Milano. Desiderosa di studiare una nuova disciplina acrobatica con attrezzi, si avvicina alla danza aerea e in pochi anni trasforma la sua passione in professione.
+
+      Oggi è presidente dell’Associazione sportiva di promozione sociale “Fare per sentire”, attraverso la quale promuove progetti di consapevolezza e prevenzione del bullismo e della violenza di genere, attraverso il movimento e le discipline aeree. Nel 2019 lo CSEN le riconosce la qualifica di Formatore Nazionale per la disciplina di Danza Aerea Acrobatica su Tessuti Aerei, approvando il programma di studi di “Educazione attraverso lo sport”. È co-fondatrice di AIDA -Accademia Italiana Danza Aerea, dove tiene corsi di formazione per future insegnanti di danza aerea, insieme ad Elisa Alberga, fondatrice di Evolo - Danza Aero Dinamica, della quale è coach.</p>
     </div>
 
     <!-- JAVI FERNAN -->
@@ -765,7 +779,15 @@
       <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
       <img class="side-content-image" src="{{ asset('img/celani_staff.jpg')}}" alt="">
       <h2 class="side-content-title">CARLOTTA CELANI</h2>
-      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="side-content-description" >Da sempre nel ramo della Ginnastica Ritmica, ex ginnasta, istruttrice e ballerina.
+        <br>
+      Laureata in Scienze Motorie Sport e Salute.
+      <br>
+      Si appassiona alla danza HIP HOP nel 1999 diventando in seguito Istruttrice e praticandolo per 20 anni. Dal 2005 diventa istruttrice di ATP (Acquatic Training Program) FIF, nell’ambito dell’Acquafitness, conseguendo alla formazione per altri programmi quali: Acqua Bike, Water Trekking, Acqua Pole (FIPD) e Acqua Step.
+      <br>
+      Nel 2006 ottiene il diploma di PILATES “BASIC” Matwork Instructor 1° livello, successivamente “PILATES Matwork Advanced 121 Personal Trainer” e “PILATES nella DANZA”.
+       <br>
+      Dal 2010 nasce una passione incondizionata per la “ZUMBA” e la grande carica ed energia di questa disciplina la porta ad approfondire gli studi in questo ambito ottenendo il diploma “ZUMBA Instructor Network BASIC STEPS LEVEL 1°-ZIN-“ nel 2013, “ZUMBA Step Instructor” nel 2015 e “STRONG Nation” (allenamento funzionale sincronizzato con la musica) nel 2017.</p>
     </div>
 
     <!-- SILVIA VIGNALI -->
@@ -783,7 +805,17 @@
       <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
       <img class="side-content-image" src="{{ asset('img/vignali_staff.jpg')}}" alt="">
       <h2 class="side-content-title">SILVIA VIGNALI</h2>
-      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="side-content-description" >Dal dicembre 2018 ho iniziato a frequentare per curiosità un corso nuovo mai visto prima chiamato Kangoo Power, scoprendo con sorpresa uno sport che consente di tenersi in forma divertendosi.
+
+      Da semplice curiosità si è trasformata in una grande passione, che mi ha portato a decidere di partecipare a marzo 2019 (mettendomi decisamente in gioco) al corso di formazione KANGOO POWER e di diventare un’istruttrice qualificata.
+
+      Ho insegnato presso la scuola ARP DANCE di Parma nella stagione 2019/2020.
+
+      A febbraio 2020 ho deciso di migliorare e ampliare le mie capacità partecipando al corso di formazione KANGOO DANCE, prendendo così un ulteriore qualifica.
+
+      Una delle mie caratteristiche migliori?
+
+      Ci metto decisamente passione e tutto il mio cuore, le altre le faccio scoprire a voi se lo vorrete!</p>
     </div>
 
     <!-- MAX ARCIDIACO -->
@@ -801,7 +833,8 @@
       <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
       <img class="side-content-image" src="{{ asset('img/arcidiaco_staff.jpg')}}" alt="">
       <h2 class="side-content-title">MAX ARCIDIACO</h2>
-      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="side-content-description" >Maximilian Arcidiaco
+      Diplomato alla scuola superiore per Odontotecnici. Atleta di Combat, da 20 anni lavora nel mondo del fitness, è un Personal Trainer, Top Trainer Street Workout Italia, Istruttore di Fitness, Combat, Functional Workout, Functional System, Functional  Training ed è il Founder per Thai Fit® Italia. Il suo motto è " Il tuo obiettivo è il mio obiettivo".</p>
     </div>
 
     <!-- DONATELLA NICCOLAI-->
@@ -819,7 +852,17 @@
       <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
       <img class="side-content-image" src="{{ asset('img/niccolai_staff.jpg')}}" alt="">
       <h2 class="side-content-title">DONATELLA NICCOLAI</h2>
-      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="side-content-description" >
+        Studi scuola magistrale e diploma in tecniche erboristiche <br>
+        Lavorato come insegnante elementare fino al 1998 <br>
+        Addetta alle vendite presso negozio arredamento Mazzoni salotti PR fino al 2013 <br>
+        Appassionata di sport e Running <br>
+        Lavorato per un ventennio presso vari centri fitness di Parma e provincia(Fitnesstime,Squashinn,Wellfit,body club,ego Village ) <br>
+        Collaborato presso la scuola di danza CID ,Parma e Showtime Basilicanova <br>
+        Istruttrice fitness musicale ,step e aerobica presso FIF dal 1995 <br>
+        Instruttrice body building e personal trainer FIF e Accademia del fitness di Massimo Spattini (PR)
+        Istruttrice di pilates FIF <br>
+        Istruttrice indoor Cycling dal 2018 con Group Cycling</p>
     </div>
 
     <!-- FULVIA FRAMBATI -->
@@ -873,7 +916,23 @@
       <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
       <img class="side-content-image" src="{{ asset('img/brunelli_staff.jpg')}}" alt="">
       <h2 class="side-content-title">RAFFAELLA BRUNELLI</h2>
-      <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="side-content-description" >Febbraio 2012: Diploma di Yoga come Istruttore di 1° Livello conseguito a Verona, presso Parsifal Yoga Accademy e rilasciato dall’Ente MSP Italia, Ente riconosciuto dal CONI
+        <br>
+      Luglio 2020: Diploma di Istruttore di Yoga Integrale, conseguito a Milano presso Parsifal Yoga Accademy – corso triennale.
+        <br>
+      Negli anni ’90 ho iniziato il mio percorso con lo Yoga Integrale. Allieva del Maestro Walter Ferrero e Tersa Sintoni, Yoga Master da loro ho ricevuto e ricevo tutt’ora l’insegnamento per la pratica di questa antica Disciplina. Lo Yoga Integrale mi ha portata a scoprire in me il desiderio di approfondire la conoscenza del corpo attraverso l’arte del massaggio che ho appreso ormai da molti anni dalle mie guide.
+      <br>
+      Con Parsifal Yoga Academy, la Scuola fondata dai miei Maestri ho fatto molti viaggi di studio nei luoghi della tradizione. Sono stata più volte in India, poi in Turchia, in Marocco, in Spagna, il cammino di Santiago, in Portogallo, in Germania, in Francia, le Cattedrali gotiche, in Scozia e Isole Shetland e a Gerusalemme.
+      <br>
+      Adea edizioni è la casa editrice che pubblica i libri dei miei Maestri per la divulgazione del loro insegnamento.
+      <br>
+      ESPERIENZE PRATICHE LAVORATIVE
+      <br>
+      Ho iniziato il mio percorso lavorativo nell’ambito creativo in studi di architettura. La mia passione per la bellezza, la creatività e la cura ha iniziato dagli spazi esterni fino poi a ricercare una qualità interiore. Nel 1987 sono diventata madre e dopo 3 anni, il mio incontro con lo Yoga Integrale ha trasformato la mia vita.
+      <br>
+      Nel ’97 e fino al 2003, con alcuni compagni di pratica abbiamo aperto un centro, “Dimensione Corpo”, nella città di Cremona. Un centro rivolto al benessere della persona, in cui veniva insegnato lo Yoga Integrale, il Tai Chi Chuan e tutte le diverse di attività con il corpo libero, danza moderna e Tango Argentino. Una sala con attrezzi Thecnogym. Un centro estetico con attigua zona con sauna, bagno turco e solarium.
+      <br>
+      Ho insegnato a Parsifal Yoga Academy Cremona e tengo Corsi di Yoga a Busseto e in provincia di Mantova. Da aprile ho iniziato i corsi a Parma al centro di Danza The Flow Dance Academy.</p>
     </div>
 
     <!-- FABRIZIO RICCI -->
@@ -914,13 +973,31 @@
   <div id="scroll-to-contatti">
 
   </div>
+  <section id="contatti">
 
-  <div class="contenitore contatti-section">
-    <div id="zona-mappa">
-      <div id='map'></div>
+    <h1 id="titolo-contatti"> CONTATTI </h1>
+
+    <div class="contenitore contatti-section">
+      <div id="zona-mappa">
+        <div id='map'></div>
+      </div>
+
+      <div id="zona-info">
+        <h2>Dove ci puoi trovare:</h2>
+        <h3>Viale Europa, 108/A, 43122 Parma PR</h3>
+        <br>
+        <h2>Chiamaci al fisso:</h2>
+        <h3>0521 062736</h3>
+        <br>
+        <h2>Il nostro Fax:</h2>
+        <h3>0523 1924357</h3>
+        <br>
+        <h2>Chiamaci in giro:</h2>
+        <h3>346 0883589</h3>
+      </div>
+
     </div>
-
-  </div>
+  </section>
 
 
 

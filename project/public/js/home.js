@@ -157,6 +157,18 @@ $(document).ready(function () {
     $('html,body').animate({
       scrollTop: $('#scroll-to-staff').offset().top
     }, 'slow');
+  }); // ORARI SCROLL
+
+  $("#orari-button").click(function () {
+    $('html,body').animate({
+      scrollTop: $('#scroll-to-orari').offset().top
+    }, 'slow');
+  }); // CONTATTI SCROLL
+
+  $("#contatti-button").click(function () {
+    $('html,body').animate({
+      scrollTop: $('#scroll-to-contatti').offset().top
+    }, 'slow');
   }); // HOME SCROLL
 
   $("#home-button").click(function () {

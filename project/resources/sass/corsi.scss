@@ -107,7 +107,7 @@
 
     .side-content-image {
       width: 100%;
-      height: auto;
+      height: 40%;
     }
 
     .side-content-title{
@@ -174,4 +174,189 @@
   0% {right: 0;}
 
   100%{right: -100%}
+}
+
+
+// MEDIA QUERY -------------------------------------------------------------------------
+
+// Small devices (landscape phones, less than 768px)
+@media screen and (max-width: 767.98px) {
+
+  #titolo-corsi {
+    width:90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    @extend %stile-titoli;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .corsi-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    .card-corsi {
+      width: 45%;
+      margin-bottom: 20px;
+      height: 200px;
+      transform: skewX(-10deg);
+      position: relative;
+      overflow: hidden;
+      transition: ease 1s;
+      cursor: pointer;
+      &:hover {
+        .corso-hip-hop {
+          transform: scale(1.1) skewX(10deg) rotate(7deg);
+          filter: blur(0.6px);
+        }
+        .corso-title {
+          width: 90%;
+          z-index: 3;
+        }
+
+        .fa-info-circle{
+          display: block;
+          position: absolute;
+          color: red;
+          z-index: 2;
+          left: 45%;
+          top: 35%;
+          font-size: 70px;
+          transform: skewX(10deg);
+        }
+      }
+
+      .corso-hip-hop {
+        width: 130%;
+        height: auto;
+        transform: skewX(10deg);
+        height:100%;
+        position: absolute;
+        left: -20px;
+        transition: ease 1s;
+      }
+
+      .corso-title {
+        padding: 5px;
+        text-align: center;
+        width: 70%;
+        font-size: 100%;
+        color: white;
+        position: absolute;
+        left: -5px;
+        bottom: 5%;
+        z-index: 3;
+        transform: skewX(10deg);
+        transition: ease 1s;
+        background-color: rgb(78, 78, 78);
+      }
+
+      .fa-info-circle {
+        display: none;
+        width: 100%;
+        height: 100%;
+        transition: ease 1s;
+      }
+
+      .corsi-side-content {
+        display: none;
+      }
+    }
+
+    .corsi-side-content{
+      display: none;
+      position: fixed;
+      height: 100%;
+      padding-top: 60px;
+      width: 100%;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+      background-color: #4e4e4e;
+      border-left: 5px solid black;
+      animation: slideRight linear 0.6s;
+
+      .fa-chevron-circle-right{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 39%;
+        left: 5px;
+        z-index: 10;
+        color: #d48b6a;
+        cursor: pointer;
+      }
+
+      .side-content-image {
+        width: 100%;
+        height: auto;
+        height:40%;
+        background-position: center;
+      }
+
+      .side-content-title{
+        color: white;
+        margin: 10px;
+        margin-bottom: 0;
+        font-size: 23px;
+        text-align: center;
+      }
+
+      .side-content-description{
+        color: white;
+        margin: 0px;
+        height: 30%;
+        overflow-y: auto;
+        overflow:auto;
+        padding: 5px 30px;
+      }
+
+      .side-content-description::-webkit-scrollbar {
+        width: 1em;
+      }
+
+      .side-content-description::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px 10px 10px 10px;
+      }
+
+      .side-content-description::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        outline: 1px solid slategrey;
+        border-radius: 10px 10px 10px 10px;
+      }
+
+      .mini-insegnante {
+        width: 75px;
+        height: 75px;
+        border: 5px solid black;
+        border-radius: 50%;
+        margin-left: 30px;
+        margin-top: 5px;
+        transition: ease 0.5s;
+        display: inline;
+        cursor: pointer;
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    .separatore-stili {
+      display: none;
+    }
+  }
+
+  .corsi-section .active{
+    display: block;
+  }
+
+  .corsi-section .slideOutRight{
+    animation: slideOutRight linear 0.6s;
+
+  }
+
 }

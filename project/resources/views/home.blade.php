@@ -585,7 +585,7 @@
     <!-- ZOTO -->
     <div class="card-staff">
       <div class="foto-insegnante">
-        <img src="{{ asset('img/susanna_staff.jpg')}}" alt="" class="foto-staff">
+        <img src="{{ asset('img/zoto_staff.jpg')}}" alt="" class="foto-staff">
         <h2 class="nome-insegnante" style="color: rgb(141, 255, 186);font-size: 25px;">ZOTO</h2>
       </div>
       <div class="retro-stile" style="background-color: rgb(141, 255, 186)">
@@ -597,7 +597,7 @@
     <!-- CONTENITORE LATERALE -->
     <div class="staff-side-content" data-staff = 'zoto'>
       <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
-      <img class="side-content-image" src="{{ asset('img/susanna_staff.jpg')}}" alt="">
+      <img class="side-content-image" src="{{ asset('img/zoto_staff.jpg')}}" alt="">
       <h2 class="side-content-title">ZOTO</h2>
       <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>

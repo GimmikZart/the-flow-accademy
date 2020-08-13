@@ -94,7 +94,7 @@
 /***/ (function(module, exports) {
 
 $(document).ready(function () {
-  console.log('culoooo'); // JUMBOTRON CAROUSEL
+  console.log('culoooo'); // JUMBOTRON CAROUSEL---------------------------------------------------------
 
   $(".next").click( // richiamoòa funzione next
   nextImg);
@@ -181,22 +181,34 @@ $(document).ready(function () {
     $('html,body').animate({
       scrollTop: $('.jumbotron').offset().top
     }, 'slow');
-  });
-  $(function () {
-    $(window).on("scroll", function () {
-      if ($(window).scrollTop() > 10) {
-        $("#navbar").removeClass("nav-start");
-        $("#navbar").addClass("nav-scroll");
-        $("header").css("top", "0");
-        $("#button-scroll-up").css("display", "block");
-      } else {
-        $("#navbar").addClass("nav-start");
-        $("#navbar").removeClass("nav-scroll");
-        $("header").css("top", "50px");
-        $("#button-scroll-up").css("display", "none");
-      }
-    });
-  }); // EVENTI CLICK ------------------------------------------------------------------------------------------
+  }); // HEADER SCROLL EFFECT CAMBIO CSS IN BASE AL DEVICE
+
+  var mediaQueryPhone = window.matchMedia("(min-width: 768px)");
+
+  function headerScrollEffect(x) {
+    if (x.matches) {
+      $(function () {
+        $(window).on("scroll", function () {
+          if ($(window).scrollTop() > 10) {
+            $("#navbar").removeClass("nav-start");
+            $("#navbar").addClass("nav-scroll");
+            $("header").css("top", "0");
+            $("#button-scroll-up").css("display", "block");
+          } else {
+            $("#navbar").addClass("nav-start");
+            $("#navbar").removeClass("nav-scroll");
+            $("header").css("top", "50px");
+            $("#button-scroll-up").css("display", "none");
+          }
+        });
+      });
+    }
+
+    ;
+  }
+
+  ;
+  headerScrollEffect(mediaQueryPhone); // EVENTI CLICK ------------------------------------------------------------------------------------------
   // CONTAINER LATERALI ------------------------------------------------------------
   // comparsa box laterale CORSI
 

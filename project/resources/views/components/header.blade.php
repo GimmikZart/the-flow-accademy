@@ -15,6 +15,8 @@
         <li id="contatti-button"> CONTATTI</li>
       </ul>
 
+      <i id="hamburger-menu" class="fas fa-bars"></i>
+
     </div>
   </nav>
 

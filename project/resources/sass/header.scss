@@ -1,11 +1,15 @@
 header {
   height: 100px;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   top:50px;
   left: 0;
   z-index: 100;
   -webkit-animation: navComparsa 2s ease;
+
+  #hamburger-menu {
+    display: none;
+  }
 
   .nav-start {
     padding-top: 50px;
@@ -144,4 +148,51 @@ header {
   0%   {box-shadow: inset 1px -25px 20px 1px #888888;}
  50%  {box-shadow: inset 1px -15px 20px 1px #888888;}
  100% {box-shadow: inset 1px -25px 20px 1px #888888;}
+}
+
+
+
+
+
+
+// MEDIA QUERY -------------------------------------------------------------------------
+
+// Small devices (landscape phones, less than 768px)
+@media screen and (max-width: 767.98px) {
+
+
+  header {
+    height: 60px; //cambiato
+    top: 0px;  //cambiato
+    -webkit-animation: none ; //cambiato
+
+    #hamburger-menu {
+      display: blocK; //cambiato
+      font-size: 55px; //cambiato
+      color: white; //cambiato
+    }
+
+    #navbar {
+      padding-top: 10px; //cambiato
+      width: 100%; //cambiato
+      background-color:rgba(0, 0, 0, 0.95); //cambiato
+      border-radius: 0px; //cambiato
+      border-left: 10px solid rgb(212, 139, 106); //cambiato
+      border-right: 10px solid rgb(212, 139, 106); //cambiato
+
+      .contenitore {
+        #logo-nav {
+          height: 160%; //cambiato
+          &:hover{
+            height: 160%;  //cambiato
+            transform:rotate(0deg);  //cambiato
+          }
+        }
+
+        #nav-list {
+          display: none; //cambiato
+        }
+      }
+    }
+  }
 }

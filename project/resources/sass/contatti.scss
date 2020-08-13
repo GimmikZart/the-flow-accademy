@@ -1,0 +1,58 @@
+// CONTATTI -----------------------------------------------------
+
+#scroll-to-contatti {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+#titolo-contatti {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 100px;
+  @extend %stile-titoli;
+  box-shadow: none;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#contatti {
+  background-color: black;
+  padding: 30px;
+  .contatti-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    #zona-mappa{
+      width: 50%;
+
+      #map {
+        border: 2px solid black;
+        height: 500px;
+        width: 100%;
+      }
+    }
+
+    #zona-info {
+      background-image: linear-gradient(to left, rgba(181, 188, 195, 0) 10%, #090909 90%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 2%;
+      text-align: left;
+      width: 50%;
+      height: 500px;
+      color: rgb(212, 139, 106);
+
+      h2{
+        font-size: 30px;
+        color: white;
+      }
+      h3 {
+        font-size: 20px;
+
+      }
+    }
+  }
+}

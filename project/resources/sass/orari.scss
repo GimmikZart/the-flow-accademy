@@ -1,0 +1,36 @@
+// SEZIONE ORARI ---------------------------------------------------------------------------------------------
+
+#scroll-to-orari {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+#titolo-orari {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 200px;
+  @extend %stile-titoli;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.orari-section {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  // height: 100vh;
+  .planning {
+    width: 100%;
+    height: 90vh;
+    #planning-img{
+      width: 100%;
+      height: 90vh;
+      box-shadow: 10px 10px 10px 10px rgb(56, 56, 56);
+    }
+  }
+}

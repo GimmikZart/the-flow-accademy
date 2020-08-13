@@ -1,0 +1,196 @@
+// SEZIONE STAFF ------------------------------------------------------------------------------------------------
+
+#scroll-to-staff {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+#titolo-staff {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  @extend %stile-titoli;
+  text-align: center;
+  padding: 10px;
+}
+
+.staff-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  .card-staff {
+    width: 18%;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+
+    &:hover{
+      .foto-insegnante{
+        right: 12%;
+      }
+
+      .retro-stile{
+        right: 10px;
+      }
+
+      .foto-insegnante{
+        .foto-staff{
+          transform: skewX(10deg) scale(1.1) rotate(-3deg);
+        }
+      }
+
+    }
+    .foto-insegnante{
+      max-width: 230px;
+      width: 80%;
+      height: 75%;
+      position: absolute;
+      right: 10%;
+      top: 0;
+      transform: skewX(-10deg);
+      overflow: hidden;
+      z-index: 3;
+      transition: ease 1s;
+
+      .foto-staff {
+        width: 130%;
+        height: auto;
+        transform: skewX(10deg);
+        height:100%;
+        position: absolute;
+        left: -30px;
+        transition: ease 1s;
+      }
+
+      .nome-insegnante {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0;
+        padding-right: 10px;
+        height: 50px;
+        z-index: 2;
+        width: 100%;
+        color: rgb(0, 255, 233);
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0.64);
+      }
+
+
+    }
+    .retro-stile {
+      width: 80%;
+      height: 85%;
+      position: absolute;
+      right: 20px;
+      bottom: 10px;
+      background: rgb(0, 255, 233);
+      transform: skewX(-10deg);
+      overflow: hidden;
+      z-index: 2;
+      transition: ease 1s;
+
+      .stile-insegnante {
+        position: absolute;
+        bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0;
+        padding-right: 10px;
+        height: 50px;
+        z-index: 2;
+        width: 100%;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+  }
+  .staff-side-content{
+    display: none;
+    position: fixed;
+    height: 100%;
+    padding-top: 100px;
+    width: 24%;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    background-color: #4e4e4e;
+    border-right: 5px solid black;
+    animation: slideLeft linear 1s;
+
+    .fa-chevron-circle-left{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      transform: rotate(180deg);
+      top: 300px;
+      right: -50px;
+      z-index: 10;
+      color: #d48b6a;
+      cursor: pointer;
+    }
+
+    .side-content-image {
+      width: 100%;
+      height: 50%;
+    }
+
+    .side-content-title{
+      color: white;
+      margin: 20px;
+      font-size: 30px;
+    }
+
+    .side-content-description{
+      height: 35%;
+      overflow-y: auto;
+      color: white;
+      margin: 20px;
+      font-size: 15px;
+      padding-bottom: 30px;
+    }
+
+    .side-content-description::-webkit-scrollbar {
+      width: 1em;
+    }
+
+    .side-content-description::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      border-radius: 10px 10px 10px 10px;
+    }
+
+    .side-content-description::-webkit-scrollbar-thumb {
+      background-color: darkgrey;
+      outline: 1px solid slategrey;
+      border-radius: 10px 10px 10px 10px;
+    }
+  }
+}
+
+.staff-section .active{
+  display: block;
+}
+
+.staff-section .slideOutLeft{
+  animation: slideOutLeft linear 1s;
+
+}
+//ANIMATION ----------------------
+
+@keyframes slideLeft {
+  0% {left: -50%;}
+
+  100%{left: 0}
+}
+
+@keyframes slideOutLeft{
+  0% {left: 0;}
+
+  100%{left: -100%}
+}

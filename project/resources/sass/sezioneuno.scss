@@ -191,39 +191,42 @@
 
       #img-streetdance {
         width: 100%;
-        height: 180px;
+        height: 150px;
         margin-bottom: 30px;
         box-shadow: 10px 15px 15px 0px #8e8e8e;
         background-image: url('../../public/img/streetdance.jpg');
 
         &:hover {
-          width: 90vw;
+          width: 100vw;
+          height: 230px;
           background-image: url('../../public/img/streetdancegif.gif');
         }
       }
 
       #img-poledance {
         width: 100%;
-        height: 180px;
+        height: 150px;
         margin-bottom: 30px;
         box-shadow: 10px 15px 15px 0px #8e8e8e;
         background-image: url('../../public/img/poledance.jpg');
 
         &:hover {
-          width: 90vw;
+          width: 100vw;
+          height: 230px;
           background-image: url('../../public/img/polegif.gif');
         }
       }
 
       #img-summercamp {
         width: 100%;
-        height: 180px;
+        height: 150px;
         margin-bottom: 30px;
         box-shadow: 10px 15px 15px 0px #8e8e8e;
         background-image: url('../../public/img/summer_camp.jpg');
 
         &:hover {
-          width: 90vw;
+          width: 100vw;
+          height: 230px;
           background-image: url('../../public/img/polegif.gif');
         }
       }
@@ -247,17 +250,22 @@
 
       h2 {
         font-size: 30px;
+
+        span{
+          font-size: 25px;
+        }
       }
 
       #img-dance {
         background-image: url('../../public/img/danza.jpg');
         width: 100%;
-        height: 180px;
+        height: 150px;
         margin-bottom: 30px;
         box-shadow: 10px 15px 15px 0px #8e8e8e;
 
         &:hover {
-          width: 90vw;
+          width: 100vw;
+          height: 230px;
           background-image: url('../../public/img/moderngif.gif');
         }
       }
@@ -265,12 +273,13 @@
       #img-fitness {
         background-image: url('../../public/img/fitness.jpg');
         width: 100%;
-        height: 180px;
+        height: 150px;
         margin-bottom: 30px;
         box-shadow: 10px 15px 15px 0px #8e8e8e;
 
         &:hover {
-          width: 90vw;
+          width: 100vw;
+          height: 230px;
           background-image: url('../../public/img/zumbagif.gif');
         }
       }
@@ -278,12 +287,13 @@
       #img-piccolizie {
         background-image: url('../../public/img/piccolizie.jpg');
         width: 100%;
-        height: 180px;
+        height: 150px;
         margin-bottom: 30px;
         box-shadow: 10px 15px 15px 0px #8e8e8e;
 
         &:hover {
-          width: 90vw;
+          width: 100vw;
+          height: 230px;
           background-image: url('../../public/img/polegif.gif');
         }
       }

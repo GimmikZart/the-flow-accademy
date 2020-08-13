@@ -23,9 +23,8 @@
       @include('jumbotron')
       @include('sezioneuno')
       @include('corsi')
-      <!-- @include('staff')
-      @include('orari')
-      @include('contatti')  -->
+      @include('staff')
+
       <div id="button-scroll-up">
         <img class="fas fa-angle-double-up" src="{{ asset('img/arrow-right.png')}}" alt="">
       </div>

@@ -627,40 +627,43 @@ header .nav-scroll .contenitore #nav-list li:hover {
 
   .contenitore .sezioni-home.left #img-streetdance {
     width: 100%;
-    height: 180px;
+    height: 150px;
     margin-bottom: 30px;
     box-shadow: 10px 15px 15px 0px #8e8e8e;
     background-image: url(/images/streetdance.jpg?2596557659dceeec2bba71f491b5331d);
   }
 
   .contenitore .sezioni-home.left #img-streetdance:hover {
-    width: 90vw;
+    width: 100vw;
+    height: 230px;
     background-image: url(/images/streetdancegif.gif?1395e092707af76f9acabeaa7cfffa71);
   }
 
   .contenitore .sezioni-home.left #img-poledance {
     width: 100%;
-    height: 180px;
+    height: 150px;
     margin-bottom: 30px;
     box-shadow: 10px 15px 15px 0px #8e8e8e;
     background-image: url(/images/poledance.jpg?48124e542c77f6d2ef8698d92e3bc4ec);
   }
 
   .contenitore .sezioni-home.left #img-poledance:hover {
-    width: 90vw;
+    width: 100vw;
+    height: 230px;
     background-image: url(/images/polegif.gif?b47d9c073e7e15f23fd243901600d597);
   }
 
   .contenitore .sezioni-home.left #img-summercamp {
     width: 100%;
-    height: 180px;
+    height: 150px;
     margin-bottom: 30px;
     box-shadow: 10px 15px 15px 0px #8e8e8e;
     background-image: url(/images/summer_camp.jpg?5cc476e1a04050dc478b07d7260ac678);
   }
 
   .contenitore .sezioni-home.left #img-summercamp:hover {
-    width: 90vw;
+    width: 100vw;
+    height: 230px;
     background-image: url(/images/polegif.gif?b47d9c073e7e15f23fd243901600d597);
   }
 
@@ -685,42 +688,49 @@ header .nav-scroll .contenitore #nav-list li:hover {
     font-size: 30px;
   }
 
+  .contenitore .sezioni-home.right h2 span {
+    font-size: 25px;
+  }
+
   .contenitore .sezioni-home.right #img-dance {
     background-image: url(/images/danza.jpg?dc81844d8dcb217b6a4c591071727ee2);
     width: 100%;
-    height: 180px;
+    height: 150px;
     margin-bottom: 30px;
     box-shadow: 10px 15px 15px 0px #8e8e8e;
   }
 
   .contenitore .sezioni-home.right #img-dance:hover {
-    width: 90vw;
+    width: 100vw;
+    height: 230px;
     background-image: url(/images/moderngif.gif?29f3129c96fbab57881680cdcf639734);
   }
 
   .contenitore .sezioni-home.right #img-fitness {
     background-image: url(/images/fitness.jpg?78b9343f32a2daa52ca1dddd74d0e65b);
     width: 100%;
-    height: 180px;
+    height: 150px;
     margin-bottom: 30px;
     box-shadow: 10px 15px 15px 0px #8e8e8e;
   }
 
   .contenitore .sezioni-home.right #img-fitness:hover {
-    width: 90vw;
+    width: 100vw;
+    height: 230px;
     background-image: url(/images/zumbagif.gif?dd8f5c02a379568f8888749b4ce9324e);
   }
 
   .contenitore .sezioni-home.right #img-piccolizie {
     background-image: url(/images/piccolizie.jpg?b40ab33d0ad13afb63112f02621a904d);
     width: 100%;
-    height: 180px;
+    height: 150px;
     margin-bottom: 30px;
     box-shadow: 10px 15px 15px 0px #8e8e8e;
   }
 
   .contenitore .sezioni-home.right #img-piccolizie:hover {
-    width: 90vw;
+    width: 100vw;
+    height: 230px;
     background-image: url(/images/polegif.gif?b47d9c073e7e15f23fd243901600d597);
   }
 
@@ -947,6 +957,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
     margin-bottom: 50px;
     text-align: center;
     padding: 10px;
+    font-size: 30px;
   }
 
   .corsi-section {
@@ -1036,7 +1047,8 @@ header .nav-scroll .contenitore #nav-list li:hover {
     bottom: 0;
     z-index: 5;
     background-color: #4e4e4e;
-    border-left: 5px solid black;
+    border-right: 5px solid #d48b6a;
+    border-left: 5px solid #d48b6a;
     -webkit-animation: slideRight linear 0.6s;
             animation: slideRight linear 0.6s;
   }
@@ -1338,6 +1350,262 @@ header .nav-scroll .contenitore #nav-list li:hover {
 
   100% {
     left: -100%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  #titolo-staff {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+  }
+
+  .staff-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+  }
+
+  .staff-section .card-staff {
+    width: 50%;
+    height: 270px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .staff-section .card-staff:hover .foto-insegnante {
+    right: 12%;
+  }
+
+  .staff-section .card-staff:hover .retro-stile {
+    right: 10px;
+  }
+
+  .staff-section .card-staff:hover .foto-insegnante .foto-staff {
+    transform: skewX(10deg) scale(1.1) rotate(-3deg);
+  }
+
+  .staff-section .card-staff .foto-insegnante {
+    max-width: 230px;
+    width: 80%;
+    height: 75%;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    transform: skewX(-10deg);
+    overflow: hidden;
+    z-index: 3;
+    transition: ease 1s;
+  }
+
+  .staff-section .card-staff .foto-insegnante .foto-staff {
+    width: 130%;
+    height: auto;
+    transform: skewX(10deg);
+    height: 100%;
+    position: absolute;
+    left: -15px;
+    transition: ease 1s;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding-right: 10px;
+    height: 50px;
+    z-index: 2;
+    width: 100%;
+    color: #00ffe9;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.64);
+    text-align: right;
+  }
+
+  .staff-section .card-staff .retro-stile {
+    width: 80%;
+    height: 85%;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    background: #00ffe9;
+    transform: skewX(-10deg);
+    overflow: hidden;
+    z-index: 2;
+    transition: ease 1s;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding-right: 10px;
+    height: 50px;
+    z-index: 2;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
+    font-size: 10px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
+    font-size: 14px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
+    font-size: 13px !important;
+    padding-top: 10px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.simona {
+    font-size: 10px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
+    font-size: 10px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
+    font-size: 15px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
+    font-size: 12px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
+    font-size: 12px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
+    font-size: 10px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alice {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.ricci {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .staff-side-content {
+    display: none;
+    position: fixed;
+    height: 100%;
+    padding-top: 60px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    background-color: #4e4e4e;
+    border-right: 5px solid black;
+    -webkit-animation: slideLeft linear 0.6s;
+            animation: slideLeft linear 0.6s;
+    border-right: 5px solid #d48b6a;
+    border-left: 5px solid #d48b6a;
+  }
+
+  .staff-section .staff-side-content .fa-chevron-circle-left {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    transform: rotate(180deg);
+    top: 48%;
+    right: -5px;
+    z-index: 10;
+    color: #d48b6a;
+    cursor: pointer;
+  }
+
+  .staff-section .staff-side-content .side-content-image {
+    width: 100%;
+    height: 50%;
+  }
+
+  .staff-section .staff-side-content .side-content-title {
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  .staff-section .staff-side-content .side-content-description {
+    height: 35%;
+    overflow-y: auto;
+    color: white;
+    margin: 20px;
+    font-size: 15px;
+    padding-bottom: 30px;
+  }
+
+  .staff-section .staff-side-content .side-content-description::-webkit-scrollbar {
+    width: 1em;
+  }
+
+  .staff-section .staff-side-content .side-content-description::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .staff-section .staff-side-content .side-content-description::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .staff-section .active {
+    display: block;
+  }
+
+  .staff-section .slideOutLeft {
+    -webkit-animation: slideOutLeft linear 0.6s;
+            animation: slideOutLeft linear 0.6s;
   }
 }
 

@@ -101,14 +101,14 @@
     <div class="card-corsi">
       <i class="fas fa-info-circle"></i>
       <img src="{{ asset('img/afrobeat_corso.jpg')}}" alt="" class="corso-hip-hop">
-      <h2 class="corso-title afrobeat">Afrobeat</h2>
+      <h2 class="corso-title afrobeat">Afro</h2>
     </div>
     <!-- CONTENITORE LATERALE -->
     <div class="corsi-side-content">
       <img class="fas fa-chevron-circle-right" src="{{ asset('img/arrow-right.png')}}" alt="">
       <div class="side-content-image" style="width:100%;background-image: url({{ asset('img/afrobeat_corso.jpg')}});background-size:cover;background-repeat: no-repeat">
       </div>
-      <h2 class="side-content-title">Afrobeat</h2>
+      <h2 class="side-content-title">Afro</h2>
       <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <h2 class="side-content-title">Insegnanti:</h2>
       <img class="mini-insegnante" src="{{ asset('img/dexio_staff.jpg')}}" data-staff= 'dexio' alt="">

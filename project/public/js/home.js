@@ -270,7 +270,7 @@ $(document).ready(function () {
       "transform": "rotate(0deg)",
       "height": "120%"
     });
-  }); // TOM TOM
+  }); // TOM TOM----
 
   var theFlowCoordinates = [10.328510, 44.825600];
   var map = tt.map({
@@ -280,7 +280,40 @@ $(document).ready(function () {
     center: theFlowCoordinates,
     zoom: 15
   });
-  var marker = new tt.Marker().setLngLat(theFlowCoordinates).addTo(map);
+  var marker = new tt.Marker().setLngLat(theFlowCoordinates).addTo(map); // MEDIA QUERY ---------------------------------------
+
+  var navMobileOn = false;
+  $('#hamburger-menu').click(function () {
+    $('#nav-list').css('display', 'flex');
+    $('#nav-list').addClass('navMobileSlideIn');
+    navMobileOn = true;
+  });
+  $('#nav-list li').click(function () {
+    var mediaQueryPhone = window.matchMedia("(max-width: 999px)");
+    navMenuMobileExit(mediaQueryPhone);
+  });
+  $('.main-content').click(function () {
+    var mediaQueryPhone = window.matchMedia("(max-width: 999px)");
+
+    if (navMobileOn = true) {
+      navMenuMobileExit(mediaQueryPhone);
+    }
+  });
+
+  function navMenuMobileExit(x) {
+    if (x.matches) {
+      $('#nav-list').removeClass('navMobileSlideIn');
+      $('#nav-list').addClass('navMobileSlideOut');
+      setTimeout(function () {
+        $('#nav-list').css('display', 'none');
+        $('#nav-list').removeClass('navMobileSlideOut');
+      }, 500);
+    }
+
+    ;
+  }
+
+  ;
 }); //fine document ready
 
 /***/ }),

@@ -511,7 +511,7 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'dexio'>
+  <div class="staff-side-content">
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>
@@ -529,7 +529,7 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'dexio'>
+  <div class="staff-side-content">
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>
@@ -547,7 +547,7 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'dexio'>
+  <div class="staff-side-content">
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>
@@ -565,7 +565,7 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'dexio'>
+  <div class="staff-side-content">
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>
@@ -583,7 +583,7 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'dexio'>
+  <div class="staff-side-content">
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>
@@ -601,7 +601,7 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'dexio'>
+  <div class="staff-side-content">
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>
@@ -619,7 +619,7 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'dexio'>
+  <div class="staff-side-content">
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>
@@ -637,7 +637,7 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'dexio'>
+  <div class="staff-side-content">
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>
@@ -655,7 +655,7 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'dexio'>
+  <div class="staff-side-content">
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>
@@ -673,7 +673,7 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'dexio'>
+  <div class="staff-side-content">
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>

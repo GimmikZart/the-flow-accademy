@@ -56,3 +56,66 @@
     }
   }
 }
+
+// MEDIA QUERY -------------------------------------------------------------------------
+
+// Mobile Piccolo struttura
+@media screen and (max-width: 999px) {
+
+  #titolo-contatti {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  #contatti {
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+    .contatti-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      #zona-mappa{
+        width: 99%;
+        height: 200px;
+
+        #map {
+          border: 2px solid black;
+          height: 200px;
+          width: 100%;
+        }
+      }
+
+      #zona-info {
+        background-image: linear-gradient(to left, rgba(181, 188, 195, 0) 10%, #090909 90%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 2%;
+        text-align: center;
+        width: 80%;
+        height: 350px;
+        color: rgb(212, 139, 106);
+
+        h2{
+          font-size: 25px;
+          color: white;
+        }
+        h3 {
+          font-size: 15px;
+
+        }
+      }
+    }
+  }
+
+}

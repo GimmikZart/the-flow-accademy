@@ -2,7 +2,7 @@
 <div id="scroll-to-staff">
 
 </div>
-<h1 id="titolo-staff"> IL NOSTRO STAFF</h1>
+<h1 id="titolo-staff"> DOCENTI </h1>
 
 
 <div class="contenitore staff-section">
@@ -11,7 +11,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/dexio_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color:rgb(1, 177, 76); font-size: 25px">DEXIO</h2>
+      <h2 class="nome-insegnante medio" style="color:rgb(1, 177, 76); font-size: 25px">DEXIO</h2>
     </div>
     <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
       <h2 class="stile-insegnante dexio">BREAKING</h2>
@@ -29,7 +29,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/alex_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(47, 243, 33); font-size: 16px">ALEX CASTAGNETTI</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(47, 243, 33); font-size: 16px">ALEX CASTAGNETTI</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(47, 243, 33);">
       <h2 class="stile-insegnante alex" style="font-size:16px;padding:8px;" >HIP-HOP - HOUSE  POPPING - LOCKING</h2>
@@ -47,11 +47,11 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/zoto_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(141, 255, 186);font-size: 25px;">ZOTO</h2>
+      <h2 class="nome-insegnante medio" style="color: rgb(141, 255, 186);font-size: 25px;">ZOTO</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(141, 255, 186)">
       <h2 class="stile-insegnante zoto" style="font-size: 17px;">
-        AFROBEAT
+        AFRO
       </h2>
     </div>
   </div>
@@ -81,7 +81,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/nazzari_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(11, 186, 181);font-size: 16px;">FEDERICA NAZZARI</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(11, 186, 181);font-size: 16px;">FEDERICA NAZZARI</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(11, 186, 181)">
       <h2 class="stile-insegnante nazzari">DANCEHALL</h2>
@@ -135,7 +135,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/fabio_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(1, 254, 238);font-size: 20px;" >FABIO BOSS</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(1, 254, 238);font-size: 20px;" >FABIO BOSS</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(1, 254, 238)">
       <h2 class="stile-insegnante fabio">HOUSE DANCE</h2>
@@ -159,7 +159,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/susanna_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(253, 193, 184);font-size: 18px;">SUSANNA SALVINI</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(253, 193, 184);font-size: 18px;">SUSANNA SALVINI</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(253, 193, 184)">
       <h2 class="stile-insegnante susanna" style="font-size:15px">DANZA CLASSICA <br> MODERN/CONTEMP. </h2>
@@ -183,7 +183,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/simona_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(251, 118, 254);font-size: 18px;">SIMONA PIC</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(251, 118, 254);font-size: 18px;">SIMONA PIC</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(251, 118, 254)">
       <h2 class="stile-insegnante simona" style="font-size:15px;padding:8px">POLE DANCE - FLEXY POTENZIAMENTO</h2>
@@ -205,7 +205,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/micheli_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(236, 0, 138);font-size: 18px;">MANUEL MICHELI</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(236, 0, 138);font-size: 18px;">MANUEL MICHELI</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(236, 0, 138)">
       <h2 class="stile-insegnante micheli">LINDY HOP</h2>
@@ -223,7 +223,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/cosimolorena_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(190, 121, 246);font-size: 17px;">COSIMO & LORENA</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(190, 121, 246);font-size: 17px;">COSIMO & LORENA</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(190, 121, 246)">
       <h2 class="stile-insegnante cosimolorena" style="font-size:14px;padding:5px">SALSA / BACHATA <br> NY STYLE & PACHANGA</h2>
@@ -276,7 +276,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/formenti_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(242, 124, 133);font-size: 13px;">ALESSANDRA FORMENTI</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(242, 124, 133);font-size: 13px;">ALESSANDRA FORMENTI</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(242, 124, 133)">
       <h2 class="stile-insegnante formenti"> DANZA AEREA</h2>
@@ -296,7 +296,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/javi_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(254, 242, 0);font-size: 18px;">JAVI FERNAN</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(254, 242, 0);font-size: 18px;">JAVI FERNAN</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(254, 242, 0)">
       <h2 class="stile-insegnante javi">ZUMBA</h2>
@@ -314,7 +314,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/celani_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(252, 134, 1);font-size: 18px;">CARLOTTA CELANI</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(252, 134, 1);font-size: 18px;">CARLOTTA CELANI</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(252, 134, 1)">
       <h2 class="stile-insegnante celani">ZUMBA</h2>
@@ -340,7 +340,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/vignali_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(254, 0, 0);font-size: 21px;">SILVIA VIGNALI</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(254, 0, 0);font-size: 21px;">SILVIA VIGNALI</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(254, 0, 0)">
       <h2 class="stile-insegnante vignali" style="font-size:15px">KANGOO JUMPS</h2>
@@ -368,7 +368,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/arcidiaco_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(224, 180, 106);font-size: 20px;">MAX ARCIDIACO</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(224, 180, 106);font-size: 20px;">MAX ARCIDIACO</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(224, 180, 106)">
       <h2 class="stile-insegnante arcidiaco" style="font-size:15px; text-align: right">THAI FIT & FUNCTIONAL SISTEM</h2>
@@ -387,7 +387,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/niccolai_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(158, 136, 98);font-size: 15px;">DONATELLA NICCOLAI</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(158, 136, 98);font-size: 15px;">DONATELLA NICCOLAI</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(158, 136, 98)">
       <h2 class="stile-insegnante niccolai" style="font-size:18px; text-align: right">GINNASTICA METODO PILATES</h2>
@@ -415,7 +415,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/fulvia_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(117, 190, 235);font-size: 18px;">FULVIA FRAMBATI</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(117, 190, 235);font-size: 18px;">FULVIA FRAMBATI</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(117, 190, 235)">
       <h2 class="stile-insegnante fulvia" style="font-size:13px; text-align: right">PICCOLIZIE #UNARETEPERLEMAMME</h2>
@@ -447,7 +447,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/alice_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(75, 111, 246);font-size: 18px;">ALICE MONTAGNA</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(75, 111, 246);font-size: 18px;">ALICE MONTAGNA</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(75, 111, 246)">
       <h2 class="stile-insegnante alice">BABY WEARING</h2>
@@ -465,7 +465,7 @@
   <div class="card-staff">
     <div class="foto-insegnante">
       <img src="{{ asset('img/brunelli_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(173, 190, 210);font-size: 15px;">RAFFAELLA BRUNELLI</h2>
+      <h2 class="nome-insegnante stretto" style="color: rgb(173, 190, 210);font-size: 15px;">RAFFAELLA BRUNELLI</h2>
     </div>
     <div class="retro-stile" style="background-color: rgb(173, 190, 210)">
       <h2 class="stile-insegnante brunelli" style="font-size:20px; text-align: right;padding-top: 10px">YOGA INTEGRALE</h2>
@@ -495,21 +495,188 @@
     Ho insegnato a Parsifal Yoga Academy Cremona e tengo Corsi di Yoga a Busseto e in provincia di Mantova. Da aprile ho iniziato i corsi a Parma al centro di Danza The Flow Dance Academy.</p>
   </div>
 
-  <!-- FABRIZIO RICCI -->
+</div>
+
+<h1 id="titolo-staff"> DIREZIONE </h1>
+
+<div class="contenitore staff-section">
+  <!-- ALEX -->
   <div class="card-staff">
     <div class="foto-insegnante">
-      <img src="{{ asset('img/ricci_staff.jpg')}}" alt="" class="foto-staff">
-      <h2 class="nome-insegnante" style="color: rgb(109, 110, 114);font-size: 20px;">FABRIZIO RICCI</h2>
+      <img src="{{ asset('img/bho_staff.jpg')}}" alt="" class="foto-staff">
+      <h2 class="nome-insegnante stretto" style="color:rgb(1, 177, 76); font-size: 25px">Alex Castagnetti</h2>
     </div>
-    <div class="retro-stile" style="background-color: rgb(109, 110, 114)">
-      <h2 class="stile-insegnante ricci" style="font-size:20px; text-align: right;padding-top: 10px">TRATTAMENTI SHIATSU</h2>
+    <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+      <h2 class="stile-insegnante dexio">CEO</h2>
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'ricci'>
+  <div class="staff-side-content" data-staff = 'dexio'>
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
-    <div class="side-content-image" style="background-image: url({{ asset('img/ricci_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
-    <h2 class="side-content-title">FABRIZIO RICCI</h2>
+    <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
+    <h2 class="side-content-title">DEXIO</h2>
+    <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- Papà -->
+  <div class="card-staff">
+    <div class="foto-insegnante">
+      <img src="{{ asset('img/bho_staff.jpg')}}" alt="" class="foto-staff">
+      <h2 class="nome-insegnante medio" style="color:rgb(1, 177, 76); font-size: 25px">Papà</h2>
+    </div>
+    <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+      <h2 class="stile-insegnante dexio">padre</h2>
+    </div>
+  </div>
+  <!-- CONTENITORE LATERALE -->
+  <div class="staff-side-content" data-staff = 'dexio'>
+    <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+    <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
+    <h2 class="side-content-title">DEXIO</h2>
+    <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- segretaria 1 -->
+  <div class="card-staff">
+    <div class="foto-insegnante">
+      <img src="{{ asset('img/bho_staff.jpg')}}" alt="" class="foto-staff">
+      <h2 class="nome-insegnante stretto" style="color:rgb(1, 177, 76); font-size: 25px">segretaria 1</h2>
+    </div>
+    <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+      <h2 class="stile-insegnante dexio">segreteria</h2>
+    </div>
+  </div>
+  <!-- CONTENITORE LATERALE -->
+  <div class="staff-side-content" data-staff = 'dexio'>
+    <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+    <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
+    <h2 class="side-content-title">DEXIO</h2>
+    <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- segretaria 2 -->
+  <div class="card-staff">
+    <div class="foto-insegnante">
+      <img src="{{ asset('img/bho_staff.jpg')}}" alt="" class="foto-staff">
+      <h2 class="nome-insegnante stretto" style="color:rgb(1, 177, 76); font-size: 25px">segretaria 2</h2>
+    </div>
+    <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+      <h2 class="stile-insegnante dexio">segreteria</h2>
+    </div>
+  </div>
+  <!-- CONTENITORE LATERALE -->
+  <div class="staff-side-content" data-staff = 'dexio'>
+    <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+    <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
+    <h2 class="side-content-title">DEXIO</h2>
+    <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- Eddie -->
+  <div class="card-staff">
+    <div class="foto-insegnante">
+      <img src="{{ asset('img/bho_staff.jpg')}}" alt="" class="foto-staff">
+      <h2 class="nome-insegnante medio" style="color:rgb(1, 177, 76); font-size: 25px">Eddie</h2>
+    </div>
+    <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+      <h2 class="stile-insegnante dexio">gif e contenuti</h2>
+    </div>
+  </div>
+  <!-- CONTENITORE LATERALE -->
+  <div class="staff-side-content" data-staff = 'dexio'>
+    <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+    <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
+    <h2 class="side-content-title">DEXIO</h2>
+    <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- Fotografo -->
+  <div class="card-staff">
+    <div class="foto-insegnante">
+      <img src="{{ asset('img/bho_staff.jpg')}}" alt="" class="foto-staff">
+      <h2 class="nome-insegnante stretto" style="color:rgb(1, 177, 76); font-size: 25px">Fotografo</h2>
+    </div>
+    <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+      <h2 class="stile-insegnante dexio">Fotografia</h2>
+    </div>
+  </div>
+  <!-- CONTENITORE LATERALE -->
+  <div class="staff-side-content" data-staff = 'dexio'>
+    <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+    <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
+    <h2 class="side-content-title">DEXIO</h2>
+    <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- videomaker -->
+  <div class="card-staff">
+    <div class="foto-insegnante">
+      <img src="{{ asset('img/bho_staff.jpg')}}" alt="" class="foto-staff">
+      <h2 class="nome-insegnante stretto" style="color:rgb(1, 177, 76); font-size: 25px">videomaker</h2>
+    </div>
+    <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+      <h2 class="stile-insegnante dexio">videomaking</h2>
+    </div>
+  </div>
+  <!-- CONTENITORE LATERALE -->
+  <div class="staff-side-content" data-staff = 'dexio'>
+    <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+    <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
+    <h2 class="side-content-title">DEXIO</h2>
+    <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- grafico -->
+  <div class="card-staff">
+    <div class="foto-insegnante">
+      <img src="{{ asset('img/bho_staff.jpg')}}" alt="" class="foto-staff">
+      <h2 class="nome-insegnante medio" style="color:rgb(1, 177, 76); font-size: 25px">Grafico</h2>
+    </div>
+    <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+      <h2 class="stile-insegnante dexio">Grafiche</h2>
+    </div>
+  </div>
+  <!-- CONTENITORE LATERALE -->
+  <div class="staff-side-content" data-staff = 'dexio'>
+    <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+    <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
+    <h2 class="side-content-title">DEXIO</h2>
+    <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- enrythm -->
+  <div class="card-staff">
+    <div class="foto-insegnante">
+      <img src="{{ asset('img/bho_staff.jpg')}}" alt="" class="foto-staff">
+      <h2 class="nome-insegnante medio" style="color:rgb(1, 177, 76); font-size: 25px">Enrythm</h2>
+    </div>
+    <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+      <h2 class="stile-insegnante dexio">Producer</h2>
+    </div>
+  </div>
+  <!-- CONTENITORE LATERALE -->
+  <div class="staff-side-content" data-staff = 'dexio'>
+    <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+    <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
+    <h2 class="side-content-title">DEXIO</h2>
+    <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- me -->
+  <div class="card-staff">
+    <div class="foto-insegnante">
+      <img src="{{ asset('img/bho_staff.jpg')}}" alt="" class="foto-staff">
+      <h2 class="nome-insegnante medio" style="color:rgb(1, 177, 76); font-size: 25px">Gimmik</h2>
+    </div>
+    <div class="retro-stile" style="background-color:rgb(1, 177, 76)">
+      <h2 class="stile-insegnante dexio">Web Developer</h2>
+    </div>
+  </div>
+  <!-- CONTENITORE LATERALE -->
+  <div class="staff-side-content" data-staff = 'dexio'>
+    <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
+    <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
+    <h2 class="side-content-title">DEXIO</h2>
     <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 </div>

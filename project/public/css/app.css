@@ -202,7 +202,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
   }
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 999px) {
   header {
     height: 60px;
     top: 0px;
@@ -338,7 +338,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
   z-index: 3;
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 550px) {
   .jumbotron {
     width: 100vw;
     padding: 0;
@@ -583,7 +583,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
   font-weight: bold;
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 999px) {
   .contenitore h1 {
     text-align: center;
     margin-bottom: 100px;
@@ -756,6 +756,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  width: 80%;
 }
 
 .corsi-section .card-corsi {
@@ -949,187 +950,402 @@ header .nav-scroll .contenitore #nav-list li:hover {
   }
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 1150px) {
   #titolo-corsi {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    text-align: center;
-    padding: 10px;
-    font-size: 30px;
+    width: 50%;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .corsi-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
     width: 80%;
   }
 
   .corsi-section .card-corsi {
-    width: 45%;
+    width: 19%;
+    height: 190px;
     margin-bottom: 20px;
-    height: 200px;
-    transform: skewX(-10deg);
-    position: relative;
-    overflow: hidden;
-    transition: ease 1s;
-    cursor: pointer;
-  }
-
-  .corsi-section .card-corsi:hover .corso-hip-hop {
-    transform: scale(1.1) skewX(10deg) rotate(7deg);
-    -webkit-filter: blur(0.6px);
-            filter: blur(0.6px);
-  }
-
-  .corsi-section .card-corsi:hover .corso-title {
-    width: 90%;
-    z-index: 3;
-  }
-
-  .corsi-section .card-corsi:hover .fa-info-circle {
-    display: block;
-    position: absolute;
-    color: red;
-    z-index: 2;
-    left: 45%;
-    top: 35%;
-    font-size: 70px;
-    transform: skewX(10deg);
   }
 
   .corsi-section .card-corsi .corso-hip-hop {
-    width: 130%;
-    height: auto;
-    transform: skewX(10deg);
-    height: 100%;
-    position: absolute;
+    width: 125%;
     left: -20px;
-    transition: ease 1s;
   }
 
   .corsi-section .card-corsi .corso-title {
-    padding: 5px;
-    text-align: center;
-    width: 70%;
-    font-size: 100%;
-    color: white;
-    position: absolute;
-    left: -5px;
-    bottom: 5%;
-    z-index: 3;
-    transform: skewX(10deg);
-    transition: ease 1s;
-    background-color: #4e4e4e;
+    font-size: 13px;
   }
 
-  .corsi-section .card-corsi .fa-info-circle {
-    display: none;
-    width: 100%;
-    height: 100%;
-    transition: ease 1s;
-  }
-
-  .corsi-section .card-corsi .corsi-side-content {
-    display: none;
+  .corsi-section .separatore-stili {
+    display: block;
   }
 
   .corsi-section .corsi-side-content {
-    display: none;
-    position: fixed;
-    height: 100%;
-    padding-top: 60px;
-    width: 100%;
-    right: 0;
-    bottom: 0;
-    z-index: 5;
-    background-color: #4e4e4e;
+    width: 24%;
     border-right: 5px solid #d48b6a;
-    border-left: 5px solid #d48b6a;
-    -webkit-animation: slideRight linear 0.6s;
-            animation: slideRight linear 0.6s;
+    border-left: 5px solid #363636;
   }
 
   .corsi-section .corsi-side-content .fa-chevron-circle-right {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    top: 39%;
-    left: 5px;
-    z-index: 10;
-    color: #d48b6a;
-    cursor: pointer;
+    width: 100px;
+    height: 100px;
   }
 
   .corsi-section .corsi-side-content .side-content-image {
     width: 100%;
-    height: auto;
     height: 40%;
-    background-position: center;
   }
 
   .corsi-section .corsi-side-content .side-content-title {
     color: white;
-    margin: 10px;
-    margin-bottom: 0;
-    font-size: 23px;
-    text-align: center;
+    margin: 20px;
+    font-size: 40px;
   }
 
   .corsi-section .corsi-side-content .side-content-description {
     color: white;
-    margin: 0px;
-    height: 30%;
-    overflow-y: auto;
-    overflow: auto;
-    padding: 5px 30px;
-  }
-
-  .corsi-section .corsi-side-content .side-content-description::-webkit-scrollbar {
-    width: 1em;
-  }
-
-  .corsi-section .corsi-side-content .side-content-description::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px 10px 10px 10px;
-  }
-
-  .corsi-section .corsi-side-content .side-content-description::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
-    border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+    height: 25%;
   }
 
   .corsi-section .corsi-side-content .mini-insegnante {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     border: 5px solid black;
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-top: 5px;
-    transition: ease 0.5s;
-    display: inline;
-    cursor: pointer;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  #titolo-corsi {
+    width: 50%;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
-  .corsi-section .corsi-side-content .mini-insegnante:hover {
-    transform: scale(1.1);
+  .corsi-section {
+    width: 80%;
+  }
+
+  .corsi-section .card-corsi {
+    width: 22%;
+    height: 190px;
+    margin-bottom: 20px;
+  }
+
+  .corsi-section .card-corsi .corso-hip-hop {
+    width: 125%;
+    left: -20px;
+  }
+
+  .corsi-section .card-corsi .corso-title {
+    font-size: 13px;
   }
 
   .corsi-section .separatore-stili {
     display: none;
   }
 
-  .corsi-section .active {
-    display: block;
+  .corsi-section .corsi-side-content {
+    width: 50%;
+    border-right: 5px solid #d48b6a;
+    border-left: 5px solid #363636;
+    padding-top: 60px;
   }
 
-  .corsi-section .slideOutRight {
-    -webkit-animation: slideOutRight linear 0.6s;
-            animation: slideOutRight linear 0.6s;
+  .corsi-section .corsi-side-content .fa-chevron-circle-right {
+    width: 60px;
+    height: 60px;
+    top: 65px;
+    left: 5px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .corsi-section .corsi-side-content .side-content-title {
+    color: white;
+    margin: 15px;
+    font-size: 30px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-description {
+    color: white;
+    margin: 15px;
+    height: 25%;
+  }
+
+  .corsi-section .corsi-side-content .mini-insegnante {
+    width: 90px;
+    height: 90px;
+    border: 5px solid black;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #titolo-corsi {
+    width: 50%;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .corsi-section {
+    width: 80%;
+  }
+
+  .corsi-section .card-corsi {
+    width: 22%;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  .corsi-section .card-corsi .corso-hip-hop {
+    width: 140%;
+    left: -19px;
+  }
+
+  .corsi-section .card-corsi .corso-title {
+    font-size: 13px;
+  }
+
+  .corsi-section .separatore-stili {
+    display: none;
+  }
+
+  .corsi-section .corsi-side-content {
+    width: 50%;
+    border-right: 5px solid #d48b6a;
+    border-left: 5px solid #363636;
+    padding-top: 60px;
+  }
+
+  .corsi-section .corsi-side-content .fa-chevron-circle-right {
+    width: 60px;
+    height: 60px;
+    top: 65px;
+    left: 5px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .corsi-section .corsi-side-content .side-content-title {
+    color: white;
+    margin: 15px;
+    font-size: 30px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-description {
+    color: white;
+    margin: 15px;
+    height: 25%;
+  }
+
+  .corsi-section .corsi-side-content .mini-insegnante {
+    width: 90px;
+    height: 90px;
+    border: 4px solid black;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #titolo-corsi {
+    width: 50%;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .corsi-section {
+    width: 80%;
+  }
+
+  .corsi-section .card-corsi {
+    width: 22%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .corsi-section .card-corsi .corso-hip-hop {
+    width: 140%;
+    left: -19px;
+  }
+
+  .corsi-section .card-corsi .corso-title {
+    font-size: 8px;
+  }
+
+  .corsi-section .separatore-stili {
+    display: none;
+  }
+
+  .corsi-section .corsi-side-content {
+    width: 50%;
+    border-right: 5px solid #d48b6a;
+    border-left: 5px solid #363636;
+    padding-top: 60px;
+  }
+
+  .corsi-section .corsi-side-content .fa-chevron-circle-right {
+    width: 60px;
+    height: 60px;
+    top: 65px;
+    left: 5px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .corsi-section .corsi-side-content .side-content-title {
+    color: white;
+    margin: 15px;
+    font-size: 30px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-description {
+    color: white;
+    margin: 15px;
+    height: 25%;
+  }
+
+  .corsi-section .corsi-side-content .mini-insegnante {
+    width: 80px;
+    height: 80px;
+    border: 4px solid black;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #titolo-corsi {
+    width: 50%;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .corsi-section .card-corsi {
+    width: 30%;
+    height: 150px;
+  }
+
+  .corsi-section .card-corsi .corso-hip-hop {
+    width: 140%;
+    left: -19px;
+  }
+
+  .corsi-section .card-corsi .corso-title {
+    font-size: 8px;
+  }
+
+  .corsi-section .corsi-side-content {
+    width: 100%;
+    border-right: 5px solid #d48b6a;
+    border-left: 5px solid #d48b6a;
+    padding-top: 60px;
+  }
+
+  .corsi-section .corsi-side-content .fa-chevron-circle-right {
+    width: 60px;
+    height: 60px;
+    top: 65px;
+    left: 5px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .corsi-section .corsi-side-content .side-content-title {
+    color: white;
+    margin: 15px;
+    font-size: 30px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-description {
+    color: white;
+    margin: 15px;
+    height: 25%;
+  }
+
+  .corsi-section .corsi-side-content .mini-insegnante {
+    width: 80px;
+    height: 80px;
+    border: 3px solid black;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #titolo-corsi {
+    width: 50%;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .corsi-section .card-corsi {
+    width: 30%;
+    height: 130px;
+  }
+
+  .corsi-section .card-corsi .corso-hip-hop {
+    width: 140%;
+    left: -17px;
+  }
+
+  .corsi-section .card-corsi .corso-title {
+    font-size: 7px;
+  }
+
+  .corsi-section .corsi-side-content {
+    width: 100%;
+    border-right: 5px solid #d48b6a;
+    border-left: 5px solid #d48b6a;
+    padding-top: 60px;
+  }
+
+  .corsi-section .corsi-side-content .fa-chevron-circle-right {
+    width: 50px;
+    height: 50px;
+    top: 65px;
+    left: 5px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .corsi-section .corsi-side-content .side-content-title {
+    color: white;
+    margin: 15px;
+    font-size: 25px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-description {
+    color: white;
+    margin: 15px;
+    height: 25%;
+  }
+
+  .corsi-section .corsi-side-content .mini-insegnante {
+    width: 65px;
+    height: 65px;
+    border: 3px solid black;
+    margin-left: 20px;
   }
 }
 
@@ -1142,7 +1358,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
 #titolo-staff {
   width: 25%;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 50px;
   text-align: center;
   padding: 10px;
@@ -1271,7 +1487,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
 
 .staff-section .staff-side-content .side-content-image {
   width: 100%;
-  height: 50%;
+  height: 40%;
 }
 
 .staff-section .staff-side-content .side-content-title {
@@ -1353,9 +1569,638 @@ header .nav-scroll .contenitore #nav-list li:hover {
   }
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 999px) {
   #titolo-staff {
-    width: 90%;
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+  .staff-section {
+    width: 85%;
+  }
+
+  .staff-section .card-staff {
+    width: 21%;
+    height: 208px;
+    margin-bottom: 20px;
+  }
+
+  .staff-section .card-staff .foto-insegnante {
+    max-width: 230px;
+    width: 80%;
+    height: 80%;
+    right: 10%;
+    top: 0;
+  }
+
+  .staff-section .card-staff .foto-insegnante .foto-staff {
+    width: 130%;
+    height: 100%;
+    left: -10px;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante {
+    bottom: 0;
+    display: flex;
+    padding-right: 10px;
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.stretto {
+    font-size: 10px !important;
+    text-align: right;
+    font-weight: bold;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.medio {
+    font-size: 12px !important;
+    font-weight: bold;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.largo {
+    font-size: 12px !important;
+  }
+
+  .staff-section .card-staff .retro-stile {
+    width: 80%;
+    height: 90%;
+    right: 15px;
+    bottom: 0px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante {
+    bottom: 0px;
+    padding-right: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 10px;
+    text-align: right;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.dexio {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
+    font-size: 10px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
+    font-size: 10px !important;
+    padding-top: 10px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.simona {
+    font-size: 9px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.micheli {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
+    font-size: 9px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
+    font-size: 11px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.javi {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.celani {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
+    font-size: 7px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
+    font-size: 11px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
+    font-size: 9px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alice {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.ricci {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .staff-side-content {
+    padding-top: 60px;
+    width: 50%;
+    border-right: 5px solid #363636;
+    border-left: 5px solid #d48b6a;
+  }
+
+  .staff-section .staff-side-content .fa-chevron-circle-left {
+    width: 60px;
+    height: 60px;
+    top: 65px;
+    right: 5px;
+  }
+
+  .staff-section .staff-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .staff-section .staff-side-content .side-content-title {
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  .staff-section .staff-side-content .side-content-description {
+    height: 35%;
+    margin: 20px;
+    font-size: 15px;
+  }
+
+  .staff-section .active {
+    display: block;
+  }
+
+  .staff-section .slideOutLeft {
+    -webkit-animation: slideOutLeft linear 0.6s;
+            animation: slideOutLeft linear 0.6s;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #titolo-staff {
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+  .staff-section {
+    width: 85%;
+  }
+
+  .staff-section .card-staff {
+    width: 22%;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  .staff-section .card-staff .foto-insegnante {
+    max-width: 230px;
+    width: 80%;
+    height: 80%;
+    right: 10%;
+    top: 0;
+  }
+
+  .staff-section .card-staff .foto-insegnante .foto-staff {
+    width: 130%;
+    height: 100%;
+    left: -10px;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante {
+    bottom: 0;
+    display: flex;
+    padding-right: 10px;
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.stretto {
+    font-size: 9px !important;
+    text-align: right;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.medio {
+    font-size: 10px !important;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.largo {
+    font-size: 12px !important;
+  }
+
+  .staff-section .card-staff .retro-stile {
+    width: 80%;
+    height: 90%;
+    right: 8px;
+    bottom: 0px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante {
+    bottom: 0px;
+    padding-right: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.dexio {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
+    font-size: 8.3px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
+    font-size: 8px !important;
+    padding-top: 10px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.simona {
+    font-size: 8px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.micheli {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
+    font-size: 8px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
+    font-size: 9px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.javi {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.celani {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
+    font-size: 7px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
+    font-size: 9px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
+    font-size: 9px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
+    font-size: 7px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alice {
+    font-size: 10px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
+    font-size: 10px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.ricci {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .staff-side-content {
+    padding-top: 60px;
+    width: 50%;
+    border-right: 5px solid #363636;
+    border-left: 5px solid #d48b6a;
+  }
+
+  .staff-section .staff-side-content .fa-chevron-circle-left {
+    width: 60px;
+    height: 60px;
+    top: 65px;
+    right: 5px;
+  }
+
+  .staff-section .staff-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .staff-section .staff-side-content .side-content-title {
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  .staff-section .staff-side-content .side-content-description {
+    height: 35%;
+    margin: 20px;
+    font-size: 15px;
+  }
+
+  .staff-section .active {
+    display: block;
+  }
+
+  .staff-section .slideOutLeft {
+    -webkit-animation: slideOutLeft linear 0.6s;
+            animation: slideOutLeft linear 0.6s;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #titolo-staff {
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+  .staff-section {
+    width: 85%;
+  }
+
+  .staff-section .card-staff {
+    width: 22%;
+    height: 160px;
+    margin-bottom: 20px;
+  }
+
+  .staff-section .card-staff .foto-insegnante {
+    max-width: 230px;
+    width: 80%;
+    height: 80%;
+    right: 10%;
+    top: 0;
+  }
+
+  .staff-section .card-staff .foto-insegnante .foto-staff {
+    width: 130%;
+    height: 100%;
+    left: -5px;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante {
+    bottom: 0;
+    display: flex;
+    padding-right: 10px;
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.stretto {
+    font-size: 8px !important;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.medio {
+    font-size: 9px !important;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.largo {
+    font-size: 12px !important;
+  }
+
+  .staff-section .card-staff .retro-stile {
+    width: 80%;
+    height: 90%;
+    right: 8px;
+    bottom: 0px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante {
+    bottom: 0px;
+    padding-right: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.dexio {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
+    font-size: 6.7px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
+    font-size: 8px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
+    font-size: 7px !important;
+    padding-top: 10px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.simona {
+    font-size: 6px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.micheli {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
+    font-size: 6px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
+    font-size: 8px !important;
+    padding-top: 15px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
+    font-size: 9px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.javi {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.celani {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
+    font-size: 7px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
+    font-size: 7px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
+    font-size: 7px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
+    font-size: 5px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alice {
+    font-size: 9px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
+    font-size: 9px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.ricci {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .staff-side-content {
+    padding-top: 60px;
+    width: 50%;
+    border-right: 5px solid #363636;
+    border-left: 5px solid #d48b6a;
+  }
+
+  .staff-section .staff-side-content .fa-chevron-circle-left {
+    width: 60px;
+    height: 60px;
+    top: 65px;
+    right: 5px;
+  }
+
+  .staff-section .staff-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .staff-section .staff-side-content .side-content-title {
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  .staff-section .staff-side-content .side-content-description {
+    height: 35%;
+    margin: 20px;
+    font-size: 15px;
+  }
+
+  .staff-section .active {
+    display: block;
+  }
+
+  .staff-section .slideOutLeft {
+    -webkit-animation: slideOutLeft linear 0.6s;
+            animation: slideOutLeft linear 0.6s;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #titolo-staff {
+    width: 50%;
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 50px;
@@ -1373,10 +2218,11 @@ header .nav-scroll .contenitore #nav-list li:hover {
   }
 
   .staff-section .card-staff {
-    width: 50%;
-    height: 270px;
+    width: 30%;
+    height: 160px;
     position: relative;
     cursor: pointer;
+    margin-bottom: 20px;
   }
 
   .staff-section .card-staff:hover .foto-insegnante {
@@ -1394,7 +2240,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
   .staff-section .card-staff .foto-insegnante {
     max-width: 230px;
     width: 80%;
-    height: 75%;
+    height: 80%;
     position: absolute;
     right: 10%;
     top: 0;
@@ -1410,7 +2256,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
     transform: skewX(10deg);
     height: 100%;
     position: absolute;
-    left: -15px;
+    left: -10px;
     transition: ease 1s;
   }
 
@@ -1422,7 +2268,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
     justify-content: flex-end;
     margin: 0;
     padding-right: 10px;
-    height: 50px;
+    height: 30px;
     z-index: 2;
     width: 100%;
     color: #00ffe9;
@@ -1431,12 +2277,24 @@ header .nav-scroll .contenitore #nav-list li:hover {
     text-align: right;
   }
 
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.stretto {
+    font-size: 9px !important;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.medio {
+    font-size: 12px !important;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.largo {
+    font-size: 15px !important;
+  }
+
   .staff-section .card-staff .retro-stile {
     width: 80%;
-    height: 85%;
+    height: 90%;
     position: absolute;
-    right: 20px;
-    bottom: 10px;
+    right: 10px;
+    bottom: 0px;
     background: #00ffe9;
     transform: skewX(-10deg);
     overflow: hidden;
@@ -1446,7 +2304,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
 
   .staff-section .card-staff .retro-stile .stile-insegnante {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -1457,41 +2315,52 @@ header .nav-scroll .contenitore #nav-list li:hover {
     width: 100%;
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 10px;
     text-align: right;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
+  .staff-section .card-staff .retro-stile .stile-insegnante.dexio {
     font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
+    font-size: 6px !important;
     padding-top: 20px !important;
   }
 
   .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
-    font-size: 14px !important;
+    font-size: 9px !important;
+    padding-top: 10px !important;
   }
 
   .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
-    font-size: 15px !important;
-    padding-top: 20px !important;
+    font-size: 10px !important;
+    padding-top: 10px !important;
   }
 
   .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
-    font-size: 15px !important;
-    padding-top: 20px !important;
+    font-size: 10px !important;
+    padding-top: 10px !important;
   }
 
   .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
-    font-size: 13px !important;
+    font-size: 6px !important;
     padding-top: 10px;
   }
 
   .staff-section .card-staff .retro-stile .stile-insegnante.simona {
-    font-size: 10px !important;
+    font-size: 6px !important;
     padding-top: 20px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
+  .staff-section .card-staff .retro-stile .stile-insegnante.micheli {
     font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
+    font-size: 6px !important;
     padding-top: 20px !important;
   }
 
@@ -1501,32 +2370,47 @@ header .nav-scroll .contenitore #nav-list li:hover {
   }
 
   .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
-    font-size: 15px !important;
+    font-size: 10px !important;
     padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
-    font-size: 12px !important;
-    padding-top: 20px !important;
+  .staff-section .card-staff .retro-stile .stile-insegnante.javi {
+    font-size: 10px !important;
+    padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
-    font-size: 12px !important;
-    padding-top: 20px !important;
+  .staff-section .card-staff .retro-stile .stile-insegnante.celani {
+    font-size: 10px !important;
+    padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
+  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
     font-size: 10px !important;
     padding-top: 20px !important;
   }
 
+  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
+    font-size: 6px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
+    font-size: 6px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
+    font-size: 6px !important;
+    padding-top: 20px !important;
+  }
+
   .staff-section .card-staff .retro-stile .stile-insegnante.alice {
-    font-size: 15px !important;
+    font-size: 10px !important;
     padding-top: 20px !important;
   }
 
   .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
-    font-size: 15px !important;
+    font-size: 10px !important;
     padding-top: 20px !important;
   }
 
@@ -1553,12 +2437,12 @@ header .nav-scroll .contenitore #nav-list li:hover {
   }
 
   .staff-section .staff-side-content .fa-chevron-circle-left {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     transform: rotate(180deg);
-    top: 48%;
-    right: -5px;
+    top: 65px;
+    right: 5px;
     z-index: 10;
     color: #d48b6a;
     cursor: pointer;
@@ -1566,7 +2450,13 @@ header .nav-scroll .contenitore #nav-list li:hover {
 
   .staff-section .staff-side-content .side-content-image {
     width: 100%;
+    height: 40%;
+  }
+
+  .staff-section .staff-side-content .side-content-image {
+    width: 100%;
     height: 50%;
+    margin: 0 auto;
   }
 
   .staff-section .staff-side-content .side-content-title {
@@ -1584,19 +2474,216 @@ header .nav-scroll .contenitore #nav-list li:hover {
     padding-bottom: 30px;
   }
 
-  .staff-section .staff-side-content .side-content-description::-webkit-scrollbar {
-    width: 1em;
+  .staff-section .active {
+    display: block;
   }
 
-  .staff-section .staff-side-content .side-content-description::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px 10px 10px 10px;
+  .staff-section .slideOutLeft {
+    -webkit-animation: slideOutLeft linear 0.6s;
+            animation: slideOutLeft linear 0.6s;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #titolo-staff {
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 25px;
   }
 
-  .staff-section .staff-side-content .side-content-description::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
-    border-radius: 10px 10px 10px 10px;
+  .staff-section {
+    width: 85%;
+  }
+
+  .staff-section .card-staff {
+    width: 30%;
+    height: 130px;
+  }
+
+  .staff-section .card-staff .foto-insegnante {
+    max-width: 230px;
+    width: 80%;
+    height: 80%;
+    right: 10%;
+    top: 0;
+  }
+
+  .staff-section .card-staff .foto-insegnante .foto-staff {
+    width: 130%;
+    height: 100%;
+    left: -5px;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante {
+    bottom: 0;
+    display: flex;
+    padding-right: 10px;
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.stretto {
+    font-size: 8px !important;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.medio {
+    font-size: 9px !important;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.largo {
+    font-size: 12px !important;
+  }
+
+  .staff-section .card-staff .retro-stile {
+    width: 80%;
+    height: 90%;
+    right: 8px;
+    bottom: 0px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante {
+    bottom: 0px;
+    padding-right: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.dexio {
+    font-size: 8px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
+    font-size: 5px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
+    font-size: 7px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
+    font-size: 8px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
+    font-size: 7px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
+    font-size: 5px !important;
+    padding-top: 10px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.simona {
+    font-size: 5px !important;
+    padding-top: 30px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.micheli {
+    font-size: 7px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
+    font-size: 5px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
+    font-size: 7px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.javi {
+    font-size: 8px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.celani {
+    font-size: 8px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
+    font-size: 7px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
+    font-size: 6px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
+    font-size: 6px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
+    font-size: 4px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.alice {
+    font-size: 8px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
+    font-size: 8px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.ricci {
+    font-size: 15px !important;
+    padding-top: 20px !important;
+  }
+
+  .staff-section .staff-side-content {
+    padding-top: 60px;
+    width: 100%;
+    border-right: 5px solid #d48b6a;
+    border-left: 5px solid #d48b6a;
+  }
+
+  .staff-section .staff-side-content .fa-chevron-circle-left {
+    width: 50px;
+    height: 50px;
+    top: 65px;
+    right: 5px;
+  }
+
+  .staff-section .staff-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .staff-section .staff-side-content .side-content-image {
+    width: 100%;
+    height: 50%;
+  }
+
+  .staff-section .staff-side-content .side-content-title {
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  .staff-section .staff-side-content .side-content-description {
+    height: 35%;
+    margin: 20px;
+    font-size: 15px;
   }
 
   .staff-section .active {
@@ -1643,6 +2730,38 @@ header .nav-scroll .contenitore #nav-list li:hover {
   width: 100%;
   height: 90vh;
   box-shadow: 10px 10px 10px 10px #383838;
+}
+
+@media screen and (max-width: 999px) {
+  #titolo-orari {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .orari-section {
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .orari-section .planning {
+    width: 100%;
+    height: auto;
+  }
+
+  .orari-section .planning #planning-img {
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 10px 10px #383838;
+  }
 }
 
 #scroll-to-contatti {
@@ -1702,6 +2821,66 @@ header .nav-scroll .contenitore #nav-list li:hover {
 
 #contatti .contatti-section #zona-info h3 {
   font-size: 20px;
+}
+
+@media screen and (max-width: 999px) {
+  #titolo-contatti {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  #contatti {
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+  }
+
+  #contatti .contatti-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #contatti .contatti-section #zona-mappa {
+    width: 99%;
+    height: 200px;
+  }
+
+  #contatti .contatti-section #zona-mappa #map {
+    border: 2px solid black;
+    height: 200px;
+    width: 100%;
+  }
+
+  #contatti .contatti-section #zona-info {
+    background-image: linear-gradient(to left, rgba(181, 188, 195, 0) 10%, #090909 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    text-align: center;
+    width: 80%;
+    height: 350px;
+    color: #d48b6a;
+  }
+
+  #contatti .contatti-section #zona-info h2 {
+    font-size: 25px;
+    color: white;
+  }
+
+  #contatti .contatti-section #zona-info h3 {
+    font-size: 15px;
+  }
 }
 
 footer {

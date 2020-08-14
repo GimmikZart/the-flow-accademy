@@ -108,7 +108,7 @@ function prevImg() {
 
   // HEADER SCROLL EFFECT CAMBIO CSS IN BASE AL DEVICE
 
-  var mediaQueryPhone = window.matchMedia("(min-width: 768px)");
+  var mediaQueryPhone = window.matchMedia("(min-width: 999px)");
 
   function headerScrollEffect(x) {
     if (x.matches) {

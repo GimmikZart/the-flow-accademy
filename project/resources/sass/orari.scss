@@ -34,3 +34,43 @@
     }
   }
 }
+
+// MEDIA QUERY -------------------------------------------------------------------------
+
+// MOBILE STRUTTURA
+@media screen and (max-width: 999px) {
+
+  #titolo-orari {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    @extend %stile-titoli;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .orari-section {
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    .planning {
+      width: 100%;
+      height: auto;
+      #planning-img{
+        width: 100%;
+        height: auto;
+        box-shadow: 10px 10px 10px 10px rgb(56, 56, 56);
+      }
+    }
+  }
+}
+
+// MOBILE GRANDE STRUTTURA
+@media screen and (max-width: 999px) {
+
+}

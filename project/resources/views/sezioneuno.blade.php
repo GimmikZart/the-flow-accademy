@@ -3,7 +3,7 @@
 {{-- STREETDANCE --}}
 <div class="contenitore">
   <div id="primaSezione"></div>
-  <h1 id="titolo-home" > COSA PUOI TROVARE ALLA THE FLOW ACCADEMY</h1>
+  <h1 id="titolo-home" > WELCOME TO THE FLOW </h1>
 
   <section class="sezioni-home left">
     <div id="img-streetdance"></div>

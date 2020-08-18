@@ -200,6 +200,40 @@ function prevImg() {
 
     })
 
+    // LINK A CONTAINER CORSI
+
+    $('.staff-style').click(function(){
+
+      var mediaQueryPhone = window.matchMedia("(max-width: 550px)");
+
+      if (mediaQueryPhone.matches) {
+        var staffContainer = $(this).parent().parent();
+        staffContainer.addClass('slideOutLeft');
+
+        setTimeout(exitLeftDue,600);
+
+        function exitLeftDue(){
+          staffContainer.removeClass('active');
+          staffContainer.removeClass('slideOutLeft');
+        }
+
+        $('.corsi-side-content').removeClass('active');
+        var corsoLink = "'" + $(this).data('corso') + "'";
+        // console.log($('.staff-side-content[data-staff*=' + staffLink));
+        $('.corsi-side-content[data-corso*=' + corsoLink).addClass('active');
+
+      } else {
+        $('.corsi-side-content').removeClass('active');
+        var corsoLink = "'" + $(this).data('corso') + "'";
+
+
+        // console.log($('.staff-side-content[data-staff*=' + staffLink));
+        $('.corsi-side-content[data-corso*=' + corsoLink).addClass('active');
+      }
+
+
+    })
+
 
 
 
@@ -256,6 +290,8 @@ var marker = new tt.Marker().setLngLat(theFlowCoordinates).addTo(map);
       },500);
     };
   };
+
+
 
 
 }); //fine document ready

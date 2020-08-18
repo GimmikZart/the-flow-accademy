@@ -270,6 +270,30 @@ $(document).ready(function () {
       "transform": "rotate(0deg)",
       "height": "120%"
     });
+  }); // LINK A CONTAINER CORSI
+
+  $('.staff-style').click(function () {
+    var mediaQueryPhone = window.matchMedia("(max-width: 550px)");
+
+    if (mediaQueryPhone.matches) {
+      var exitLeftDue = function exitLeftDue() {
+        staffContainer.removeClass('active');
+        staffContainer.removeClass('slideOutLeft');
+      };
+
+      var staffContainer = $(this).parent().parent();
+      staffContainer.addClass('slideOutLeft');
+      setTimeout(exitLeftDue, 600);
+      $('.corsi-side-content').removeClass('active');
+      var corsoLink = "'" + $(this).data('corso') + "'"; // console.log($('.staff-side-content[data-staff*=' + staffLink));
+
+      $('.corsi-side-content[data-corso*=' + corsoLink).addClass('active');
+    } else {
+      $('.corsi-side-content').removeClass('active');
+      var corsoLink = "'" + $(this).data('corso') + "'"; // console.log($('.staff-side-content[data-staff*=' + staffLink));
+
+      $('.corsi-side-content[data-corso*=' + corsoLink).addClass('active');
+    }
   }); // TOM TOM----
 
   var theFlowCoordinates = [10.328510, 44.825600];

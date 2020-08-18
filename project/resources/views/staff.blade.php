@@ -22,7 +22,15 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/dexio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DEXIO</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'breaking'>#breaking</span>
+    </div>
     <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!--ALEX CASTAGNETTI -->
@@ -40,7 +48,18 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/alex_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">Alex Castagnetti</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'hip-hop'>#hip-hop</span>
+      <span  class='staff-style' data-corso = 'popping'>#popping</span>
+      <span  class='staff-style' data-corso = 'locking'>#locking</span>
+      <span  class='staff-style' data-corso = 'house-dance'>#house-dance</span>
+    </div>
     <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- ZOTO -->
@@ -60,6 +79,9 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/zoto_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">ZOTO</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'afro'>#afro</span>
+    </div>
     <p class="side-content-description" >Ho iniziato a ballare nel 2015 studiando da autodidatta inizialmente alcuni stili Afro urbani (Coupé-décalé e Azonto) e in seguito approfondendo su quasi tutti i stili Afro (Afrobeats, Coupé Decalé, Azonto, Ndombolo, Afrohouse) con la mia crew di allora la Yahfa.
     <br><br>
     Nel 2019 dopo aver partecipato a varie gare e stage sono entrato nel mondo dell’insegnamento lavorando come insegnante di danza presso diverse scuole tra Bergamo e Milano (B Music, Underground Milano Dance Studio, Thomas Art).
@@ -75,6 +97,11 @@
     finalista 1 vs 1 Freestyle, 2nd posto gruppi coreografico
     <br><br>
     AfroDance Contest 1a edizione - Torino (2017) finalista 1 vs 1 Freestyle, 2nd posto Gruppi Coreografico.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- FEDERICA NAZZARI-->
@@ -92,6 +119,9 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/nazzari_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">FEDERICA NAZZARI</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'dancehall'>#dancehall</span>
+    </div>
     <p class="side-content-description" >Nata a Monza, inizia gli studi di danza a 4 anni presso la scuola NEW CENTER di LAURA COLOMBO della sua
     città, dove segue per anni lezioni di danza classica e moderna.
     All’età di 12 anni inizia gli studi presso la scuola ALOYSIUS DANCE, dove segue le lezioni di Hip Hop,
@@ -129,6 +159,11 @@
     Lavora come ballerina e coreografa professionista con un’organizzazione di locali su tutta Milano e come
     ballerina e rappresentate di official Belaire swiss per il tour nei locali in svizzera.<br><br>
     Nel corso degli anni, Studia e partecipa a workshop|camp con coreografi e ballerini di tutto il mondo.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- FABIO BOSS -->
@@ -146,13 +181,21 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/fabio_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">FABIO BOSS</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'house-dance'>#house-dance</span>
+    </div>
     <p class="side-content-description" >Ho iniziato a ballare molto giovane all’età di 7 anni partendo dalle danze caraibiche. Ho sempre cercato di integrare questa disciplina con altre danze (classica, modern, flamenco, hip hop).
       <br><br>
     A 17 anni ho conosciuto la cultura House di cui mi sono subito appassionato formandomi con i migliori esponenti in Italia e dall’estero (Marjory Smarth, Link, Caleaf, Serial Steppers, Mamson, Gianni Wers, Vins e altri).
     <br><br>
     Attualmente studio a livello professionale alla Modulo Academy di Laccio tutti gli stili della cultura Hip hop a cui mi dedico esclusivamente integrando le varie esperienze professionali (tra cui la partecipazione come ballerino alla finale di X Factor 2019) alla mia indipendente attività creativa da ballerino in cui cerco di fondere la mia passione per la storia dell’arte e delle arti con la danza.
 
-</p>
+    </p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- SUSANNA SALVINI-->
@@ -170,6 +213,11 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/susanna_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">SUSANNA SALVINI</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'modern'>#modern</span>
+      <span  class='staff-style' data-corso = 'classica'>#classica</span>
+      <span  class='staff-style' data-corso = 'contemporanea'>#contemporanea</span>
+    </div>
     <p class="side-content-description" >Susanna Salvini, nata a Parma il 15/11/95.
     Danzatrice presso la compagnia Milano Contemporary Ballet di Roberto Altamura e Agora Coaching Project di Michele Merola ed Enrico Morelli, con le quali ha portato in scena spettacoli di coreografi internazionali in tutta Italia; attualmente collabora con Rodan Project di Camilla Negri.
     Ha partecipato a numerosi stage di danza con l'Accademia Teatro alla Scala, Scuola del Balletto di Roma, Aterballetto, Royal Ballet School, Studio Wayne McGregor, Peridance Capezio Center, Nunzio Impellizzeri Dance Company.
@@ -177,6 +225,11 @@
     Nel 2019 si laurea presso la facoltà universitaria di Scienze Motorie, con voto 110/110 e lode.
     Nel 2020 si diploma come Istruttrice di Ginnastica Posturale (AICS).
     Attualmente è insegnante di danza classica e contemporanea e personal trainer. </p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- SIMONA PIC -->
@@ -194,11 +247,20 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/simona_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">SIMONA PIC</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'poledance'>#pole-dance</span>
+      <span  class='staff-style' data-corso = 'poledance'>#flexy-potenziamento</span>
+    </div>
     <p class="side-content-description" >Simona Si avvicina alla Danza classica all’età di 10 anni per poi appassionarsi alla danza Moderna seguendo un corso professionale con Camilla Negri e partecipando a collaborazioni con Aterballetto e Artemis danza.
     Nello stesso periodo prosegue i suoi studi Universitari conseguendo la Laurea in Psicologia Clinica  e il diploma di Tecnico di Meditazione Sportiva.
     Successivamente sperimenta altre discipline come Cerchio Aereo e Tessuto Aereo.
     Nel 2016 conosce la Pole Dance e inizia a seguire corsi amatoriali con Chiara Alinovi fino ad appassionarsi a tal punto da conseguire nel 2020 il diploma di Insegnante di Ginnastica Acrobatica specialità Pole Dance ACSI con Elisa Boni.
     A ottobre 2019 vince la gara “Coppa Italia Pole Dance” categoria amatori. </p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- MANUEL MICHELI -->
@@ -216,7 +278,15 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/micheli_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">MANUEL MICHELI</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'lindy-hop'>#lindy-hop</span>
+    </div>
     <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- COSIMO & LORENA -->
@@ -234,6 +304,11 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/cosimolorena_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">COSIMO & LORENA</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'salsa'>#salsa</span>
+      <span  class='staff-style' data-corso = 'bachata'>#bachata</span>
+      <span  class='staff-style' data-corso = 'pachanga'>#pachanga</span>
+    </div>
     <p class="side-content-description" >-------COSIMO NOTARSTEFANO-------
       <br><br>
     · ha studiato per 2 anni Danza Classica e Moderna presso ARP DANCE STUDIO (PARMA)
@@ -270,6 +345,11 @@
     <br><br>
     · HO BALLATO NEL 2019 A NEW YORK IN OCCASIONE DEL CONGRESSO NEW YORK SALSA CONGRESS ASSIEME ALLA COMPAGNIA DI DIEGO E CRISTINA OLORUN DANCE COMPANY
     </p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- ALESSANDRA FORMENTI -->
@@ -287,9 +367,17 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/formenti_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">ALESSANDRA FORMENTI</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'danza-aerea'>#danza-aerea</span>
+    </div>
     <p class="side-content-description" >Nata a Milano, a 4 anni inizia il suo percorso artistico-sportivo dedicandosi al Twirling. Due anni dopo, entra a far parte della squadra agonistica, vincendo negli anni diversi titoli regionali e nazionali. Si avvicina all’insegnamento nel 2002 e, una volta maggiorenne, ottiene le certificazioni di Giudice Federale e Tecnico di base della Federazione Italiana di Twirling (FITw). Qui trova la sua dimensione: insegnare è la sua vocazione! Allena bambini della pre-agonistica, allieve della serie A, diventa istruttrice di acquaticità per bambini normodotati e disabili ed Educatore Sportivo di II livello CONI, convita che lo sport debba essere forma di inclusione più che di competizione. Dopo la laurea triennale, diventa Counselor ed insegnante di Bioenergetica, presso l’istituto di Psicologia Somatorelazionale di Milano. Desiderosa di studiare una nuova disciplina acrobatica con attrezzi, si avvicina alla danza aerea e in pochi anni trasforma la sua passione in professione.
 
     Oggi è presidente dell’Associazione sportiva di promozione sociale “Fare per sentire”, attraverso la quale promuove progetti di consapevolezza e prevenzione del bullismo e della violenza di genere, attraverso il movimento e le discipline aeree. Nel 2019 lo CSEN le riconosce la qualifica di Formatore Nazionale per la disciplina di Danza Aerea Acrobatica su Tessuti Aerei, approvando il programma di studi di “Educazione attraverso lo sport”. È co-fondatrice di AIDA -Accademia Italiana Danza Aerea, dove tiene corsi di formazione per future insegnanti di danza aerea, insieme ad Elisa Alberga, fondatrice di Evolo - Danza Aero Dinamica, della quale è coach.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- JAVI FERNAN -->
@@ -307,7 +395,15 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/javi_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">JAVI FERNAN</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'zumba'>#zumba</span>
+    </div>
     <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- CARLOTTA CELANI -->
@@ -325,6 +421,9 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/celani_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">CARLOTTA CELANI</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'zumba'>#zumba</span>
+    </div>
     <p class="side-content-description" >Da sempre nel ramo della Ginnastica Ritmica, ex ginnasta, istruttrice e ballerina.
       <br>
     Laureata in Scienze Motorie Sport e Salute.
@@ -334,6 +433,11 @@
     Nel 2006 ottiene il diploma di PILATES “BASIC” Matwork Instructor 1° livello, successivamente “PILATES Matwork Advanced 121 Personal Trainer” e “PILATES nella DANZA”.
      <br>
     Dal 2010 nasce una passione incondizionata per la “ZUMBA” e la grande carica ed energia di questa disciplina la porta ad approfondire gli studi in questo ambito ottenendo il diploma “ZUMBA Instructor Network BASIC STEPS LEVEL 1°-ZIN-“ nel 2013, “ZUMBA Step Instructor” nel 2015 e “STRONG Nation” (allenamento funzionale sincronizzato con la musica) nel 2017.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- SILVIA VIGNALI -->
@@ -351,6 +455,9 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/vignali_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">SILVIA VIGNALI</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'kangoo-jumps'>#kangoo-jumps</span>
+    </div>
     <p class="side-content-description" >Dal dicembre 2018 ho iniziato a frequentare per curiosità un corso nuovo mai visto prima chiamato Kangoo Power, scoprendo con sorpresa uno sport che consente di tenersi in forma divertendosi.
 
     Da semplice curiosità si è trasformata in una grande passione, che mi ha portato a decidere di partecipare a marzo 2019 (mettendomi decisamente in gioco) al corso di formazione KANGOO POWER e di diventare un’istruttrice qualificata.
@@ -362,6 +469,11 @@
     Una delle mie caratteristiche migliori?
 
     Ci metto decisamente passione e tutto il mio cuore, le altre le faccio scoprire a voi se lo vorrete!</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- MAX ARCIDIACO -->
@@ -379,8 +491,17 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/arcidiaco_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">MAX ARCIDIACO</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'thai-fit'>#thai-fit</span>
+      <span  class='staff-style' data-corso = 'thai-fit'>#functional-system</span>
+    </div>
     <p class="side-content-description" >Maximilian Arcidiaco
     Diplomato alla scuola superiore per Odontotecnici. Atleta di Combat, da 20 anni lavora nel mondo del fitness, è un Personal Trainer, Top Trainer Street Workout Italia, Istruttore di Fitness, Combat, Functional Workout, Functional System, Functional  Training ed è il Founder per Thai Fit® Italia. Il suo motto è " Il tuo obiettivo è il mio obiettivo".</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- DONATELLA NICCOLAI-->
@@ -398,6 +519,9 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/niccolai_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">DONATELLA NICCOLAI</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'pilates'>#pilates</span>
+    </div>
     <p class="side-content-description" >
       Studi scuola magistrale e diploma in tecniche erboristiche <br>
       Lavorato come insegnante elementare fino al 1998 <br>
@@ -409,6 +533,11 @@
       Instruttrice body building e personal trainer FIF e Accademia del fitness di Massimo Spattini (PR)
       Istruttrice di pilates FIF <br>
       Istruttrice indoor Cycling dal 2018 con Group Cycling</p>
+      <div class="social-staff">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
   </div>
 
   <!-- FULVIA FRAMBATI -->
@@ -422,10 +551,13 @@
     </div>
   </div>
   <!-- CONTENITORE LATERALE -->
-  <div class="staff-side-content" data-staff = 'frambati'>
+  <div class="staff-side-content" data-staff = 'fulvia'>
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/fulvia_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">FULVIA FRAMBATI</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'piccolizie'>#piccolizie</span>
+    </div>
     <p class="side-content-description" >Sono una mamma che ha deciso di cambiare carriera e passare ad altre formazioni per dedicarmi con competenza al supporto di altre mamme.
     <br><br>
     ● Insegnante di danza cuore a cuore™
@@ -441,6 +573,11 @@
     ● Acquamotricista Neonatale ®
     <br><br>
     Nasce così anche Piccolizie: un progetto per creare #unareteperlemamme unendo alle lezioni anche servizi gratuiti e momenti di aggregazione.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- ALICE MONTAGNA -->
@@ -458,7 +595,15 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/alice_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">ALICE MONTAGNA</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'baby-wearing'>#baby-wearing</span>
+    </div>
     <p class="side-content-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
   <!-- RAFFAELLA BRUNELLI -->
@@ -476,6 +621,9 @@
     <img class="fas fa-chevron-circle-left" src="{{ asset('img/arrow-right.png')}}" alt="">
     <div class="side-content-image" style="background-image: url({{ asset('img/brunelli_staff.jpg')}});background-size:cover;background-repeat: no-repeat"></div>
     <h2 class="side-content-title">RAFFAELLA BRUNELLI</h2>
+    <div>
+      <span  class='staff-style' data-corso = 'yoga'>#yoga</span>
+    </div>
     <p class="side-content-description" >Febbraio 2012: Diploma di Yoga come Istruttore di 1° Livello conseguito a Verona, presso Parsifal Yoga Accademy e rilasciato dall’Ente MSP Italia, Ente riconosciuto dal CONI
       <br>
     Luglio 2020: Diploma di Istruttore di Yoga Integrale, conseguito a Milano presso Parsifal Yoga Accademy – corso triennale.
@@ -493,6 +641,11 @@
     Nel ’97 e fino al 2003, con alcuni compagni di pratica abbiamo aperto un centro, “Dimensione Corpo”, nella città di Cremona. Un centro rivolto al benessere della persona, in cui veniva insegnato lo Yoga Integrale, il Tai Chi Chuan e tutte le diverse di attività con il corpo libero, danza moderna e Tango Argentino. Una sala con attrezzi Thecnogym. Un centro estetico con attigua zona con sauna, bagno turco e solarium.
     <br>
     Ho insegnato a Parsifal Yoga Academy Cremona e tengo Corsi di Yoga a Busseto e in provincia di Mantova. Da aprile ho iniziato i corsi a Parma al centro di Danza The Flow Dance Academy.</p>
+    <div class="social-staff">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
   </div>
 
 </div>

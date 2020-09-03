@@ -69,7 +69,7 @@ header .nav-start .contenitore #nav-list li {
   border-radius: 30px;
   display: flex;
   align-items: center;
-  height: 100%;
+  height: 70%;
   color: white;
   font-size: 18px;
   font-weight: bold;
@@ -82,6 +82,11 @@ header .nav-start .contenitore #nav-list li:hover {
   color: #d48b6a;
   font-size: 25px;
   cursor: pointer;
+}
+
+header .reset-logo {
+  transform: rotate(0deg) !important;
+  height: 120% !important;
 }
 
 header .nav-scroll {
@@ -202,6 +207,412 @@ header .nav-scroll .contenitore #nav-list li:hover {
   }
 }
 
+@media screen and (max-width: 1550px) {
+  header {
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: 100;
+    -webkit-animation: navComparsa 2s ease;
+  }
+
+  header #hamburger-menu {
+    display: none;
+  }
+
+  header .nav-start {
+    padding-top: 50px;
+    width: 60%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 10px 30px;
+    box-shadow: inset 1px -25px 20px 1px #888888;
+    border-radius: 40px;
+    border-left: 5px solid #d48b6a;
+    border-right: 5px solid #d48b6a;
+    transition: ease 0.5s;
+    margin: 0 auto;
+    -webkit-animation-name: waveNav;
+            animation-name: waveNav;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+
+  header .nav-start .contenitore {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .nav-start .contenitore #logo-nav {
+    height: 200%;
+    transition: ease 1s;
+    cursor: pointer;
+  }
+
+  header .nav-start .contenitore #logo-nav:hover {
+    height: 250%;
+    transform: rotate(-10deg);
+  }
+
+  header .nav-start .contenitore #nav-list {
+    margin-bottom: 0;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    height: 100%;
+  }
+
+  header .nav-start .contenitore #nav-list li {
+    padding: 0 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    transition: ease 0.3s;
+  }
+
+  header .nav-start .contenitore #nav-list li:hover {
+    border-left: 3px solid #d48b6a;
+    border-right: 3px solid #d48b6a;
+    color: #d48b6a;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  header .nav-scroll {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 30px;
+    box-shadow: inset 1px -25px 20px 1px #888888;
+    margin: 0 auto;
+    -webkit-animation-name: waveNav;
+            animation-name: waveNav;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    position: relative;
+    transition: ease 0.5s;
+  }
+
+  header .nav-scroll .contenitore {
+    width: 1230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .nav-scroll .contenitore #logo-nav {
+    position: absolute;
+    height: 200%;
+    transform: rotate(-10deg);
+    left: 100px;
+    top: -10px;
+    transition: ease 0.5s;
+    cursor: pointer;
+  }
+
+  header .nav-scroll .contenitore #logo-nav:hover {
+    height: 250%;
+  }
+
+  header .nav-scroll .contenitore #nav-list {
+    margin-bottom: 0;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 100px;
+  }
+
+  header .nav-scroll .contenitore #nav-list li {
+    color: white;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+
+  header .nav-scroll .contenitore #nav-list li:hover {
+    border-left: 3px solid #d48b6a;
+    border-right: 3px solid #d48b6a;
+    color: #d48b6a;
+    font-size: 20px;
+    transition: ease 0.3s;
+    cursor: pointer;
+  }
+
+  .navMobileSlideIn {
+    -webkit-animation: slideIn linear 0.6s;
+            animation: slideIn linear 0.6s;
+  }
+
+  .navMobileSlideOut {
+    -webkit-animation: slideOut linear 0.6s;
+            animation: slideOut linear 0.6s;
+  }
+
+@-webkit-keyframes slideIn {
+    0% {
+      right: -100%;
+    }
+
+    100% {
+      right: 0;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+      right: -100%;
+    }
+
+    100% {
+      right: 0;
+    }
+}
+
+@-webkit-keyframes slideOut {
+    0% {
+      right: 0;
+    }
+
+    100% {
+      right: -100%;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+      right: 0;
+    }
+
+    100% {
+      right: -100%;
+    }
+}
+}
+
+@media screen and (max-width: 1400px) {
+  header {
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: 100;
+    -webkit-animation: navComparsa 2s ease;
+  }
+
+  header #hamburger-menu {
+    display: none;
+  }
+
+  header .nav-start {
+    padding-top: 50px;
+    width: 75%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 10px 30px;
+    box-shadow: inset 1px -25px 20px 1px #888888;
+    border-radius: 40px;
+    border-left: 5px solid #d48b6a;
+    border-right: 5px solid #d48b6a;
+    transition: ease 0.5s;
+    margin: 0 auto;
+    -webkit-animation-name: waveNav;
+            animation-name: waveNav;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+
+  header .nav-start .contenitore {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .nav-start .contenitore #logo-nav {
+    height: 145%;
+    transition: ease 1s;
+    cursor: pointer;
+  }
+
+  header .nav-start .contenitore #logo-nav:hover {
+    height: 250%;
+    transform: rotate(-10deg);
+  }
+
+  header .nav-start .contenitore #nav-list {
+    margin-bottom: 0;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    height: 100%;
+  }
+
+  header .nav-start .contenitore #nav-list li {
+    padding: 0 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    height: 70%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: ease 0.3s;
+  }
+
+  header .nav-start .contenitore #nav-list li:hover {
+    border-left: 3px solid #d48b6a;
+    border-right: 3px solid #d48b6a;
+    color: #d48b6a;
+    font-size: 17px;
+    cursor: pointer;
+  }
+
+  header .nav-scroll {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 30px;
+    box-shadow: inset 1px -25px 20px 1px #888888;
+    margin: 0 auto;
+    -webkit-animation-name: waveNav;
+            animation-name: waveNav;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    position: relative;
+    transition: ease 0.5s;
+  }
+
+  header .nav-scroll .contenitore {
+    width: 1230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .nav-scroll .contenitore #logo-nav {
+    position: absolute;
+    height: 200%;
+    transform: rotate(-10deg);
+    left: 100px;
+    top: -10px;
+    transition: ease 0.5s;
+    cursor: pointer;
+  }
+
+  header .nav-scroll .contenitore #logo-nav:hover {
+    height: 250%;
+  }
+
+  header .nav-scroll .contenitore #nav-list {
+    margin-bottom: 0;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 100px;
+  }
+
+  header .nav-scroll .contenitore #nav-list li {
+    color: white;
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+
+  header .nav-scroll .contenitore #nav-list li:hover {
+    border-left: 3px solid #d48b6a;
+    border-right: 3px solid #d48b6a;
+    color: #d48b6a;
+    font-size: 16px;
+    transition: ease 0.3s;
+    cursor: pointer;
+  }
+
+  .navMobileSlideIn {
+    -webkit-animation: slideIn linear 0.6s;
+            animation: slideIn linear 0.6s;
+  }
+
+  .navMobileSlideOut {
+    -webkit-animation: slideOut linear 0.6s;
+            animation: slideOut linear 0.6s;
+  }
+
+@-webkit-keyframes slideIn {
+    0% {
+      right: -100%;
+    }
+
+    100% {
+      right: 0;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+      right: -100%;
+    }
+
+    100% {
+      right: 0;
+    }
+}
+
+@-webkit-keyframes slideOut {
+    0% {
+      right: 0;
+    }
+
+    100% {
+      right: -100%;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+      right: 0;
+    }
+
+    100% {
+      right: -100%;
+    }
+}
+}
+
 @media screen and (max-width: 999px) {
   header {
     height: 60px;
@@ -240,8 +651,8 @@ header .nav-scroll .contenitore #nav-list li:hover {
     width: auto;
     height: 100vh;
     top: 0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 30%;
     right: 0;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.85);
@@ -316,8 +727,8 @@ header .nav-scroll .contenitore #nav-list li:hover {
   left: 1%;
   transform: rotate(-180deg);
   top: 50%;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   z-index: 2;
   cursor: pointer;
   transition: ease 0.1s;
@@ -366,8 +777,8 @@ header .nav-scroll .contenitore #nav-list li:hover {
   position: absolute;
   right: 1%;
   top: 50%;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   z-index: 2;
   cursor: pointer;
   transition: ease 0.1s;
@@ -389,8 +800,8 @@ header .nav-scroll .contenitore #nav-list li:hover {
   position: absolute;
   left: 50%;
   bottom: 50px;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   transform: rotate(90deg);
   -webkit-animation-name: move-down-arrow;
           animation-name: move-down-arrow;
@@ -524,6 +935,8 @@ header .nav-scroll .contenitore #nav-list li:hover {
 
 .contenitore .sezioni-home h2 {
   font-size: 50px;
+  color: white;
+  font-weight: bold;
 }
 
 .contenitore .sezioni-home #img-streetdance {
@@ -572,7 +985,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
 }
 
 .contenitore .sezioni-home #img-piccolizie {
-  background-image: url(/images/piccolizie.jpg?b40ab33d0ad13afb63112f02621a904d);
+  background-image: url(/images/piccolizie.jpg?a35a49b0a3ae0b55085ccc50dae6b86c);
 }
 
 .contenitore .sezioni-home #img-piccolizie:hover {
@@ -639,7 +1052,10 @@ header .nav-scroll .contenitore #nav-list li:hover {
 }
 
 #titolo-contatti,
+#titolo-chisiamo,
 #titolo-orari,
+#titolo-media,
+#titolo-centroestivo,
 #titolo-staff,
 #titolo-corsi,
 .contenitore #titolo-home {
@@ -787,7 +1203,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
   }
 
   .contenitore .sezioni-home.right #img-piccolizie {
-    background-image: url(/images/piccolizie.jpg?b40ab33d0ad13afb63112f02621a904d);
+    background-image: url(/images/piccolizie.jpg?a35a49b0a3ae0b55085ccc50dae6b86c);
     width: 100%;
     height: 150px;
     margin-bottom: 30px;
@@ -849,7 +1265,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
 .corsi-section .card-corsi:hover .fa-info-circle {
   display: block;
   position: absolute;
-  color: red;
+  color: #d48b6a;
   z-index: 2;
   left: 45%;
   top: 35%;
@@ -871,11 +1287,11 @@ header .nav-scroll .contenitore #nav-list li:hover {
   padding: 5px;
   text-align: center;
   width: 70%;
-  font-size: 100%;
+  font-size: 130%;
   color: white;
   position: absolute;
   left: -5px;
-  bottom: 5%;
+  bottom: 2%;
   z-index: 3;
   transform: skewX(10deg);
   transition: ease 1s;
@@ -1013,6 +1429,140 @@ header .nav-scroll .contenitore #nav-list li:hover {
 
   100% {
     right: -100%;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  #titolo-corsi {
+    width: 50%;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .corsi-section {
+    width: 80%;
+  }
+
+  .corsi-section .card-corsi {
+    max-width: 17%;
+    max-height: 230px;
+    margin-bottom: 20px;
+  }
+
+  .corsi-section .card-corsi .corso-hip-hop {
+    width: 125%;
+    left: -20px;
+  }
+
+  .corsi-section .card-corsi .corso-title {
+    font-size: 13px;
+  }
+
+  .corsi-section .separatore-stili {
+    display: block;
+  }
+
+  .corsi-section .corsi-side-content {
+    width: 30%;
+    border-right: 5px solid #d48b6a;
+    border-left: 5px solid #363636;
+  }
+
+  .corsi-section .corsi-side-content .fa-chevron-circle-right {
+    width: 100px;
+    height: 100px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .corsi-section .corsi-side-content .side-content-title {
+    color: white;
+    margin: 20px;
+    font-size: 40px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-description {
+    color: white;
+    margin: 20px;
+    height: 25%;
+  }
+
+  .corsi-section .corsi-side-content .mini-insegnante {
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #titolo-corsi {
+    width: 50%;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .corsi-section {
+    width: 80%;
+  }
+
+  .corsi-section .card-corsi {
+    max-width: 18%;
+    max-height: 230px;
+    margin-bottom: 20px;
+  }
+
+  .corsi-section .card-corsi .corso-hip-hop {
+    width: 125%;
+    left: -20px;
+  }
+
+  .corsi-section .card-corsi .corso-title {
+    font-size: 13px;
+  }
+
+  .corsi-section .separatore-stili {
+    display: block;
+  }
+
+  .corsi-section .corsi-side-content {
+    width: 30%;
+    border-right: 5px solid #d48b6a;
+    border-left: 5px solid #363636;
+  }
+
+  .corsi-section .corsi-side-content .fa-chevron-circle-right {
+    width: 100px;
+    height: 100px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .corsi-section .corsi-side-content .side-content-title {
+    color: white;
+    margin: 20px;
+    font-size: 40px;
+  }
+
+  .corsi-section .corsi-side-content .side-content-description {
+    color: white;
+    margin: 20px;
+    height: 25%;
+  }
+
+  .corsi-section .corsi-side-content .mini-insegnante {
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    margin-left: 20px;
   }
 }
 
@@ -1295,14 +1845,14 @@ header .nav-scroll .contenitore #nav-list li:hover {
 
 @media screen and (max-width: 650px) {
   .corsi-section .card-corsi {
-    width: 115px;
+    max-width: 140px;
     height: 160px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .corsi-section .card-corsi {
-    width: 100px;
+    max-width: 120px;
     height: 145px;
   }
 
@@ -1314,13 +1864,13 @@ header .nav-scroll .contenitore #nav-list li:hover {
 @media screen and (max-width: 550px) {
   #titolo-corsi {
     width: 50%;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
   .corsi-section .card-corsi {
-    width: 110px;
+    max-width: 110px;
     height: 150px;
   }
 
@@ -1373,14 +1923,22 @@ header .nav-scroll .contenitore #nav-list li:hover {
 }
 
 @media screen and (max-width: 500px) {
-  .corsi-section .card-corsi {
+  .contenitore.corsi-section {
+    max-width: 90%;
+  }
+
+  .contenitore.corsi-section .card-corsi {
     width: 110px;
     height: 150px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .corsi-section .card-corsi {
+  .contenitore.corsi-section {
+    max-width: 90%;
+  }
+
+  .contenitore.corsi-section .card-corsi {
     width: 100px;
     height: 140px;
   }
@@ -1389,57 +1947,61 @@ header .nav-scroll .contenitore #nav-list li:hover {
 @media screen and (max-width: 380px) {
   #titolo-corsi {
     width: 50%;
-    font-size: 15px;
+    font-size: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  .corsi-section .card-corsi {
-    width: 90px;
+  .contenitore.corsi-section {
+    max-width: 90%;
+  }
+
+  .contenitore.corsi-section .card-corsi {
+    width: 85px;
     height: 125px;
   }
 
-  .corsi-section .card-corsi .corso-hip-hop {
+  .contenitore.corsi-section .card-corsi .corso-hip-hop {
     width: 140%;
     left: -17px;
   }
 
-  .corsi-section .card-corsi .corso-title {
+  .contenitore.corsi-section .card-corsi .corso-title {
     font-size: 7px;
   }
 
-  .corsi-section .corsi-side-content {
+  .contenitore.corsi-section .corsi-side-content {
     width: 100%;
     border-right: 5px solid #d48b6a;
     border-left: 5px solid #d48b6a;
     padding-top: 60px;
   }
 
-  .corsi-section .corsi-side-content .fa-chevron-circle-right {
+  .contenitore.corsi-section .corsi-side-content .fa-chevron-circle-right {
     width: 50px;
     height: 50px;
     top: 65px;
     left: 5px;
   }
 
-  .corsi-section .corsi-side-content .side-content-image {
+  .contenitore.corsi-section .corsi-side-content .side-content-image {
     width: 100%;
     height: 40%;
   }
 
-  .corsi-section .corsi-side-content .side-content-title {
+  .contenitore.corsi-section .corsi-side-content .side-content-title {
     color: white;
     margin: 15px;
     font-size: 25px;
   }
 
-  .corsi-section .corsi-side-content .side-content-description {
+  .contenitore.corsi-section .corsi-side-content .side-content-description {
     color: white;
     margin: 15px;
     height: 25%;
   }
 
-  .corsi-section .corsi-side-content .mini-insegnante {
+  .contenitore.corsi-section .corsi-side-content .mini-insegnante {
     width: 65px;
     height: 65px;
     border: 3px solid black;
@@ -1518,6 +2080,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
   align-items: center;
   justify-content: flex-end;
   margin: 0;
+  text-align: right;
   padding-right: 10px;
   height: 50px;
   z-index: 2;
@@ -1556,6 +2119,26 @@ header .nav-scroll .contenitore #nav-list li:hover {
   font-size: 20px;
 }
 
+.staff-section .card-staff .retro-stile .stile-insegnante.micro {
+  font-size: 9px !important;
+  padding-top: 10px !important;
+}
+
+.staff-section .card-staff .retro-stile .stile-insegnante.piccolo {
+  font-size: 10px !important;
+  padding-top: 10px !important;
+}
+
+.staff-section .card-staff .retro-stile .stile-insegnante.medio {
+  font-size: 17px !important;
+  padding-top: 10px !important;
+}
+
+.staff-section .card-staff .retro-stile .stile-insegnante.grande {
+  font-size: 20px !important;
+  padding-top: 10px !important;
+}
+
 .staff-section .staff-side-content {
   display: none;
   position: fixed;
@@ -1588,13 +2171,18 @@ header .nav-scroll .contenitore #nav-list li:hover {
   height: 40%;
 }
 
-.staff-section .staff-side-content .side-content-title {
+.staff-section .staff-side-content .side-content {
+  height: 60%;
+  padding: 20px;
+}
+
+.staff-section .staff-side-content .side-content .side-content-title {
   color: white;
-  margin: 20px 0 7px 20px;
+  margin: 20px 0 7px 0;
   font-size: 30px;
 }
 
-.staff-section .staff-side-content .staff-style {
+.staff-section .staff-side-content .side-content .staff-style {
   background-color: #d48b6a;
   border-radius: 10px;
   padding: 5px;
@@ -1604,42 +2192,45 @@ header .nav-scroll .contenitore #nav-list li:hover {
   cursor: pointer;
 }
 
-.staff-section .staff-side-content .side-content-description {
-  height: 35%;
+.staff-section .staff-side-content .side-content .side-content-description {
+  height: 60%;
   overflow-y: auto;
   color: white;
-  margin: 20px;
+  margin: 20px 0;
   font-size: 15px;
   padding-bottom: 30px;
 }
 
-.staff-section .staff-side-content .social-staff {
+.staff-section .staff-side-content .side-content .social-staff {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.staff-section .staff-side-content .side-content .social-staff .staff {
   font-size: 50px;
   color: white;
 }
 
-.staff-section .staff-side-content .social-staff .fab {
+.staff-section .staff-side-content .side-content .social-staff .fab {
   opacity: 0.6;
 }
 
-.staff-section .staff-side-content .social-staff .fab:hover {
+.staff-section .staff-side-content .side-content .social-staff .fab:hover {
   cursor: pointer;
   opacity: 1;
 }
 
-.staff-section .staff-side-content .side-content-description::-webkit-scrollbar {
+.staff-section .staff-side-content .side-content .side-content-description::-webkit-scrollbar {
   width: 1em;
 }
 
-.staff-section .staff-side-content .side-content-description::-webkit-scrollbar-track {
+.staff-section .staff-side-content .side-content .side-content-description::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px 10px 10px 10px;
 }
 
-.staff-section .staff-side-content .side-content-description::-webkit-scrollbar-thumb {
+.staff-section .staff-side-content .side-content .side-content-description::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
   border-radius: 10px 10px 10px 10px;
@@ -1691,6 +2282,197 @@ header .nav-scroll .contenitore #nav-list li:hover {
 
   100% {
     left: -100%;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  #titolo-staff {
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+  .staff-section {
+    width: 85%;
+  }
+
+  .staff-section .card-staff {
+    width: 17%;
+    height: 256px;
+    margin-bottom: 20px;
+  }
+
+  .staff-section .card-staff .foto-insegnante {
+    max-width: 230px;
+    width: 80%;
+    height: 80%;
+    right: 10%;
+    top: 0;
+  }
+
+  .staff-section .card-staff .foto-insegnante .foto-staff {
+    width: 130%;
+    height: 100%;
+    left: -10px;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante {
+    bottom: 0;
+    display: flex;
+    padding-right: 10px;
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.stretto {
+    font-size: 12px !important;
+    text-align: right;
+    font-weight: bold;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.medio {
+    font-size: 13px !important;
+    font-weight: bold;
+  }
+
+  .staff-section .card-staff .foto-insegnante .nome-insegnante.largo {
+    font-size: 18px !important;
+  }
+
+  .staff-section .card-staff .retro-stile {
+    width: 80%;
+    height: 90%;
+    right: 15px;
+    bottom: 0px;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante {
+    bottom: 0px;
+    padding-right: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 10px;
+    text-align: right;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.micro {
+    font-size: 9px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.piccolo {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.medio {
+    font-size: 11px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.grande {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .staff-side-content {
+    padding-top: 60px;
+    width: 30%;
+    border-right: 5px solid #363636;
+    border-left: 5px solid #d48b6a;
+  }
+
+  .staff-section .staff-side-content .fa-chevron-circle-left {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: rotate(180deg);
+    top: 300px;
+    right: -50px;
+    z-index: 10;
+    color: #d48b6a;
+    cursor: pointer;
+  }
+
+  .staff-section .staff-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .staff-section .staff-side-content .side-content {
+    height: 60%;
+    padding: 20px;
+  }
+
+  .staff-section .staff-side-content .side-content .side-content-title {
+    color: white;
+    margin: 20px 0 7px 0;
+    font-size: 30px;
+  }
+
+  .staff-section .staff-side-content .side-content .staff-style {
+    background-color: #d48b6a;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .staff-section .staff-side-content .side-content .side-content-description {
+    height: 60%;
+    overflow-y: auto;
+    color: white;
+    margin: 20px 0;
+    font-size: 15px;
+    padding-bottom: 30px;
+  }
+
+  .staff-section .staff-side-content .side-content .social-staff {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .staff-section .staff-side-content .side-content .social-staff .staff {
+    font-size: 50px;
+    color: white;
+  }
+
+  .staff-section .staff-side-content .side-content .social-staff .fab {
+    opacity: 0.6;
+  }
+
+  .staff-section .staff-side-content .side-content .social-staff .fab:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  .staff-section .staff-side-content .side-content .side-content-description::-webkit-scrollbar {
+    width: 1em;
+  }
+
+  .staff-section .staff-side-content .side-content .side-content-description::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .staff-section .staff-side-content .side-content .side-content-description::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .staff-section .active {
+    display: block;
+  }
+
+  .staff-section .slideOutLeft {
+    -webkit-animation: slideOutLeft linear 0.6s;
+            animation: slideOutLeft linear 0.6s;
   }
 }
 
@@ -1766,104 +2548,24 @@ header .nav-scroll .contenitore #nav-list li:hover {
     text-align: right;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.dexio {
-    font-size: 12px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
-    font-size: 10px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
-    font-size: 12px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
-    font-size: 12px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
-    font-size: 12px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
-    font-size: 10px !important;
-    padding-top: 10px;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.simona {
+  .staff-section .card-staff .retro-stile .stile-insegnante.micro {
     font-size: 9px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.micheli {
-    font-size: 12px !important;
     padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
-    font-size: 9px !important;
-    padding-top: 20px !important;
+  .staff-section .card-staff .retro-stile .stile-insegnante.piccolo {
+    font-size: 10px !important;
+    padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
+  .staff-section .card-staff .retro-stile .stile-insegnante.medio {
     font-size: 11px !important;
     padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
+  .staff-section .card-staff .retro-stile .stile-insegnante.grande {
     font-size: 12px !important;
     padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.javi {
-    font-size: 12px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.celani {
-    font-size: 12px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
-    font-size: 7px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
-    font-size: 11px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
-    font-size: 9px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.alice {
-    font-size: 12px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
-    font-size: 12px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.ricci {
-    font-size: 15px !important;
-    padding-top: 20px !important;
   }
 
   .staff-section .staff-side-content {
@@ -1975,104 +2677,24 @@ header .nav-scroll .contenitore #nav-list li:hover {
     font-size: 10px;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.dexio {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
-    font-size: 8.3px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
+  .staff-section .card-staff .retro-stile .stile-insegnante.micro {
     font-size: 8px !important;
-    padding-top: 10px;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.simona {
-    font-size: 8px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.micheli {
-    font-size: 10px !important;
     padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
+  .staff-section .card-staff .retro-stile .stile-insegnante.piccolo {
     font-size: 8px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
-    font-size: 10px !important;
     padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
+  .staff-section .card-staff .retro-stile .stile-insegnante.medio {
     font-size: 9px !important;
     padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.javi {
+  .staff-section .card-staff .retro-stile .stile-insegnante.grande {
     font-size: 10px !important;
     padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.celani {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
-    font-size: 7px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
-    font-size: 9px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
-    font-size: 9px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
-    font-size: 7px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.alice {
-    font-size: 10px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
-    font-size: 10px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.ricci {
-    font-size: 15px !important;
-    padding-top: 20px !important;
   }
 
   .staff-section .staff-side-content {
@@ -2183,104 +2805,24 @@ header .nav-scroll .contenitore #nav-list li:hover {
     font-size: 10px;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.dexio {
-    font-size: 10px !important;
+  .staff-section .card-staff .retro-stile .stile-insegnante.micro {
+    font-size: 6px !important;
     padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
-    font-size: 6.7px !important;
-    padding-top: 20px !important;
+  .staff-section .card-staff .retro-stile .stile-insegnante.piccolo {
+    font-size: 7px !important;
+    padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
+  .staff-section .card-staff .retro-stile .stile-insegnante.medio {
     font-size: 8px !important;
     padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
-    font-size: 7px !important;
-    padding-top: 10px;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.simona {
-    font-size: 6px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.micheli {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
-    font-size: 6px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
-    font-size: 8px !important;
-    padding-top: 15px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
+  .staff-section .card-staff .retro-stile .stile-insegnante.grande {
     font-size: 9px !important;
     padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.javi {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.celani {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
-    font-size: 7px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
-    font-size: 7px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
-    font-size: 7px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
-    font-size: 5px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.alice {
-    font-size: 9px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
-    font-size: 9px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.ricci {
-    font-size: 15px !important;
-    padding-top: 20px !important;
   }
 
   .staff-section .staff-side-content {
@@ -2455,104 +2997,24 @@ header .nav-scroll .contenitore #nav-list li:hover {
     text-align: right;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.dexio {
-    font-size: 10px !important;
+  .staff-section .card-staff .retro-stile .stile-insegnante.micro {
+    font-size: 6px !important;
     padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
-    font-size: 6px !important;
-    padding-top: 20px !important;
+  .staff-section .card-staff .retro-stile .stile-insegnante.piccolo {
+    font-size: 7px !important;
+    padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
+  .staff-section .card-staff .retro-stile .stile-insegnante.medio {
     font-size: 9px !important;
     padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
+  .staff-section .card-staff .retro-stile .stile-insegnante.grande {
     font-size: 10px !important;
     padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
-    font-size: 6px !important;
-    padding-top: 10px;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.simona {
-    font-size: 6px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.micheli {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
-    font-size: 6px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
-    font-size: 15px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.javi {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.celani {
-    font-size: 10px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
-    font-size: 10px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
-    font-size: 6px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
-    font-size: 6px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
-    font-size: 6px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.alice {
-    font-size: 10px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
-    font-size: 10px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.ricci {
-    font-size: 15px !important;
-    padding-top: 20px !important;
   }
 
   .staff-section .staff-side-content {
@@ -2602,7 +3064,7 @@ header .nav-scroll .contenitore #nav-list li:hover {
   }
 
   .staff-section .staff-side-content .side-content-description {
-    height: 35%;
+    height: 60%;
     overflow-y: auto;
     color: white;
     margin: 20px;
@@ -2640,6 +3102,40 @@ header .nav-scroll .contenitore #nav-list li:hover {
     width: 110px;
     height: 140px;
   }
+
+  .staff-section .staff-side-content {
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+
+  .staff-section .staff-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .staff-section .staff-side-content .side-content-title {
+    margin: 20px 0 7px 0px;
+    font-size: 20px;
+  }
+
+  .staff-section .staff-side-content .staff-style {
+    padding: 5px;
+    font-size: 13px;
+    color: white;
+    margin-right: 0px;
+    cursor: pointer;
+  }
+
+  .staff-section .staff-side-content .side-content-description {
+    height: 60%;
+    margin: 20px 0 15px 0;
+    font-size: 13px;
+  }
+
+  .staff-section .staff-side-content .social-staff .staff {
+    font-size: 30px;
+    color: white;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -2650,6 +3146,40 @@ header .nav-scroll .contenitore #nav-list li:hover {
   .staff-section .card-staff {
     width: 100px;
     height: 140px;
+  }
+
+  .staff-section .staff-side-content {
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+
+  .staff-section .staff-side-content .side-content-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .staff-section .staff-side-content .side-content .side-content-title {
+    margin: 20px 0 7px 0px;
+    font-size: 20px;
+  }
+
+  .staff-section .staff-side-content .side-content .staff-style {
+    padding: 5px;
+    font-size: 13px;
+    color: white;
+    margin-right: 0px;
+    cursor: pointer;
+  }
+
+  .staff-section .staff-side-content .side-content .side-content-description {
+    height: 60%;
+    margin: 20px 0 15px 0;
+    font-size: 13px;
+  }
+
+  .staff-section .staff-side-content .side-content .social-staff .staff {
+    font-size: 30px;
+    color: white;
   }
 }
 
@@ -2720,109 +3250,29 @@ header .nav-scroll .contenitore #nav-list li:hover {
     font-size: 10px;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.dexio {
-    font-size: 8px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.alex {
-    font-size: 5px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.fabio {
-    font-size: 7px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.zoto {
-    font-size: 8px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.nazzari {
-    font-size: 7px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.susanna {
-    font-size: 5px !important;
-    padding-top: 10px;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.simona {
-    font-size: 5px !important;
-    padding-top: 30px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.micheli {
-    font-size: 7px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.cosimolorena {
-    font-size: 5px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
-    font-size: 15px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.formenti {
-    font-size: 7px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.javi {
-    font-size: 8px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.celani {
-    font-size: 8px !important;
-    padding-top: 10px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.vignali {
-    font-size: 7px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.arcidiaco {
-    font-size: 6px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.niccolai {
-    font-size: 6px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.fulvia {
+  .staff-section .card-staff .retro-stile .stile-insegnante.micro {
     font-size: 4px !important;
-    padding-top: 20px !important;
+    padding-top: 10px !important;
   }
 
-  .staff-section .card-staff .retro-stile .stile-insegnante.alice {
+  .staff-section .card-staff .retro-stile .stile-insegnante.piccolo {
+    font-size: 5px !important;
+    padding-top: 10px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.medio {
+    font-size: 7px !important;
+    padding-top: 25px !important;
+  }
+
+  .staff-section .card-staff .retro-stile .stile-insegnante.grande {
     font-size: 8px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.brunelli {
-    font-size: 8px !important;
-    padding-top: 20px !important;
-  }
-
-  .staff-section .card-staff .retro-stile .stile-insegnante.ricci {
-    font-size: 15px !important;
-    padding-top: 20px !important;
+    padding-top: 15px !important;
   }
 
   .staff-section .staff-side-content {
     padding-top: 60px;
-    padding-left: 20px;
+    padding-bottom: 10px;
     width: 100%;
     border-right: 5px solid #d48b6a;
     border-left: 5px solid #d48b6a;
@@ -2840,23 +3290,28 @@ header .nav-scroll .contenitore #nav-list li:hover {
     height: 40%;
   }
 
-  .staff-section .staff-side-content .side-content-title {
+  .staff-section .staff-side-content .side-content .side-content-title {
     margin: 20px 0 7px 0px;
     font-size: 20px;
   }
 
-  .staff-section .staff-side-content .staff-style {
+  .staff-section .staff-side-content .side-content .staff-style {
     padding: 5px;
     font-size: 13px;
     color: white;
-    margin-right: 7px;
+    margin-right: 0px;
     cursor: pointer;
   }
 
-  .staff-section .staff-side-content .side-content-description {
-    height: 35%;
-    margin: 20px 0;
-    font-size: 15px;
+  .staff-section .staff-side-content .side-content .side-content-description {
+    height: 60%;
+    margin: 20px 0 15px 0;
+    font-size: 13px;
+  }
+
+  .staff-section .staff-side-content .side-content .social-staff .staff {
+    font-size: 30px;
+    color: white;
   }
 
   .staff-section .active {
@@ -2867,6 +3322,59 @@ header .nav-scroll .contenitore #nav-list li:hover {
     -webkit-animation: slideOutLeft linear 0.6s;
             animation: slideOutLeft linear 0.6s;
   }
+}
+
+#scroll-to-centroestivo {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+
+#titolo-centroestivo {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.contenitore.centroestivo-section {
+  text-align: center;
+}
+
+.contenitore.centroestivo-section img {
+  border-radius: 20px;
+  box-shadow: 15px 10px 20px 4px rgba(22, 22, 22, 0.58);
+  width: 50vw;
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  #titolo-centroestivo {
+    width: 70%;
+    font-size: 30px;
+  }
+
+  .contenitore.centroestivo-section img {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+#scroll-to-media {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+
+#titolo-media {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 50px;
 }
 
 #scroll-to-orari {
@@ -2935,6 +3443,21 @@ header .nav-scroll .contenitore #nav-list li:hover {
     height: auto;
     box-shadow: 10px 10px 10px 10px #383838;
   }
+}
+
+#scroll-to-chisiamo {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+
+#titolo-chisiamo {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 50px;
 }
 
 #scroll-to-contatti {

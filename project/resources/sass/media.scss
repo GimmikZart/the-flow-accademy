@@ -1,0 +1,16 @@
+// SEZIONE ORARI ---------------------------------------------------------------------------------------------
+
+#scroll-to-media {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+#titolo-media {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 100px;
+  @extend %stile-titoli;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 50px;
+}

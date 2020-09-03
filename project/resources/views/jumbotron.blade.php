@@ -2,9 +2,9 @@
   <img src="{{ asset('img/arrow-right.png')}}" class="fas fa-chevron-left prev">
   <div class="immagini">
     <div style="background-image: url({{ asset('img/entrata.jpg')}}); background-size:cover;background-repeat: no-repeat" class="img active first"></div>
-    <div style="background-image: url({{ asset('img/fitness.jpg')}}) ;background-size:cover;background-repeat: no-repeat" class="img"></div>
+    <div style="background-image: url({{ asset('img/summer_camp_flyer_due.jpg')}}) ;background-size:cover;background-repeat: no-repeat" class="img"></div>
     <div style="background-image: url({{ asset('img/poledance.jpg')}}) ;background-size:cover;background-repeat: no-repeat" class="img"></div>
-    <div style="background-image: url({{ asset('img/streetdance.jpg')}}) ;background-size:cover;background-repeat: no-repeat" class="img last"></div>
+    <div style="background-image: url({{ asset('img/piccolizie_flyer.jpg')}}) ;background-size:cover;background-repeat: no-repeat" class="img last"></div>
   </div>
   <div class="pallini">
     <i class="fas fa-circle first active"></i>

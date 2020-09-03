@@ -13,7 +13,7 @@ $(".next").click(
      prevImg
   );
 
-  setInterval(nextImg, 5000);
+  setInterval(nextImg, 1000000); // rimetti a 5000
 
   // creo la funzione per scorrere all'immagine dopo
 function nextImg() {
@@ -63,6 +63,13 @@ function prevImg() {
       },'slow');
   });
 
+  // CHI SIAMO SCROLL
+  $( "#chisiamo-button" ).click(function() {
+    $('html,body').animate({
+        scrollTop: $('#scroll-to-chisiamo').offset().top
+      },'slow');
+  });
+
   // CORSI SCROLL
   $( "#corsi-button" ).click(function() {
     $('html,body').animate({
@@ -74,6 +81,20 @@ function prevImg() {
   $( "#staff-button" ).click(function() {
     $('html,body').animate({
         scrollTop: $('#scroll-to-staff').offset().top
+      },'slow');
+  });
+
+  // CENTRO ESTIVO SCROLL
+  $( "#centro-estivo-button" ).click(function() {
+    $('html,body').animate({
+        scrollTop: $('#scroll-to-centroestivo').offset().top
+      },'slow');
+  });
+
+  // MEDIA SCROLL
+  $( "#media-button" ).click(function() {
+    $('html,body').animate({
+        scrollTop: $('#scroll-to-media').offset().top
       },'slow');
   });
 
@@ -124,7 +145,6 @@ function prevImg() {
                 $("#navbar").removeClass("nav-scroll");
                 $("header").css("top", "50px");
                 $("#button-scroll-up").css("display", "none");
-
             }
         });
       });
@@ -132,6 +152,9 @@ function prevImg() {
   };
 
   headerScrollEffect(mediaQueryPhone);
+
+  var navStart = $('.nav-start').offset().top;
+
 
 // EVENTI CLICK ------------------------------------------------------------------------------------------
 
@@ -207,7 +230,7 @@ function prevImg() {
       var mediaQueryPhone = window.matchMedia("(max-width: 550px)");
 
       if (mediaQueryPhone.matches) {
-        var staffContainer = $(this).parent().parent();
+        var staffContainer = $(this).parent().parent().parent();
         staffContainer.addClass('slideOutLeft');
 
         setTimeout(exitLeftDue,600);
@@ -262,11 +285,12 @@ var marker = new tt.Marker().setLngLat(theFlowCoordinates).addTo(map);
   $('#hamburger-menu').click(function(){
     $('#nav-list').css('display','flex');
     $('#nav-list').addClass('navMobileSlideIn');
+    $(this).css('display','none');
     navMobileOn = true;
   });
 
   $('#nav-list li').click(function(){
-
+    $('#hamburger-menu').css('display', 'block');
     var mediaQueryPhone = window.matchMedia("(max-width: 999px)");
 
     navMenuMobileExit(mediaQueryPhone);
@@ -275,6 +299,7 @@ var marker = new tt.Marker().setLngLat(theFlowCoordinates).addTo(map);
   $('.main-content').click(function(){
     var mediaQueryPhone = window.matchMedia("(max-width: 999px)");
     if (navMobileOn = true){
+      $('#hamburger-menu').css('display', 'block');
         navMenuMobileExit(mediaQueryPhone);
     }
   });
@@ -290,6 +315,26 @@ var marker = new tt.Marker().setLngLat(theFlowCoordinates).addTo(map);
       },500);
     };
   };
+
+
+
+  // LINK SOCIAL staff
+
+  var mediaQuerySocial = window.matchMedia("(max-width: 800px)");
+
+  function changeHref(x){
+    if (x.matches) {
+      $('.staff.facebook').click(function(){
+        console.log('MEDIA QUERY');
+        console.log($(this).attr('href'));
+        var tagFb = $(this).attr('href').replace('https://www.facebook.com/', '');
+        console.log(tagFb);
+        $(this).attr('href','fb://page/' + tagFb);
+      });
+    }
+  };
+
+  changeHref(mediaQuerySocial);
 
 
 

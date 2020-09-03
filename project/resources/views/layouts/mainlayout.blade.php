@@ -24,7 +24,10 @@
       @include('sezioneuno')
       @include('corsi')
       @include('staff')
+      @include('centroestivo')
+      @include('media')
       @include('orari')
+      @include('chisiamo')
       @include('contatti')
 
       <div id="button-scroll-up">

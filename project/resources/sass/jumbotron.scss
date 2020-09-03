@@ -10,8 +10,8 @@
     left: 1%;
     transform: rotate(-180deg);
     top: 50%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     z-index: 2;
     cursor: pointer;
     transition: ease 0.1s;
@@ -56,8 +56,8 @@
     position: absolute;
     right: 1%;
     top: 50%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     z-index: 2;
     cursor: pointer;
     transition: ease 0.1s;
@@ -82,8 +82,8 @@
   position: absolute;
   left: 50%;
   bottom: 50px;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   transform: rotate(90deg);
   animation-name: move-down-arrow;
   animation-duration: 2s;

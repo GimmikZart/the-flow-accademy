@@ -100,7 +100,8 @@ $(document).ready(function () {
   nextImg);
   $(".prev").click( // richiamoòa funzione next
   prevImg);
-  setInterval(nextImg, 5000); // creo la funzione per scorrere all'immagine dopo
+  setInterval(nextImg, 1000000); // rimetti a 5000
+  // creo la funzione per scorrere all'immagine dopo
 
   function nextImg() {
     var imgActive = $(".immagini div.active");
@@ -145,6 +146,12 @@ $(document).ready(function () {
     $('html,body').animate({
       scrollTop: $('.jumbotron').offset().top
     }, 'slow');
+  }); // CHI SIAMO SCROLL
+
+  $("#chisiamo-button").click(function () {
+    $('html,body').animate({
+      scrollTop: $('#scroll-to-chisiamo').offset().top
+    }, 'slow');
   }); // CORSI SCROLL
 
   $("#corsi-button").click(function () {
@@ -156,6 +163,18 @@ $(document).ready(function () {
   $("#staff-button").click(function () {
     $('html,body').animate({
       scrollTop: $('#scroll-to-staff').offset().top
+    }, 'slow');
+  }); // CENTRO ESTIVO SCROLL
+
+  $("#centro-estivo-button").click(function () {
+    $('html,body').animate({
+      scrollTop: $('#scroll-to-centroestivo').offset().top
+    }, 'slow');
+  }); // MEDIA SCROLL
+
+  $("#media-button").click(function () {
+    $('html,body').animate({
+      scrollTop: $('#scroll-to-media').offset().top
     }, 'slow');
   }); // ORARI SCROLL
 
@@ -208,7 +227,8 @@ $(document).ready(function () {
   }
 
   ;
-  headerScrollEffect(mediaQueryPhone); // EVENTI CLICK ------------------------------------------------------------------------------------------
+  headerScrollEffect(mediaQueryPhone);
+  var navStart = $('.nav-start').offset().top; // EVENTI CLICK ------------------------------------------------------------------------------------------
   // CONTAINER LATERALI ------------------------------------------------------------
   // comparsa box laterale CORSI
 
@@ -281,7 +301,7 @@ $(document).ready(function () {
         staffContainer.removeClass('slideOutLeft');
       };
 
-      var staffContainer = $(this).parent().parent();
+      var staffContainer = $(this).parent().parent().parent();
       staffContainer.addClass('slideOutLeft');
       setTimeout(exitLeftDue, 600);
       $('.corsi-side-content').removeClass('active');
@@ -310,9 +330,11 @@ $(document).ready(function () {
   $('#hamburger-menu').click(function () {
     $('#nav-list').css('display', 'flex');
     $('#nav-list').addClass('navMobileSlideIn');
+    $(this).css('display', 'none');
     navMobileOn = true;
   });
   $('#nav-list li').click(function () {
+    $('#hamburger-menu').css('display', 'block');
     var mediaQueryPhone = window.matchMedia("(max-width: 999px)");
     navMenuMobileExit(mediaQueryPhone);
   });
@@ -320,6 +342,7 @@ $(document).ready(function () {
     var mediaQueryPhone = window.matchMedia("(max-width: 999px)");
 
     if (navMobileOn = true) {
+      $('#hamburger-menu').css('display', 'block');
       navMenuMobileExit(mediaQueryPhone);
     }
   });
@@ -337,7 +360,24 @@ $(document).ready(function () {
     ;
   }
 
+  ; // LINK SOCIAL staff
+
+  var mediaQuerySocial = window.matchMedia("(max-width: 800px)");
+
+  function changeHref(x) {
+    if (x.matches) {
+      $('.staff.facebook').click(function () {
+        console.log('MEDIA QUERY');
+        console.log($(this).attr('href'));
+        var tagFb = $(this).attr('href').replace('https://www.facebook.com/', '');
+        console.log(tagFb);
+        $(this).attr('href', 'fb://page/' + tagFb);
+      });
+    }
+  }
+
   ;
+  changeHref(mediaQuerySocial);
 }); //fine document ready
 
 /***/ }),

@@ -19,11 +19,11 @@
       <h2>Chiamaci al fisso:</h2>
       <h3>0521 062736</h3>
       <br>
-      <h2>Il nostro Fax:</h2>
-      <h3>0523 1924357</h3>
+      <h2>La nosta mail:</h2>
+      <h3>info@theflowacademy.com</h3>
       <br>
       <h2>Chiamaci in giro:</h2>
-      <h3>346 0883589</h3>
+      <h3>342 8659559</h3>
     </div>
 
   </div>

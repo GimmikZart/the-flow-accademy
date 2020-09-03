@@ -1,0 +1,44 @@
+// SEZIONE CENTRO ESTIVO ---------------------------------------------------------------------------------------------
+
+#scroll-to-centroestivo {
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+}
+#titolo-centroestivo {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  @extend %stile-titoli;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.contenitore.centroestivo-section {
+  text-align: center;
+  img {
+    border-radius: 20px;
+    box-shadow: 15px 10px 20px 4px rgba(22, 22, 22, 0.58);
+    width: 50vw;
+    height: auto;
+  }
+}
+
+// MEDIA QUERY
+
+// Mobile misure medio-piccole
+@media screen and (max-width: 800px) {
+
+  #titolo-centroestivo {
+    width: 70%;
+    font-size: 30px;
+  }
+
+  .contenitore.centroestivo-section {
+    img {
+      width: 100vw;
+      height: auto;
+    }
+  }
+}
